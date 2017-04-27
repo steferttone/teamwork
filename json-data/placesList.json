@@ -1,0 +1,34 @@
+[
+    {
+        "country": "Россия",
+        "city": "Санкт-Петербург",
+        "className": "russ",
+        "image": "img/russ-s.png",
+        "link": "#",
+        "title": "Россия"
+    },
+    {
+        "country": "канада",
+        "city": "Ванкувер",
+        "className": "can",
+        "image": "img/can-s.png",
+        "link": "#",
+        "title": "канада"
+    },
+    {
+        "country": "Сша",
+        "city": "Майами",
+        "className": "usa",
+        "image": "img/usa-s.png",
+        "link": "#",
+        "title": "Сша"
+    },
+    {
+        "country": "Беларусь",
+        "city": "Брест",
+        "className": "bel",
+        "image": "img/bel-s.png",
+        "link": "#",
+        "title": "Беларусь"
+    }
+]

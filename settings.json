@@ -1,0 +1,54 @@
+{
+    "general": {
+        "DEV_SERVER_PORT": 8085,
+        "REST_API_URL": "http://localhost:8085",
+        "DEV_SERVER_BUILD_PATH": "build"
+    },
+    "applications": [
+        {
+            "name": "teamwork-app",
+            "rootPath": "teamwork-app",
+            "path": "teamwork-app/index.js",
+            "vendor": [
+                "lodash",
+                "react",
+                "react-dom",
+                "react-router",
+                "react-router-redux",
+                "react-redux",
+                "react-cookie",
+                "react-bootstrap/lib/",
+                "react-bootstrap-typeahead",
+                "react-day-picker",
+                "react-loader",
+                "redux",
+                "redux-thunk",
+                "redux-logger",
+                "redux-notifications",
+                "redux-form",
+                "history/lib/createHashHistory",
+                "moment",
+                "dateformat"
+            ],
+            "alias": {
+                "actions": "teamwork-app/actions",
+                "components": "teamwork-app/components",
+                "containers": "teamwork-app/containers",
+                "pages": "teamwork-app/pages",
+                "headers": "teamwork-app/headers",
+                "middlewares": "teamwork-app/middlewares",
+                "reducers": "teamwork-app/reducers",
+                "prop-types": "teamwork-app/prop-types",
+                "constants": "teamwork-app/constants",
+                "endpoints": "teamwork-app/endpoints",
+                "services": "teamwork-app/services",
+                "helpers": "teamwork-app/helpers",
+                "styles": "teamwork-app/styles",
+                "sass": "teamwork-app/sass",
+                "handlers": "teamwork-app/handlers",
+                "contrib": "contrib",
+                "sass": "teamwork-app/sass"
+            }
+        }
+    ]
+}

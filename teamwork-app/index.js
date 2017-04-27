@@ -1,0 +1,68 @@
+/* global env, envList */
+import ReactDOM from 'react-dom'
+
+import "babel-polyfill"
+
+// Import routing
+import { useRouterHistory } from 'react-router'
+import { syncHistoryWithStore } from 'react-router-redux'
+import createHashHistory from 'history/lib/createHashHistory'
+
+// Import redux features
+import { createStore, applyMiddleware } from 'redux'
+import thunk from 'redux-thunk'
+import createLogger from 'redux-logger'
+
+import moment from 'moment'
+
+// Importing application routes
+import getRoutes from './routes'
+
+// Import Application reducers
+import reducers from './reducers'
+
+import debug from 'helpers/debugLogger'
+
+import 'fonts/stylesheet.css'
+import 'fonts/style.css'
+import 'styles/base.css'
+import 'styles/style.css'
+import 'styles/slick-theme.css'
+import 'styles/slick.css'
+
+// Creating logger
+debug.log(env)
+const logger = createLogger()
+let store
+// Creating store
+env === envList.PROD_ENV
+    ?
+    store = createStore(
+        reducers,
+        applyMiddleware(thunk)
+    )
+    :
+    store = createStore(
+        reducers,
+        applyMiddleware(thunk, logger)
+    )
+
+const countType = 'days'
+const notUnix = moment.unix('1493596800000').toArray()
+const now = moment().toArray()
+const diff = moment(now).diff(moment(notUnix), countType)
+
+// Loading store from local storage
+store.dispatch({ type: 'STORE_INIT' })
+
+// Synchronizing history with store
+const appHistory = useRouterHistory(createHashHistory)()
+const history = syncHistoryWithStore(appHistory, store)
+
+// Implementing application renderer
+const routes = diff > 0 ? {} : { store, history }
+
+ReactDOM.render(
+    getRoutes(routes),
+    document.getElementById('application')
+)

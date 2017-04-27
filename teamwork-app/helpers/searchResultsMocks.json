@@ -1,0 +1,2557 @@
+[
+  {
+    "nonSmoking": false,
+    "pmsId": null,
+    "rate": {
+      "feesAmount": 0,
+      "rentAmount": 0,
+      "taxAmount": "422.5",
+      "amountBeforeTax": 3008
+    },
+    "petsAllowed": true,
+    "maxOccupancy": 3,
+    "bedroomCount": 4,
+    "bathroomCount": 2,
+    "picturesUrls": [
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300"
+    ],
+    "address": {
+      "stateProvCode": "WA",
+      "stateProv": "Marshall Islands",
+      "postalCode": 3988,
+      "id": "2d0e4184-57ef-40ba-b2a0-7fe5dd62dff0",
+      "countryCode": "US",
+      "country": "Turkmenistan",
+      "city": "Idamay",
+      "addressLine2": null,
+      "addressLine1": "1664 43th Amersfort Place"
+    },
+    "headline": "aliqua mollit Lorem cupidatat",
+    "name": "consequat consectetur #305",
+    "externalPropertyId": "90d2d91f-1c59-4580-9f81-d9c30a678c55"
+  },
+  {
+    "nonSmoking": false,
+    "pmsId": null,
+    "rate": {
+      "feesAmount": 0,
+      "rentAmount": 0,
+      "taxAmount": "422.5",
+      "amountBeforeTax": 4841
+    },
+    "petsAllowed": false,
+    "maxOccupancy": 4,
+    "bedroomCount": 0,
+    "bathroomCount": "2.5",
+    "picturesUrls": [
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300"
+    ],
+    "address": {
+      "stateProvCode": "WA",
+      "stateProv": "New Mexico",
+      "postalCode": 6570,
+      "id": "a68b16f1-9f8c-4b18-8319-b47b92b6844e",
+      "countryCode": "US",
+      "country": "Barbados",
+      "city": "Orviston",
+      "addressLine2": null,
+      "addressLine1": "5490 15th Alabama Avenue"
+    },
+    "headline": "Lorem occaecat culpa nostrud",
+    "name": "dolor laborum #874",
+    "externalPropertyId": "52f1ed68-621e-4b90-9b57-662a7c97a133"
+  },
+  {
+    "nonSmoking": false,
+    "pmsId": null,
+    "rate": {
+      "feesAmount": 0,
+      "rentAmount": 0,
+      "taxAmount": 319,
+      "amountBeforeTax": 3011
+    },
+    "petsAllowed": false,
+    "maxOccupancy": 3,
+    "bedroomCount": 1,
+    "bathroomCount": "2.5",
+    "picturesUrls": [
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300"
+    ],
+    "address": {
+      "stateProvCode": "WA",
+      "stateProv": "Texas",
+      "postalCode": 2485,
+      "id": "9aa1ab4d-dcfd-453d-9f2c-3c38290dd724",
+      "countryCode": "US",
+      "country": "France",
+      "city": "Klagetoh",
+      "addressLine2": null,
+      "addressLine1": "2740 16th Fillmore Avenue"
+    },
+    "headline": "irure laboris ullamco occaecat",
+    "name": "nulla ut #675",
+    "externalPropertyId": "667b19d3-0ced-4504-969e-3cd8777872fc"
+  },
+  {
+    "nonSmoking": false,
+    "pmsId": null,
+    "rate": {
+      "feesAmount": 0,
+      "rentAmount": 0,
+      "taxAmount": 319,
+      "amountBeforeTax": 4684
+    },
+    "petsAllowed": true,
+    "maxOccupancy": 5,
+    "bedroomCount": 0,
+    "bathroomCount": 4,
+    "picturesUrls": [
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300"
+    ],
+    "address": {
+      "stateProvCode": "WA",
+      "stateProv": "Montana",
+      "postalCode": 1351,
+      "id": "397334e4-f4a6-4536-a63f-b66b850f6649",
+      "countryCode": "US",
+      "country": "Sierra Leone",
+      "city": "Berwind",
+      "addressLine2": null,
+      "addressLine1": "2044 45th Miller Place"
+    },
+    "headline": "enim elit et velit",
+    "name": "et in #425",
+    "externalPropertyId": "89565527-a595-4d41-ba2b-6ded218fe222"
+  },
+  {
+    "nonSmoking": false,
+    "pmsId": null,
+    "rate": {
+      "feesAmount": 0,
+      "rentAmount": 0,
+      "taxAmount": "422.5",
+      "amountBeforeTax": 3715
+    },
+    "petsAllowed": true,
+    "maxOccupancy": 2,
+    "bedroomCount": 4,
+    "bathroomCount": "2.5",
+    "picturesUrls": [
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300"
+    ],
+    "address": {
+      "stateProvCode": "WA",
+      "stateProv": "Wyoming",
+      "postalCode": 7814,
+      "id": "b61a868d-5a1b-4050-9c1d-e5ac9127b3fd",
+      "countryCode": "US",
+      "country": "Indonesia",
+      "city": "Bellfountain",
+      "addressLine2": null,
+      "addressLine1": "1562 5th Seba Avenue"
+    },
+    "headline": "pariatur eiusmod eiusmod incididunt",
+    "name": "id et #224",
+    "externalPropertyId": "93eccd30-7197-497e-82b7-f76ccb75f667"
+  },
+  {
+    "nonSmoking": false,
+    "pmsId": null,
+    "rate": {
+      "feesAmount": 0,
+      "rentAmount": 0,
+      "taxAmount": 330,
+      "amountBeforeTax": 3583
+    },
+    "petsAllowed": true,
+    "maxOccupancy": 3,
+    "bedroomCount": 1,
+    "bathroomCount": 4,
+    "picturesUrls": [
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300"
+    ],
+    "address": {
+      "stateProvCode": "WA",
+      "stateProv": "Hawaii",
+      "postalCode": 5167,
+      "id": "2ecccb23-b6c9-4d4b-8365-7d06d056542b",
+      "countryCode": "US",
+      "country": "Cape Verde",
+      "city": "Homeworth",
+      "addressLine2": null,
+      "addressLine1": "9597 3th Pulaski Street"
+    },
+    "headline": "nostrud id ipsum adipisicing",
+    "name": "eiusmod sint #564",
+    "externalPropertyId": "a7e4f645-558f-4514-9d36-ccd09376ce71"
+  },
+  {
+    "nonSmoking": false,
+    "pmsId": null,
+    "rate": {
+      "feesAmount": 0,
+      "rentAmount": 0,
+      "taxAmount": 319,
+      "amountBeforeTax": 3259
+    },
+    "petsAllowed": true,
+    "maxOccupancy": 1,
+    "bedroomCount": 3,
+    "bathroomCount": 2,
+    "picturesUrls": [
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300"
+    ],
+    "address": {
+      "stateProvCode": "WA",
+      "stateProv": "Ohio",
+      "postalCode": 5710,
+      "id": "a023c650-39c3-44c6-9cec-4b6b54c043d1",
+      "countryCode": "US",
+      "country": "Ukraine",
+      "city": "Stagecoach",
+      "addressLine2": null,
+      "addressLine1": "8805 6th Crystal Street"
+    },
+    "headline": "aliqua eiusmod est ipsum",
+    "name": "Lorem sint #38",
+    "externalPropertyId": "f538aaf2-53ac-46f4-9d0a-8640ea735b93"
+  },
+  {
+    "nonSmoking": false,
+    "pmsId": null,
+    "rate": {
+      "feesAmount": 0,
+      "rentAmount": 0,
+      "taxAmount": 330,
+      "amountBeforeTax": 3667
+    },
+    "petsAllowed": false,
+    "maxOccupancy": 2,
+    "bedroomCount": 3,
+    "bathroomCount": 4,
+    "picturesUrls": [
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300"
+    ],
+    "address": {
+      "stateProvCode": "WA",
+      "stateProv": "North Dakota",
+      "postalCode": 4492,
+      "id": "b6181c6a-e1bd-458c-ab7d-5594091e1a43",
+      "countryCode": "US",
+      "country": "Greece",
+      "city": "Sehili",
+      "addressLine2": null,
+      "addressLine1": "4885 25th Plymouth Street"
+    },
+    "headline": "amet ad proident adipisicing",
+    "name": "Lorem occaecat #367",
+    "externalPropertyId": "2197f365-652a-445a-9dff-3a968e67d5b2"
+  },
+  {
+    "nonSmoking": true,
+    "pmsId": null,
+    "rate": {
+      "feesAmount": 0,
+      "rentAmount": 0,
+      "taxAmount": "422.5",
+      "amountBeforeTax": 4040
+    },
+    "petsAllowed": false,
+    "maxOccupancy": 4,
+    "bedroomCount": 4,
+    "bathroomCount": 4,
+    "picturesUrls": [
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300"
+    ],
+    "address": {
+      "stateProvCode": "WA",
+      "stateProv": "Indiana",
+      "postalCode": 9881,
+      "id": "d55f56cc-ae3f-40e1-9805-b88383fd6420",
+      "countryCode": "US",
+      "country": "Kazakhstan",
+      "city": "Convent",
+      "addressLine2": null,
+      "addressLine1": "7823 41th Varanda Place"
+    },
+    "headline": "magna exercitation excepteur consequat",
+    "name": "mollit non #117",
+    "externalPropertyId": "efee4c59-6b0c-4ef9-819d-013cc89bbce5"
+  },
+  {
+    "nonSmoking": true,
+    "pmsId": null,
+    "rate": {
+      "feesAmount": 0,
+      "rentAmount": 0,
+      "taxAmount": 320,
+      "amountBeforeTax": 4747
+    },
+    "petsAllowed": true,
+    "maxOccupancy": 4,
+    "bedroomCount": 1,
+    "bathroomCount": 3,
+    "picturesUrls": [
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300"
+    ],
+    "address": {
+      "stateProvCode": "WA",
+      "stateProv": "Missouri",
+      "postalCode": 2178,
+      "id": "c76fa52b-d1f8-4daa-b6eb-ffa7f4ccf9a1",
+      "countryCode": "US",
+      "country": "Saint Vincent and The Grenadines",
+      "city": "Needmore",
+      "addressLine2": null,
+      "addressLine1": "4975 44th Stuyvesant Avenue"
+    },
+    "headline": "commodo pariatur sint commodo",
+    "name": "laborum laboris #49",
+    "externalPropertyId": "4c769067-ff53-4289-add5-73204aaaf57c"
+  },
+  {
+    "nonSmoking": true,
+    "pmsId": null,
+    "rate": {
+      "feesAmount": 0,
+      "rentAmount": 0,
+      "taxAmount": 319,
+      "amountBeforeTax": 4069
+    },
+    "petsAllowed": true,
+    "maxOccupancy": 3,
+    "bedroomCount": 4,
+    "bathroomCount": 3,
+    "picturesUrls": [
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300"
+    ],
+    "address": {
+      "stateProvCode": "WA",
+      "stateProv": "Federated States Of Micronesia",
+      "postalCode": 4561,
+      "id": "6f160b0d-57d9-44af-b5f4-60238e687071",
+      "countryCode": "US",
+      "country": "Bahrain",
+      "city": "Sterling",
+      "addressLine2": null,
+      "addressLine1": "2184 9th Stewart Street"
+    },
+    "headline": "consectetur reprehenderit ex consequat",
+    "name": "Lorem tempor #769",
+    "externalPropertyId": "5baf0104-02ba-40d7-9c84-a8d97e50dbb0"
+  },
+  {
+    "nonSmoking": true,
+    "pmsId": null,
+    "rate": {
+      "feesAmount": 0,
+      "rentAmount": 0,
+      "taxAmount": "422.5",
+      "amountBeforeTax": 4827
+    },
+    "petsAllowed": true,
+    "maxOccupancy": 1,
+    "bedroomCount": 0,
+    "bathroomCount": "2.5",
+    "picturesUrls": [
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300"
+    ],
+    "address": {
+      "stateProvCode": "WA",
+      "stateProv": "Iowa",
+      "postalCode": 4963,
+      "id": "fb4cb52f-a592-441e-923b-0a24b52849a4",
+      "countryCode": "US",
+      "country": "Myanmar",
+      "city": "Coyote",
+      "addressLine2": null,
+      "addressLine1": "7248 15th Coyle Street"
+    },
+    "headline": "esse qui reprehenderit sint",
+    "name": "anim pariatur #37",
+    "externalPropertyId": "f15a3613-ccf8-4860-bf64-e6813d50e587"
+  },
+  {
+    "nonSmoking": false,
+    "pmsId": null,
+    "rate": {
+      "feesAmount": 0,
+      "rentAmount": 0,
+      "taxAmount": 330,
+      "amountBeforeTax": 4233
+    },
+    "petsAllowed": false,
+    "maxOccupancy": 5,
+    "bedroomCount": 1,
+    "bathroomCount": 3,
+    "picturesUrls": [
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300"
+    ],
+    "address": {
+      "stateProvCode": "WA",
+      "stateProv": "Idaho",
+      "postalCode": 5210,
+      "id": "1e4ed79a-d9ec-4a70-97b0-b47132bd1923",
+      "countryCode": "US",
+      "country": "Turks and Caicos Islands",
+      "city": "Dexter",
+      "addressLine2": null,
+      "addressLine1": "5526 2th Rockaway Parkway"
+    },
+    "headline": "deserunt fugiat anim irure",
+    "name": "veniam non #754",
+    "externalPropertyId": "0488e4ed-1c7d-4c9a-9fc1-29ab0f700a2d"
+  },
+  {
+    "nonSmoking": false,
+    "pmsId": null,
+    "rate": {
+      "feesAmount": 0,
+      "rentAmount": 0,
+      "taxAmount": "422.5",
+      "amountBeforeTax": 4039
+    },
+    "petsAllowed": false,
+    "maxOccupancy": 4,
+    "bedroomCount": 4,
+    "bathroomCount": 2,
+    "picturesUrls": [
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300"
+    ],
+    "address": {
+      "stateProvCode": "WA",
+      "stateProv": "Louisiana",
+      "postalCode": 1181,
+      "id": "dccfadef-94b8-4266-9862-752c3f81d719",
+      "countryCode": "US",
+      "country": "Romania",
+      "city": "Brecon",
+      "addressLine2": null,
+      "addressLine1": "6316 22th Bowne Street"
+    },
+    "headline": "aliqua ea magna occaecat",
+    "name": "cupidatat ut #582",
+    "externalPropertyId": "f879a3f6-7d77-4f9d-9897-7357bb2aac80"
+  },
+  {
+    "nonSmoking": true,
+    "pmsId": null,
+    "rate": {
+      "feesAmount": 0,
+      "rentAmount": 0,
+      "taxAmount": 320,
+      "amountBeforeTax": 4690
+    },
+    "petsAllowed": true,
+    "maxOccupancy": 1,
+    "bedroomCount": 0,
+    "bathroomCount": "2.5",
+    "picturesUrls": [
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300"
+    ],
+    "address": {
+      "stateProvCode": "WA",
+      "stateProv": "Alabama",
+      "postalCode": 8984,
+      "id": "d23f2fac-45cf-48c6-a035-6827820259c2",
+      "countryCode": "US",
+      "country": "Nigeria",
+      "city": "Zarephath",
+      "addressLine2": null,
+      "addressLine1": "1611 13th Harwood Place"
+    },
+    "headline": "irure proident consectetur non",
+    "name": "amet proident #114",
+    "externalPropertyId": "17511ef5-7aca-417c-90eb-904ec5ef2b37"
+  },
+  {
+    "nonSmoking": true,
+    "pmsId": null,
+    "rate": {
+      "feesAmount": 0,
+      "rentAmount": 0,
+      "taxAmount": 340,
+      "amountBeforeTax": 4604
+    },
+    "petsAllowed": true,
+    "maxOccupancy": 4,
+    "bedroomCount": 1,
+    "bathroomCount": 2,
+    "picturesUrls": [
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300"
+    ],
+    "address": {
+      "stateProvCode": "WA",
+      "stateProv": "New Hampshire",
+      "postalCode": 6339,
+      "id": "bc9ba290-b596-4cef-a371-9fde679c2601",
+      "countryCode": "US",
+      "country": "Jamaica",
+      "city": "Northridge",
+      "addressLine2": null,
+      "addressLine1": "7411 12th Friel Place"
+    },
+    "headline": "fugiat ut sint proident",
+    "name": "adipisicing cupidatat #686",
+    "externalPropertyId": "f867af7a-d192-4151-a41a-c93d6a4062b1"
+  },
+  {
+    "nonSmoking": true,
+    "pmsId": null,
+    "rate": {
+      "feesAmount": 0,
+      "rentAmount": 0,
+      "taxAmount": 340,
+      "amountBeforeTax": 4965
+    },
+    "petsAllowed": false,
+    "maxOccupancy": 1,
+    "bedroomCount": 0,
+    "bathroomCount": 3,
+    "picturesUrls": [
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300"
+    ],
+    "address": {
+      "stateProvCode": "WA",
+      "stateProv": "Pennsylvania",
+      "postalCode": 3662,
+      "id": "19a233d3-c31d-4a70-84ec-5393aa5aaed8",
+      "countryCode": "US",
+      "country": "French Polynesia",
+      "city": "Malo",
+      "addressLine2": null,
+      "addressLine1": "1954 44th Chestnut Avenue"
+    },
+    "headline": "esse officia fugiat nostrud",
+    "name": "commodo irure #606",
+    "externalPropertyId": "b09e235b-d959-4fee-b479-6af16be1f841"
+  },
+  {
+    "nonSmoking": true,
+    "pmsId": null,
+    "rate": {
+      "feesAmount": 0,
+      "rentAmount": 0,
+      "taxAmount": 330,
+      "amountBeforeTax": 3053
+    },
+    "petsAllowed": false,
+    "maxOccupancy": 4,
+    "bedroomCount": 2,
+    "bathroomCount": 4,
+    "picturesUrls": [
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300"
+    ],
+    "address": {
+      "stateProvCode": "WA",
+      "stateProv": "Colorado",
+      "postalCode": 4808,
+      "id": "b2310468-902f-4789-9001-e6f3db4e117e",
+      "countryCode": "US",
+      "country": "Argentina",
+      "city": "Nettie",
+      "addressLine2": null,
+      "addressLine1": "4451 34th Douglass Street"
+    },
+    "headline": "officia elit reprehenderit velit",
+    "name": "proident ipsum #932",
+    "externalPropertyId": "f985cf19-084f-4ca3-a70b-6cb93a55970b"
+  },
+  {
+    "nonSmoking": false,
+    "pmsId": null,
+    "rate": {
+      "feesAmount": 0,
+      "rentAmount": 0,
+      "taxAmount": "422.5",
+      "amountBeforeTax": 3035
+    },
+    "petsAllowed": true,
+    "maxOccupancy": 5,
+    "bedroomCount": 4,
+    "bathroomCount": 3,
+    "picturesUrls": [
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300"
+    ],
+    "address": {
+      "stateProvCode": "WA",
+      "stateProv": "Northern Mariana Islands",
+      "postalCode": 5103,
+      "id": "f0c9782f-6f2e-4915-a3b3-427c0227852b",
+      "countryCode": "US",
+      "country": "Azerbaijan",
+      "city": "Coalmont",
+      "addressLine2": null,
+      "addressLine1": "5602 7th Bogart Street"
+    },
+    "headline": "ipsum laborum sint mollit",
+    "name": "ea reprehenderit #657",
+    "externalPropertyId": "c6f681d0-70e2-4034-b1d1-10bf97f41811"
+  },
+  {
+    "nonSmoking": true,
+    "pmsId": null,
+    "rate": {
+      "feesAmount": 0,
+      "rentAmount": 0,
+      "taxAmount": 330,
+      "amountBeforeTax": 3370
+    },
+    "petsAllowed": true,
+    "maxOccupancy": 2,
+    "bedroomCount": "2.5",
+    "bathroomCount": 2,
+    "picturesUrls": [
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300"
+    ],
+    "address": {
+      "stateProvCode": "WA",
+      "stateProv": "Florida",
+      "postalCode": 6804,
+      "id": "016f1a99-5804-4e3b-b18f-2b64060a2222",
+      "countryCode": "US",
+      "country": "Cyprus",
+      "city": "Vallonia",
+      "addressLine2": null,
+      "addressLine1": "5917 15th McKibbin Street"
+    },
+    "headline": "sunt ipsum irure Lorem",
+    "name": "sit labore #922",
+    "externalPropertyId": "8ef53dc9-c8c6-43c1-a076-584d8106dbfd"
+  },
+  {
+    "nonSmoking": true,
+    "pmsId": null,
+    "rate": {
+      "feesAmount": 0,
+      "rentAmount": 0,
+      "taxAmount": "422.5",
+      "amountBeforeTax": 3968
+    },
+    "petsAllowed": false,
+    "maxOccupancy": 5,
+    "bedroomCount": 0,
+    "bathroomCount": 1,
+    "picturesUrls": [
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300"
+    ],
+    "address": {
+      "stateProvCode": "WA",
+      "stateProv": "Rhode Island",
+      "postalCode": 3653,
+      "id": "aca2e487-fe5d-4ad0-b25d-4df16e957463",
+      "countryCode": "US",
+      "country": "Mexico",
+      "city": "Shrewsbury",
+      "addressLine2": null,
+      "addressLine1": "9136 48th Hudson Avenue"
+    },
+    "headline": "aliquip ipsum cillum commodo",
+    "name": "pariatur Lorem #466",
+    "externalPropertyId": "1c89bae4-2e34-4b96-9708-70f849d0bddd"
+  },
+  {
+    "nonSmoking": false,
+    "pmsId": null,
+    "rate": {
+      "feesAmount": 0,
+      "rentAmount": 0,
+      "taxAmount": 320,
+      "amountBeforeTax": 4718
+    },
+    "petsAllowed": true,
+    "maxOccupancy": 2,
+    "bedroomCount": 0,
+    "bathroomCount": 3,
+    "picturesUrls": [
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300"
+    ],
+    "address": {
+      "stateProvCode": "WA",
+      "stateProv": "Puerto Rico",
+      "postalCode": 7327,
+      "id": "6e8a4cd9-5169-4ad9-b99c-e80066a3c902",
+      "countryCode": "US",
+      "country": "Marshall Islands",
+      "city": "Cashtown",
+      "addressLine2": null,
+      "addressLine1": "3587 14th Colonial Court"
+    },
+    "headline": "eiusmod nostrud eiusmod proident",
+    "name": "aliquip velit #95",
+    "externalPropertyId": "049fc628-50c9-4017-8775-a50459919d40"
+  },
+  {
+    "nonSmoking": true,
+    "pmsId": null,
+    "rate": {
+      "feesAmount": 0,
+      "rentAmount": 0,
+      "taxAmount": 320,
+      "amountBeforeTax": 4117
+    },
+    "petsAllowed": true,
+    "maxOccupancy": 4,
+    "bedroomCount": 4,
+    "bathroomCount": 4,
+    "picturesUrls": [
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300"
+    ],
+    "address": {
+      "stateProvCode": "WA",
+      "stateProv": "Guam",
+      "postalCode": 4516,
+      "id": "9ed32e9b-04b8-41bf-8087-a64ee9939d6c",
+      "countryCode": "US",
+      "country": "Micronesia",
+      "city": "Hillsboro",
+      "addressLine2": null,
+      "addressLine1": "6938 13th Dekoven Court"
+    },
+    "headline": "aliquip Lorem qui nisi",
+    "name": "et reprehenderit #239",
+    "externalPropertyId": "eb9ce97a-c672-4e55-910d-3bd3d46017bb"
+  },
+  {
+    "nonSmoking": true,
+    "pmsId": null,
+    "rate": {
+      "feesAmount": 0,
+      "rentAmount": 0,
+      "taxAmount": 320,
+      "amountBeforeTax": 4736
+    },
+    "petsAllowed": true,
+    "maxOccupancy": 5,
+    "bedroomCount": 1,
+    "bathroomCount": 4,
+    "picturesUrls": [
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300"
+    ],
+    "address": {
+      "stateProvCode": "WA",
+      "stateProv": "Utah",
+      "postalCode": 2624,
+      "id": "71c54ed8-0c57-4511-8343-63db0ac944bf",
+      "countryCode": "US",
+      "country": "Tuvalu",
+      "city": "Kiskimere",
+      "addressLine2": null,
+      "addressLine1": "9416 35th Hubbard Place"
+    },
+    "headline": "ut amet id exercitation",
+    "name": "nisi aliqua #695",
+    "externalPropertyId": "4130511d-c903-413c-90e2-38511c0d88bf"
+  },
+  {
+    "nonSmoking": true,
+    "pmsId": null,
+    "rate": {
+      "feesAmount": 0,
+      "rentAmount": 0,
+      "taxAmount": 320,
+      "amountBeforeTax": 4711
+    },
+    "petsAllowed": true,
+    "maxOccupancy": 4,
+    "bedroomCount": 1,
+    "bathroomCount": 2,
+    "picturesUrls": [
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300"
+    ],
+    "address": {
+      "stateProvCode": "WA",
+      "stateProv": "Illinois",
+      "postalCode": 6807,
+      "id": "72f31990-c94d-43fa-b07a-1d508877b9bc",
+      "countryCode": "US",
+      "country": "Liberia",
+      "city": "Utting",
+      "addressLine2": null,
+      "addressLine1": "6387 26th Leonard Street"
+    },
+    "headline": "reprehenderit adipisicing exercitation ullamco",
+    "name": "aute labore #549",
+    "externalPropertyId": "8a254ca4-18c5-4af1-9c24-9a75c1e0f8b0"
+  },
+  {
+    "nonSmoking": true,
+    "pmsId": null,
+    "rate": {
+      "feesAmount": 0,
+      "rentAmount": 0,
+      "taxAmount": 340,
+      "amountBeforeTax": 4397
+    },
+    "petsAllowed": false,
+    "maxOccupancy": 2,
+    "bedroomCount": 1,
+    "bathroomCount": 3,
+    "picturesUrls": [
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300"
+    ],
+    "address": {
+      "stateProvCode": "WA",
+      "stateProv": "Minnesota",
+      "postalCode": 3058,
+      "id": "c7de2f76-39de-4ca5-9416-f86483a510cb",
+      "countryCode": "US",
+      "country": "Sweden",
+      "city": "Fulford",
+      "addressLine2": null,
+      "addressLine1": "8071 24th Tech Place"
+    },
+    "headline": "sit ut ut est",
+    "name": "consequat do #8",
+    "externalPropertyId": "585515c4-5890-421b-9ee3-f959d136b3d6"
+  },
+  {
+    "nonSmoking": true,
+    "pmsId": null,
+    "rate": {
+      "feesAmount": 0,
+      "rentAmount": 0,
+      "taxAmount": 340,
+      "amountBeforeTax": 4556
+    },
+    "petsAllowed": false,
+    "maxOccupancy": 5,
+    "bedroomCount": "2.5",
+    "bathroomCount": 3,
+    "picturesUrls": [
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300"
+    ],
+    "address": {
+      "stateProvCode": "WA",
+      "stateProv": "New York",
+      "postalCode": 6533,
+      "id": "0a595ab5-570a-47d3-be90-f38721905402",
+      "countryCode": "US",
+      "country": "Cook Islands",
+      "city": "Diaperville",
+      "addressLine2": null,
+      "addressLine1": "1874 11th Gatling Place"
+    },
+    "headline": "dolor exercitation voluptate et",
+    "name": "veniam eu #47",
+    "externalPropertyId": "4a268b28-9ba8-4094-8661-3bef93d7b921"
+  },
+  {
+    "nonSmoking": true,
+    "pmsId": null,
+    "rate": {
+      "feesAmount": 0,
+      "rentAmount": 0,
+      "taxAmount": 330,
+      "amountBeforeTax": 4625
+    },
+    "petsAllowed": true,
+    "maxOccupancy": 5,
+    "bedroomCount": 2,
+    "bathroomCount": 4,
+    "picturesUrls": [
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300"
+    ],
+    "address": {
+      "stateProvCode": "WA",
+      "stateProv": "Maine",
+      "postalCode": 1721,
+      "id": "4f88383b-3659-4356-995b-ade0ebaeb1ab",
+      "countryCode": "US",
+      "country": "Bulgaria",
+      "city": "Norwood",
+      "addressLine2": null,
+      "addressLine1": "9984 36th Keen Court"
+    },
+    "headline": "anim commodo cupidatat cupidatat",
+    "name": "excepteur incididunt #962",
+    "externalPropertyId": "2e06cd36-9f54-4ad4-ad3c-1f27a8eb2b51"
+  },
+  {
+    "nonSmoking": true,
+    "pmsId": null,
+    "rate": {
+      "feesAmount": 0,
+      "rentAmount": 0,
+      "taxAmount": 320,
+      "amountBeforeTax": 3218
+    },
+    "petsAllowed": false,
+    "maxOccupancy": 4,
+    "bedroomCount": 1,
+    "bathroomCount": 2,
+    "picturesUrls": [
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300"
+    ],
+    "address": {
+      "stateProvCode": "WA",
+      "stateProv": "Wisconsin",
+      "postalCode": 1297,
+      "id": "8f213553-4a93-40bb-a2ee-ed682c79c288",
+      "countryCode": "US",
+      "country": "Gambia",
+      "city": "Crayne",
+      "addressLine2": null,
+      "addressLine1": "7490 39th Reed Street"
+    },
+    "headline": "cillum adipisicing mollit eu",
+    "name": "dolor excepteur #463",
+    "externalPropertyId": "18ea327e-1acd-4a93-8930-034561791975"
+  },
+  {
+    "nonSmoking": false,
+    "pmsId": null,
+    "rate": {
+      "feesAmount": 0,
+      "rentAmount": 0,
+      "taxAmount": "422.5",
+      "amountBeforeTax": 3846
+    },
+    "petsAllowed": true,
+    "maxOccupancy": 1,
+    "bedroomCount": 4,
+    "bathroomCount": "2.5",
+    "picturesUrls": [
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300"
+    ],
+    "address": {
+      "stateProvCode": "WA",
+      "stateProv": "Oklahoma",
+      "postalCode": 9156,
+      "id": "f2eed866-1e10-4914-889a-01e4628d6cf2",
+      "countryCode": "US",
+      "country": "Israel",
+      "city": "Sheatown",
+      "addressLine2": null,
+      "addressLine1": "1557 17th Montauk Court"
+    },
+    "headline": "labore ullamco fugiat cillum",
+    "name": "consectetur duis #523",
+    "externalPropertyId": "aa6d6998-a1e2-47d5-9c23-13775948650d"
+  },
+  {
+    "nonSmoking": false,
+    "pmsId": null,
+    "rate": {
+      "feesAmount": 0,
+      "rentAmount": 0,
+      "taxAmount": 340,
+      "amountBeforeTax": 3209
+    },
+    "petsAllowed": true,
+    "maxOccupancy": 4,
+    "bedroomCount": 2,
+    "bathroomCount": 2,
+    "picturesUrls": [
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300"
+    ],
+    "address": {
+      "stateProvCode": "WA",
+      "stateProv": "Nebraska",
+      "postalCode": 1614,
+      "id": "735846a4-f0fc-456e-9d45-9cf2c73948a7",
+      "countryCode": "US",
+      "country": "Kiribati",
+      "city": "Caroleen",
+      "addressLine2": null,
+      "addressLine1": "8673 27th Lorraine Street"
+    },
+    "headline": "ea ad et tempor",
+    "name": "eu officia #781",
+    "externalPropertyId": "1dc5ec12-0a70-4904-83ac-a1922b3c32ea"
+  },
+  {
+    "nonSmoking": true,
+    "pmsId": null,
+    "rate": {
+      "feesAmount": 0,
+      "rentAmount": 0,
+      "taxAmount": 330,
+      "amountBeforeTax": 3879
+    },
+    "petsAllowed": false,
+    "maxOccupancy": 2,
+    "bedroomCount": 2,
+    "bathroomCount": 2,
+    "picturesUrls": [
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300"
+    ],
+    "address": {
+      "stateProvCode": "WA",
+      "stateProv": "Kentucky",
+      "postalCode": 2601,
+      "id": "8d92f668-b5f0-42bf-951c-1ad1710a2ce5",
+      "countryCode": "US",
+      "country": "French Guiana",
+      "city": "Breinigsville",
+      "addressLine2": null,
+      "addressLine1": "7753 23th Caton Avenue"
+    },
+    "headline": "proident consequat sit Lorem",
+    "name": "dolor enim #285",
+    "externalPropertyId": "2d00fa89-fb64-41ff-9465-0c59cde40b18"
+  },
+  {
+    "nonSmoking": true,
+    "pmsId": null,
+    "rate": {
+      "feesAmount": 0,
+      "rentAmount": 0,
+      "taxAmount": 340,
+      "amountBeforeTax": 4799
+    },
+    "petsAllowed": false,
+    "maxOccupancy": 4,
+    "bedroomCount": 2,
+    "bathroomCount": 4,
+    "picturesUrls": [
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300"
+    ],
+    "address": {
+      "stateProvCode": "WA",
+      "stateProv": "South Dakota",
+      "postalCode": 5578,
+      "id": "61c57b0c-c49d-486e-80e4-89c81a44c23a",
+      "countryCode": "US",
+      "country": "Anguilla",
+      "city": "Enoree",
+      "addressLine2": null,
+      "addressLine1": "6650 50th Menahan Street"
+    },
+    "headline": "consectetur aute exercitation pariatur",
+    "name": "elit sint #716",
+    "externalPropertyId": "69b14e70-a49f-4f95-af8d-4eb467f2faad"
+  },
+  {
+    "nonSmoking": false,
+    "pmsId": null,
+    "rate": {
+      "feesAmount": 0,
+      "rentAmount": 0,
+      "taxAmount": 320,
+      "amountBeforeTax": 4980
+    },
+    "petsAllowed": true,
+    "maxOccupancy": 4,
+    "bedroomCount": "2.5",
+    "bathroomCount": 1,
+    "picturesUrls": [
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300"
+    ],
+    "address": {
+      "stateProvCode": "WA",
+      "stateProv": "South Carolina",
+      "postalCode": 1380,
+      "id": "3e360497-2748-45f5-b975-a33135c6afce",
+      "countryCode": "US",
+      "country": "Gabon",
+      "city": "Hiko",
+      "addressLine2": null,
+      "addressLine1": "6656 13th Duryea Court"
+    },
+    "headline": "magna enim adipisicing culpa",
+    "name": "ut deserunt #725",
+    "externalPropertyId": "b7e4835e-a0dd-4961-b19a-24e6ed84e6f0"
+  },
+  {
+    "nonSmoking": true,
+    "pmsId": null,
+    "rate": {
+      "feesAmount": 0,
+      "rentAmount": 0,
+      "taxAmount": 330,
+      "amountBeforeTax": 3937
+    },
+    "petsAllowed": false,
+    "maxOccupancy": 2,
+    "bedroomCount": 1,
+    "bathroomCount": "2.5",
+    "picturesUrls": [
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300"
+    ],
+    "address": {
+      "stateProvCode": "WA",
+      "stateProv": "California",
+      "postalCode": 8581,
+      "id": "75329484-f313-4235-9d33-efbcc8946813",
+      "countryCode": "US",
+      "country": "Namibia",
+      "city": "Belva",
+      "addressLine2": null,
+      "addressLine1": "3375 26th Euclid Avenue"
+    },
+    "headline": "magna occaecat amet sit",
+    "name": "aute pariatur #800",
+    "externalPropertyId": "751ba666-0860-4fb9-ae7d-54ef415575e9"
+  },
+  {
+    "nonSmoking": false,
+    "pmsId": null,
+    "rate": {
+      "feesAmount": 0,
+      "rentAmount": 0,
+      "taxAmount": 320,
+      "amountBeforeTax": 4389
+    },
+    "petsAllowed": false,
+    "maxOccupancy": 5,
+    "bedroomCount": 3,
+    "bathroomCount": 3,
+    "picturesUrls": [
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300"
+    ],
+    "address": {
+      "stateProvCode": "WA",
+      "stateProv": "Delaware",
+      "postalCode": 5781,
+      "id": "a9672ce2-8f91-487f-b6cb-673f07745bb1",
+      "countryCode": "US",
+      "country": "Macau",
+      "city": "Hinsdale",
+      "addressLine2": null,
+      "addressLine1": "4053 6th Boerum Street"
+    },
+    "headline": "pariatur aliqua qui amet",
+    "name": "cillum elit #650",
+    "externalPropertyId": "0fefbeb0-e1fe-4454-be8d-8c3db57f0a27"
+  },
+  {
+    "nonSmoking": true,
+    "pmsId": null,
+    "rate": {
+      "feesAmount": 0,
+      "rentAmount": 0,
+      "taxAmount": 330,
+      "amountBeforeTax": 4999
+    },
+    "petsAllowed": false,
+    "maxOccupancy": 1,
+    "bedroomCount": 1,
+    "bathroomCount": 1,
+    "picturesUrls": [
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300"
+    ],
+    "address": {
+      "stateProvCode": "WA",
+      "stateProv": "Massachusetts",
+      "postalCode": 2230,
+      "id": "faed1482-520f-4b91-a8e0-544a6f6333e9",
+      "countryCode": "US",
+      "country": "Vanuatu",
+      "city": "Campo",
+      "addressLine2": null,
+      "addressLine1": "2847 12th Veronica Place"
+    },
+    "headline": "sunt excepteur laborum occaecat",
+    "name": "exercitation aute #521",
+    "externalPropertyId": "6212633d-d0ba-455a-a42f-0fd85bda1649"
+  },
+  {
+    "nonSmoking": false,
+    "pmsId": null,
+    "rate": {
+      "feesAmount": 0,
+      "rentAmount": 0,
+      "taxAmount": 319,
+      "amountBeforeTax": 4539
+    },
+    "petsAllowed": false,
+    "maxOccupancy": 3,
+    "bedroomCount": 0,
+    "bathroomCount": 3,
+    "picturesUrls": [
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300"
+    ],
+    "address": {
+      "stateProvCode": "WA",
+      "stateProv": "Michigan",
+      "postalCode": 3423,
+      "id": "b5473c1a-1964-4a74-b5fd-eccc62639ce8",
+      "countryCode": "US",
+      "country": "Maldives",
+      "city": "Guilford",
+      "addressLine2": null,
+      "addressLine1": "1269 27th Knight Court"
+    },
+    "headline": "duis dolor tempor nulla",
+    "name": "laborum consectetur #164",
+    "externalPropertyId": "f0e85537-5757-4f1d-99ae-6b85f032d667"
+  },
+  {
+    "nonSmoking": true,
+    "pmsId": null,
+    "rate": {
+      "feesAmount": 0,
+      "rentAmount": 0,
+      "taxAmount": 319,
+      "amountBeforeTax": 4341
+    },
+    "petsAllowed": true,
+    "maxOccupancy": 5,
+    "bedroomCount": "2.5",
+    "bathroomCount": 2,
+    "picturesUrls": [
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300"
+    ],
+    "address": {
+      "stateProvCode": "WA",
+      "stateProv": "Mississippi",
+      "postalCode": 1606,
+      "id": "be994ee5-8e9e-4058-b130-2aff49f69c22",
+      "countryCode": "US",
+      "country": "Iran",
+      "city": "Independence",
+      "addressLine2": null,
+      "addressLine1": "3816 36th Prospect Avenue"
+    },
+    "headline": "sunt consequat irure ipsum",
+    "name": "minim culpa #309",
+    "externalPropertyId": "4e2d18bb-1055-476e-9648-ab8b951d298a"
+  },
+  {
+    "nonSmoking": true,
+    "pmsId": null,
+    "rate": {
+      "feesAmount": 0,
+      "rentAmount": 0,
+      "taxAmount": 340,
+      "amountBeforeTax": 4791
+    },
+    "petsAllowed": true,
+    "maxOccupancy": 3,
+    "bedroomCount": 0,
+    "bathroomCount": "2.5",
+    "picturesUrls": [
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300"
+    ],
+    "address": {
+      "stateProvCode": "WA",
+      "stateProv": "Palau",
+      "postalCode": 2351,
+      "id": "5ce9a4e9-acb8-49be-a4bf-19aca2106a41",
+      "countryCode": "US",
+      "country": "Belize",
+      "city": "Forbestown",
+      "addressLine2": null,
+      "addressLine1": "5119 10th Aster Court"
+    },
+    "headline": "minim sunt qui in",
+    "name": "minim ullamco #104",
+    "externalPropertyId": "5655a604-da82-4199-aedd-8295b346b81d"
+  },
+  {
+    "nonSmoking": false,
+    "pmsId": null,
+    "rate": {
+      "feesAmount": 0,
+      "rentAmount": 0,
+      "taxAmount": 320,
+      "amountBeforeTax": 4713
+    },
+    "petsAllowed": true,
+    "maxOccupancy": 5,
+    "bedroomCount": 2,
+    "bathroomCount": 3,
+    "picturesUrls": [
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300"
+    ],
+    "address": {
+      "stateProvCode": "WA",
+      "stateProv": "Virgin Islands",
+      "postalCode": 8250,
+      "id": "28b9886d-a1f0-4684-886a-ef358a432ad1",
+      "countryCode": "US",
+      "country": "Austria",
+      "city": "Norfolk",
+      "addressLine2": null,
+      "addressLine1": "6994 14th Lois Avenue"
+    },
+    "headline": "minim nisi occaecat laborum",
+    "name": "aliqua ut #176",
+    "externalPropertyId": "7522afdc-9225-45c9-9c69-47e929aef525"
+  },
+  {
+    "nonSmoking": true,
+    "pmsId": null,
+    "rate": {
+      "feesAmount": 0,
+      "rentAmount": 0,
+      "taxAmount": 330,
+      "amountBeforeTax": 3203
+    },
+    "petsAllowed": false,
+    "maxOccupancy": 1,
+    "bedroomCount": 1,
+    "bathroomCount": 2,
+    "picturesUrls": [
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300"
+    ],
+    "address": {
+      "stateProvCode": "WA",
+      "stateProv": "Washington",
+      "postalCode": 8911,
+      "id": "4beb1fdf-74ad-49c1-8df3-405af8e043f2",
+      "countryCode": "US",
+      "country": "Czech Republic",
+      "city": "Ahwahnee",
+      "addressLine2": null,
+      "addressLine1": "3400 23th Beayer Place"
+    },
+    "headline": "esse velit aute laborum",
+    "name": "laboris reprehenderit #699",
+    "externalPropertyId": "c23db183-5f2f-4af5-b4e0-9df8df815dc0"
+  },
+  {
+    "nonSmoking": true,
+    "pmsId": null,
+    "rate": {
+      "feesAmount": 0,
+      "rentAmount": 0,
+      "taxAmount": 320,
+      "amountBeforeTax": 3458
+    },
+    "petsAllowed": true,
+    "maxOccupancy": 2,
+    "bedroomCount": 4,
+    "bathroomCount": "2.5",
+    "picturesUrls": [
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300"
+    ],
+    "address": {
+      "stateProvCode": "WA",
+      "stateProv": "West Virginia",
+      "postalCode": 2487,
+      "id": "560d4e05-2603-4f23-b32c-4aa1822ea899",
+      "countryCode": "US",
+      "country": "Morocco",
+      "city": "Beechmont",
+      "addressLine2": null,
+      "addressLine1": "7659 13th Eckford Street"
+    },
+    "headline": "aute culpa eiusmod tempor",
+    "name": "incididunt et #650",
+    "externalPropertyId": "7fbc2383-f625-473a-8f3c-ea484ae5096c"
+  },
+  {
+    "nonSmoking": false,
+    "pmsId": null,
+    "rate": {
+      "feesAmount": 0,
+      "rentAmount": 0,
+      "taxAmount": 320,
+      "amountBeforeTax": 3579
+    },
+    "petsAllowed": true,
+    "maxOccupancy": 3,
+    "bedroomCount": 2,
+    "bathroomCount": 4,
+    "picturesUrls": [
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300"
+    ],
+    "address": {
+      "stateProvCode": "WA",
+      "stateProv": "Georgia",
+      "postalCode": 3384,
+      "id": "aa811a76-4041-491f-bd4a-a8acbcf7c197",
+      "countryCode": "US",
+      "country": "Guinea",
+      "city": "Winston",
+      "addressLine2": null,
+      "addressLine1": "3796 48th Sapphire Street"
+    },
+    "headline": "non magna duis velit",
+    "name": "officia eu #135",
+    "externalPropertyId": "8d12da0f-0a14-4d8b-a1e6-737717b76e59"
+  },
+  {
+    "nonSmoking": true,
+    "pmsId": null,
+    "rate": {
+      "feesAmount": 0,
+      "rentAmount": 0,
+      "taxAmount": 330,
+      "amountBeforeTax": 3626
+    },
+    "petsAllowed": true,
+    "maxOccupancy": 2,
+    "bedroomCount": "2.5",
+    "bathroomCount": 2,
+    "picturesUrls": [
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300"
+    ],
+    "address": {
+      "stateProvCode": "WA",
+      "stateProv": "Maryland",
+      "postalCode": 5614,
+      "id": "61c8cd2b-74e1-4185-a503-8da74a21de91",
+      "countryCode": "US",
+      "country": "Suriname",
+      "city": "Hannasville",
+      "addressLine2": null,
+      "addressLine1": "7491 20th Bliss Terrace"
+    },
+    "headline": "irure nostrud nulla eu",
+    "name": "non id #703",
+    "externalPropertyId": "07e529dd-1197-42ca-9d71-ac7227f4b2b7"
+  },
+  {
+    "nonSmoking": true,
+    "pmsId": null,
+    "rate": {
+      "feesAmount": 0,
+      "rentAmount": 0,
+      "taxAmount": 330,
+      "amountBeforeTax": 3997
+    },
+    "petsAllowed": true,
+    "maxOccupancy": 2,
+    "bedroomCount": 3,
+    "bathroomCount": 1,
+    "picturesUrls": [
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300"
+    ],
+    "address": {
+      "stateProvCode": "WA",
+      "stateProv": "District Of Columbia",
+      "postalCode": 5787,
+      "id": "208704dd-33cd-4183-8ac9-c98d2222d6a2",
+      "countryCode": "US",
+      "country": "Burundi",
+      "city": "Fairforest",
+      "addressLine2": null,
+      "addressLine1": "7090 18th Dover Street"
+    },
+    "headline": "pariatur excepteur cupidatat do",
+    "name": "reprehenderit ipsum #265",
+    "externalPropertyId": "35165bd2-df89-49a9-b579-df1a4500167d"
+  },
+  {
+    "nonSmoking": false,
+    "pmsId": null,
+    "rate": {
+      "feesAmount": 0,
+      "rentAmount": 0,
+      "taxAmount": "422.5",
+      "amountBeforeTax": 3709
+    },
+    "petsAllowed": false,
+    "maxOccupancy": 3,
+    "bedroomCount": "2.5",
+    "bathroomCount": "2.5",
+    "picturesUrls": [
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300"
+    ],
+    "address": {
+      "stateProvCode": "WA",
+      "stateProv": "Alaska",
+      "postalCode": 4224,
+      "id": "225c2c22-c476-4130-8eed-b9ad72442e9a",
+      "countryCode": "US",
+      "country": "Liechtenstein",
+      "city": "Greenock",
+      "addressLine2": null,
+      "addressLine1": "7767 39th Garnet Street"
+    },
+    "headline": "magna nulla veniam cupidatat",
+    "name": "velit dolor #37",
+    "externalPropertyId": "62aa012a-fcab-4ce5-bbce-901bb16ff660"
+  },
+  {
+    "nonSmoking": false,
+    "pmsId": null,
+    "rate": {
+      "feesAmount": 0,
+      "rentAmount": 0,
+      "taxAmount": 340,
+      "amountBeforeTax": 3636
+    },
+    "petsAllowed": true,
+    "maxOccupancy": 2,
+    "bedroomCount": 3,
+    "bathroomCount": 1,
+    "picturesUrls": [
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300"
+    ],
+    "address": {
+      "stateProvCode": "WA",
+      "stateProv": "North Carolina",
+      "postalCode": 6152,
+      "id": "699c95b9-1120-4c8a-847e-95de975d84f9",
+      "countryCode": "US",
+      "country": "Netherlands",
+      "city": "Eagletown",
+      "addressLine2": null,
+      "addressLine1": "6190 5th Knapp Street"
+    },
+    "headline": "anim enim veniam qui",
+    "name": "culpa sunt #319",
+    "externalPropertyId": "7dbd5496-48b7-4352-a324-d1a0e37dab11"
+  },
+  {
+    "nonSmoking": true,
+    "pmsId": null,
+    "rate": {
+      "feesAmount": 0,
+      "rentAmount": 0,
+      "taxAmount": 319,
+      "amountBeforeTax": 4017
+    },
+    "petsAllowed": true,
+    "maxOccupancy": 1,
+    "bedroomCount": 4,
+    "bathroomCount": 2,
+    "picturesUrls": [
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300"
+    ],
+    "address": {
+      "stateProvCode": "WA",
+      "stateProv": "Nevada",
+      "postalCode": 9879,
+      "id": "b5ccc33c-2cb9-4b97-875f-3a3d60a5cb84",
+      "countryCode": "US",
+      "country": "Libya",
+      "city": "Unionville",
+      "addressLine2": null,
+      "addressLine1": "6646 15th Doscher Street"
+    },
+    "headline": "sunt deserunt cupidatat adipisicing",
+    "name": "labore ex #590",
+    "externalPropertyId": "5f644175-00ef-4f0d-9f9b-d5a39a2445ce"
+  },
+  {
+    "nonSmoking": false,
+    "pmsId": null,
+    "rate": {
+      "feesAmount": 0,
+      "rentAmount": 0,
+      "taxAmount": 320,
+      "amountBeforeTax": 4373
+    },
+    "petsAllowed": true,
+    "maxOccupancy": 4,
+    "bedroomCount": 0,
+    "bathroomCount": 1,
+    "picturesUrls": [
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300"
+    ],
+    "address": {
+      "stateProvCode": "WA",
+      "stateProv": "Connecticut",
+      "postalCode": 2726,
+      "id": "feae2315-7ade-4f5a-8c92-132ceece2d0c",
+      "countryCode": "US",
+      "country": "Norfolk Island",
+      "city": "Wedgewood",
+      "addressLine2": null,
+      "addressLine1": "4358 49th Schweikerts Walk"
+    },
+    "headline": "sit voluptate pariatur pariatur",
+    "name": "anim commodo #660",
+    "externalPropertyId": "e968a2f1-9020-4556-a217-0eca60a6eb0f"
+  },
+  {
+    "nonSmoking": false,
+    "pmsId": null,
+    "rate": {
+      "feesAmount": 0,
+      "rentAmount": 0,
+      "taxAmount": 330,
+      "amountBeforeTax": 3829
+    },
+    "petsAllowed": false,
+    "maxOccupancy": 2,
+    "bedroomCount": 4,
+    "bathroomCount": 3,
+    "picturesUrls": [
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300"
+    ],
+    "address": {
+      "stateProvCode": "WA",
+      "stateProv": "Arizona",
+      "postalCode": 4113,
+      "id": "f7ae7201-7b58-439c-ab6a-869b05ed0931",
+      "countryCode": "US",
+      "country": "Cocos (Keeling Islands)",
+      "city": "Johnsonburg",
+      "addressLine2": null,
+      "addressLine1": "9059 47th Kansas Place"
+    },
+    "headline": "ex incididunt consectetur commodo",
+    "name": "officia ullamco #176",
+    "externalPropertyId": "5797a605-59c2-43c9-aa08-865c26c60d85"
+  },
+  {
+    "nonSmoking": true,
+    "pmsId": null,
+    "rate": {
+      "feesAmount": 0,
+      "rentAmount": 0,
+      "taxAmount": 330,
+      "amountBeforeTax": 3256
+    },
+    "petsAllowed": true,
+    "maxOccupancy": 2,
+    "bedroomCount": "2.5",
+    "bathroomCount": 2,
+    "picturesUrls": [
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300"
+    ],
+    "address": {
+      "stateProvCode": "WA",
+      "stateProv": "Arkansas",
+      "postalCode": 5017,
+      "id": "946b16a1-a1d5-4ed6-9184-8b35a4e603a8",
+      "countryCode": "US",
+      "country": "Slovenia",
+      "city": "Franklin",
+      "addressLine2": null,
+      "addressLine1": "5080 35th Franklin Street"
+    },
+    "headline": "occaecat nostrud ea labore",
+    "name": "ullamco reprehenderit #852",
+    "externalPropertyId": "04e9d33c-d6fa-4f37-93ac-2111cb7e29cd"
+  },
+  {
+    "nonSmoking": true,
+    "pmsId": null,
+    "rate": {
+      "feesAmount": 0,
+      "rentAmount": 0,
+      "taxAmount": "422.5",
+      "amountBeforeTax": 3146
+    },
+    "petsAllowed": false,
+    "maxOccupancy": 3,
+    "bedroomCount": 1,
+    "bathroomCount": 4,
+    "picturesUrls": [
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300"
+    ],
+    "address": {
+      "stateProvCode": "WA",
+      "stateProv": "New Jersey",
+      "postalCode": 1125,
+      "id": "86b54bb3-dc19-4c57-875a-ec6322723508",
+      "countryCode": "US",
+      "country": "Taiwan",
+      "city": "Jackpot",
+      "addressLine2": null,
+      "addressLine1": "3463 27th Montgomery Place"
+    },
+    "headline": "dolore exercitation cupidatat ipsum",
+    "name": "pariatur cillum #482",
+    "externalPropertyId": "97ca6d7a-9fef-425d-b9ce-8b415d307026"
+  },
+  {
+    "nonSmoking": true,
+    "pmsId": null,
+    "rate": {
+      "feesAmount": 0,
+      "rentAmount": 0,
+      "taxAmount": 320,
+      "amountBeforeTax": 3465
+    },
+    "petsAllowed": true,
+    "maxOccupancy": 4,
+    "bedroomCount": 1,
+    "bathroomCount": 2,
+    "picturesUrls": [
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300"
+    ],
+    "address": {
+      "stateProvCode": "WA",
+      "stateProv": "Kansas",
+      "postalCode": 2506,
+      "id": "c2c1cfd1-e512-4511-b442-d21a7ed1bf55",
+      "countryCode": "US",
+      "country": "India",
+      "city": "Ironton",
+      "addressLine2": null,
+      "addressLine1": "4232 50th Gerritsen Avenue"
+    },
+    "headline": "nisi Lorem enim irure",
+    "name": "proident aliqua #568",
+    "externalPropertyId": "ae8fd6e8-0767-4815-a54a-58759ab132f2"
+  },
+  {
+    "nonSmoking": false,
+    "pmsId": null,
+    "rate": {
+      "feesAmount": 0,
+      "rentAmount": 0,
+      "taxAmount": "422.5",
+      "amountBeforeTax": 4914
+    },
+    "petsAllowed": false,
+    "maxOccupancy": 2,
+    "bedroomCount": 3,
+    "bathroomCount": "2.5",
+    "picturesUrls": [
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300"
+    ],
+    "address": {
+      "stateProvCode": "WA",
+      "stateProv": "Tennessee",
+      "postalCode": 7687,
+      "id": "65a716cc-dd0f-42dd-be4e-7524f062212c",
+      "countryCode": "US",
+      "country": "Colombia",
+      "city": "Dunbar",
+      "addressLine2": null,
+      "addressLine1": "5109 11th Fleet Walk"
+    },
+    "headline": "eiusmod incididunt do sit",
+    "name": "nostrud mollit #178",
+    "externalPropertyId": "151dbbae-1d29-436f-9a75-941b164b46d5"
+  },
+  {
+    "nonSmoking": false,
+    "pmsId": null,
+    "rate": {
+      "feesAmount": 0,
+      "rentAmount": 0,
+      "taxAmount": 320,
+      "amountBeforeTax": 4594
+    },
+    "petsAllowed": false,
+    "maxOccupancy": 3,
+    "bedroomCount": 0,
+    "bathroomCount": 4,
+    "picturesUrls": [
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300"
+    ],
+    "address": {
+      "stateProvCode": "WA",
+      "stateProv": "Vermont",
+      "postalCode": 3933,
+      "id": "5bf80a07-9ebd-437b-a1c3-2ffab914a8f9",
+      "countryCode": "US",
+      "country": "Palau",
+      "city": "Sylvanite",
+      "addressLine2": null,
+      "addressLine1": "4865 27th Nostrand Avenue"
+    },
+    "headline": "enim incididunt in non",
+    "name": "ex quis #187",
+    "externalPropertyId": "62f29c06-d00b-410d-9623-280d458f895b"
+  },
+  {
+    "nonSmoking": true,
+    "pmsId": null,
+    "rate": {
+      "feesAmount": 0,
+      "rentAmount": 0,
+      "taxAmount": 320,
+      "amountBeforeTax": 4855
+    },
+    "petsAllowed": true,
+    "maxOccupancy": 4,
+    "bedroomCount": 4,
+    "bathroomCount": 3,
+    "picturesUrls": [
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300"
+    ],
+    "address": {
+      "stateProvCode": "WA",
+      "stateProv": "Oregon",
+      "postalCode": 3937,
+      "id": "73307a97-a5a3-49d9-b1e1-22879a802f0c",
+      "countryCode": "US",
+      "country": "Saint Kitts and Nevis",
+      "city": "Barstow",
+      "addressLine2": null,
+      "addressLine1": "3358 13th Milton Street"
+    },
+    "headline": "ad nostrud sunt aliquip",
+    "name": "anim aliqua #86",
+    "externalPropertyId": "455bde72-aa59-42c0-bffa-2c22be17fa4d"
+  },
+  {
+    "nonSmoking": true,
+    "pmsId": null,
+    "rate": {
+      "feesAmount": 0,
+      "rentAmount": 0,
+      "taxAmount": 320,
+      "amountBeforeTax": 4397
+    },
+    "petsAllowed": false,
+    "maxOccupancy": 3,
+    "bedroomCount": 3,
+    "bathroomCount": "2.5",
+    "picturesUrls": [
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300"
+    ],
+    "address": {
+      "stateProvCode": "WA",
+      "stateProv": "Virginia",
+      "postalCode": 1702,
+      "id": "39b87930-3bfd-4e45-8df1-ab38281ce2f0",
+      "countryCode": "US",
+      "country": "Yemen",
+      "city": "Smock",
+      "addressLine2": null,
+      "addressLine1": "6652 19th Middleton Street"
+    },
+    "headline": "sunt veniam in incididunt",
+    "name": "cupidatat quis #559",
+    "externalPropertyId": "40dd46de-a0bd-400b-a9d1-62fd40614f7f"
+  },
+  {
+    "nonSmoking": true,
+    "pmsId": null,
+    "rate": {
+      "feesAmount": 0,
+      "rentAmount": 0,
+      "taxAmount": 330,
+      "amountBeforeTax": 3325
+    },
+    "petsAllowed": false,
+    "maxOccupancy": 5,
+    "bedroomCount": 4,
+    "bathroomCount": "2.5",
+    "picturesUrls": [
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300"
+    ],
+    "address": {
+      "stateProvCode": "WA",
+      "stateProv": "Marshall Islands",
+      "postalCode": 2065,
+      "id": "3276958c-ea0a-482b-920a-db54c40d0bbe",
+      "countryCode": "US",
+      "country": "Bhutan",
+      "city": "Witmer",
+      "addressLine2": null,
+      "addressLine1": "1581 3th Huntington Street"
+    },
+    "headline": "eu excepteur incididunt qui",
+    "name": "dolore in #662",
+    "externalPropertyId": "53c70bb2-2de9-4d34-9a15-708806ee6cc6"
+  },
+  {
+    "nonSmoking": false,
+    "pmsId": null,
+    "rate": {
+      "feesAmount": 0,
+      "rentAmount": 0,
+      "taxAmount": "422.5",
+      "amountBeforeTax": 4088
+    },
+    "petsAllowed": false,
+    "maxOccupancy": 1,
+    "bedroomCount": 4,
+    "bathroomCount": 4,
+    "picturesUrls": [
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300"
+    ],
+    "address": {
+      "stateProvCode": "WA",
+      "stateProv": "New Mexico",
+      "postalCode": 3412,
+      "id": "4a05c93b-818a-4fa7-9f4e-83a9b565421a",
+      "countryCode": "US",
+      "country": "Armenia",
+      "city": "Bainbridge",
+      "addressLine2": null,
+      "addressLine1": "6178 27th Tilden Avenue"
+    },
+    "headline": "id consectetur voluptate nisi",
+    "name": "do ex #846",
+    "externalPropertyId": "175d2d3f-15f4-43fa-a0a6-81ee7a441926"
+  },
+  {
+    "nonSmoking": false,
+    "pmsId": null,
+    "rate": {
+      "feesAmount": 0,
+      "rentAmount": 0,
+      "taxAmount": 330,
+      "amountBeforeTax": 3705
+    },
+    "petsAllowed": true,
+    "maxOccupancy": 4,
+    "bedroomCount": 3,
+    "bathroomCount": 4,
+    "picturesUrls": [
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300"
+    ],
+    "address": {
+      "stateProvCode": "WA",
+      "stateProv": "Texas",
+      "postalCode": 3121,
+      "id": "35111e65-db56-44ce-97a9-9613f705818a",
+      "countryCode": "US",
+      "country": "Virgin Islands (British)",
+      "city": "Nile",
+      "addressLine2": null,
+      "addressLine1": "1047 8th Livingston Street"
+    },
+    "headline": "elit id est ex",
+    "name": "minim esse #189",
+    "externalPropertyId": "54bb5c5a-324c-46b2-b920-0f15c784cae4"
+  },
+  {
+    "nonSmoking": false,
+    "pmsId": null,
+    "rate": {
+      "feesAmount": 0,
+      "rentAmount": 0,
+      "taxAmount": 319,
+      "amountBeforeTax": 3709
+    },
+    "petsAllowed": false,
+    "maxOccupancy": 1,
+    "bedroomCount": 0,
+    "bathroomCount": "2.5",
+    "picturesUrls": [
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300"
+    ],
+    "address": {
+      "stateProvCode": "WA",
+      "stateProv": "Montana",
+      "postalCode": 5759,
+      "id": "3df8fa46-89fb-4870-ad17-6b32a5be3c5c",
+      "countryCode": "US",
+      "country": "Norway",
+      "city": "Heil",
+      "addressLine2": null,
+      "addressLine1": "5733 44th Linden Street"
+    },
+    "headline": "aliqua exercitation adipisicing nulla",
+    "name": "enim dolor #418",
+    "externalPropertyId": "b30bc739-4c5d-4f5c-a4d0-11579a26e087"
+  },
+  {
+    "nonSmoking": true,
+    "pmsId": null,
+    "rate": {
+      "feesAmount": 0,
+      "rentAmount": 0,
+      "taxAmount": 319,
+      "amountBeforeTax": 4018
+    },
+    "petsAllowed": false,
+    "maxOccupancy": 4,
+    "bedroomCount": 2,
+    "bathroomCount": 1,
+    "picturesUrls": [
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300"
+    ],
+    "address": {
+      "stateProvCode": "WA",
+      "stateProv": "Wyoming",
+      "postalCode": 9561,
+      "id": "0f94afad-5c5a-484f-84df-848ad6ad1029",
+      "countryCode": "US",
+      "country": "Philippines",
+      "city": "Hackneyville",
+      "addressLine2": null,
+      "addressLine1": "9234 20th Oceanic Avenue"
+    },
+    "headline": "ex officia exercitation veniam",
+    "name": "cillum veniam #291",
+    "externalPropertyId": "75b5da78-25f4-4a39-8fdb-561405d22aa5"
+  },
+  {
+    "nonSmoking": true,
+    "pmsId": null,
+    "rate": {
+      "feesAmount": 0,
+      "rentAmount": 0,
+      "taxAmount": 330,
+      "amountBeforeTax": 3479
+    },
+    "petsAllowed": false,
+    "maxOccupancy": 5,
+    "bedroomCount": 1,
+    "bathroomCount": "2.5",
+    "picturesUrls": [
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300"
+    ],
+    "address": {
+      "stateProvCode": "WA",
+      "stateProv": "Hawaii",
+      "postalCode": 2642,
+      "id": "8736aea7-79ae-4d25-ac5c-b97ce847ffdc",
+      "countryCode": "US",
+      "country": "Botswana",
+      "city": "Chamberino",
+      "addressLine2": null,
+      "addressLine1": "8949 19th Autumn Avenue"
+    },
+    "headline": "incididunt enim sint eiusmod",
+    "name": "proident elit #245",
+    "externalPropertyId": "9702d9cb-0095-4832-b3bb-dda578326c3c"
+  },
+  {
+    "nonSmoking": false,
+    "pmsId": null,
+    "rate": {
+      "feesAmount": 0,
+      "rentAmount": 0,
+      "taxAmount": 319,
+      "amountBeforeTax": 3901
+    },
+    "petsAllowed": false,
+    "maxOccupancy": 3,
+    "bedroomCount": 3,
+    "bathroomCount": 1,
+    "picturesUrls": [
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300"
+    ],
+    "address": {
+      "stateProvCode": "WA",
+      "stateProv": "Ohio",
+      "postalCode": 6057,
+      "id": "6c8f6da2-0111-4d93-97ad-c5ce0687ecbc",
+      "countryCode": "US",
+      "country": "Bahamas",
+      "city": "Worton",
+      "addressLine2": null,
+      "addressLine1": "9249 17th Hampton Avenue"
+    },
+    "headline": "do cillum quis esse",
+    "name": "qui minim #841",
+    "externalPropertyId": "a6c36eda-11ab-4d96-9e56-b38b34a709dc"
+  },
+  {
+    "nonSmoking": true,
+    "pmsId": null,
+    "rate": {
+      "feesAmount": 0,
+      "rentAmount": 0,
+      "taxAmount": 330,
+      "amountBeforeTax": 3920
+    },
+    "petsAllowed": true,
+    "maxOccupancy": 5,
+    "bedroomCount": 0,
+    "bathroomCount": 3,
+    "picturesUrls": [
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300"
+    ],
+    "address": {
+      "stateProvCode": "WA",
+      "stateProv": "North Dakota",
+      "postalCode": 6533,
+      "id": "2803b2c8-0bab-4fe3-a1b9-a3db4f791e53",
+      "countryCode": "US",
+      "country": "Lesotho",
+      "city": "Northchase",
+      "addressLine2": null,
+      "addressLine1": "5263 3th Dobbin Street"
+    },
+    "headline": "ipsum excepteur duis sit",
+    "name": "ut minim #375",
+    "externalPropertyId": "9bfb6505-44f1-43cc-b478-f8ad2b5681b4"
+  },
+  {
+    "nonSmoking": false,
+    "pmsId": null,
+    "rate": {
+      "feesAmount": 0,
+      "rentAmount": 0,
+      "taxAmount": 320,
+      "amountBeforeTax": 4843
+    },
+    "petsAllowed": true,
+    "maxOccupancy": 5,
+    "bedroomCount": 2,
+    "bathroomCount": 1,
+    "picturesUrls": [
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300"
+    ],
+    "address": {
+      "stateProvCode": "WA",
+      "stateProv": "Indiana",
+      "postalCode": 2351,
+      "id": "db149b70-b60e-4be0-a638-7bd819cffaae",
+      "countryCode": "US",
+      "country": "Puerto Rico",
+      "city": "Elwood",
+      "addressLine2": null,
+      "addressLine1": "8279 48th Blake Court"
+    },
+    "headline": "excepteur reprehenderit voluptate do",
+    "name": "consequat reprehenderit #482",
+    "externalPropertyId": "35027a02-9fdb-45bb-ab49-1cc8189d773a"
+  },
+  {
+    "nonSmoking": false,
+    "pmsId": null,
+    "rate": {
+      "feesAmount": 0,
+      "rentAmount": 0,
+      "taxAmount": 330,
+      "amountBeforeTax": 3712
+    },
+    "petsAllowed": true,
+    "maxOccupancy": 4,
+    "bedroomCount": 2,
+    "bathroomCount": 4,
+    "picturesUrls": [
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300"
+    ],
+    "address": {
+      "stateProvCode": "WA",
+      "stateProv": "Missouri",
+      "postalCode": 9770,
+      "id": "1bb0a0e0-6f94-4f18-b3d4-30bbedcbbc61",
+      "countryCode": "US",
+      "country": "Panama",
+      "city": "Martell",
+      "addressLine2": null,
+      "addressLine1": "1782 10th Victor Road"
+    },
+    "headline": "irure tempor ut laborum",
+    "name": "nisi pariatur #134",
+    "externalPropertyId": "88714799-3fa8-4145-9c63-a6f76c9abc3c"
+  },
+  {
+    "nonSmoking": false,
+    "pmsId": null,
+    "rate": {
+      "feesAmount": 0,
+      "rentAmount": 0,
+      "taxAmount": 330,
+      "amountBeforeTax": 4582
+    },
+    "petsAllowed": false,
+    "maxOccupancy": 5,
+    "bedroomCount": "2.5",
+    "bathroomCount": 4,
+    "picturesUrls": [
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300"
+    ],
+    "address": {
+      "stateProvCode": "WA",
+      "stateProv": "Federated States Of Micronesia",
+      "postalCode": 3645,
+      "id": "0a9f7015-d8a6-442d-9870-cd178036f298",
+      "countryCode": "US",
+      "country": "US Minor Outlying Islands",
+      "city": "Vicksburg",
+      "addressLine2": null,
+      "addressLine1": "4070 15th Bills Place"
+    },
+    "headline": "sunt consequat proident dolor",
+    "name": "laborum mollit #748",
+    "externalPropertyId": "3a3b759f-3cdf-4753-9943-9f2709b303b3"
+  },
+  {
+    "nonSmoking": true,
+    "pmsId": null,
+    "rate": {
+      "feesAmount": 0,
+      "rentAmount": 0,
+      "taxAmount": 319,
+      "amountBeforeTax": 3163
+    },
+    "petsAllowed": true,
+    "maxOccupancy": 1,
+    "bedroomCount": 1,
+    "bathroomCount": 3,
+    "picturesUrls": [
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300"
+    ],
+    "address": {
+      "stateProvCode": "WA",
+      "stateProv": "Iowa",
+      "postalCode": 5470,
+      "id": "f56089d3-9c3b-4e7d-a2e7-0cb433d254b0",
+      "countryCode": "US",
+      "country": "Bangladesh",
+      "city": "Interlochen",
+      "addressLine2": null,
+      "addressLine1": "8823 15th Willow Street"
+    },
+    "headline": "eiusmod et quis exercitation",
+    "name": "mollit irure #190",
+    "externalPropertyId": "2d468df2-675d-4f05-ad8c-8609f2ba4aa2"
+  },
+  {
+    "nonSmoking": false,
+    "pmsId": null,
+    "rate": {
+      "feesAmount": 0,
+      "rentAmount": 0,
+      "taxAmount": 319,
+      "amountBeforeTax": 3787
+    },
+    "petsAllowed": false,
+    "maxOccupancy": 2,
+    "bedroomCount": 3,
+    "bathroomCount": 4,
+    "picturesUrls": [
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300"
+    ],
+    "address": {
+      "stateProvCode": "WA",
+      "stateProv": "Idaho",
+      "postalCode": 2625,
+      "id": "2fc91605-6ad5-4bb9-8d3a-1e9426ac3282",
+      "countryCode": "US",
+      "country": "Grenada",
+      "city": "Fairhaven",
+      "addressLine2": null,
+      "addressLine1": "4423 36th Union Avenue"
+    },
+    "headline": "qui mollit amet do",
+    "name": "id exercitation #378",
+    "externalPropertyId": "22be2f6d-50a9-47bf-a018-3994660981ce"
+  },
+  {
+    "nonSmoking": true,
+    "pmsId": null,
+    "rate": {
+      "feesAmount": 0,
+      "rentAmount": 0,
+      "taxAmount": 340,
+      "amountBeforeTax": 3496
+    },
+    "petsAllowed": true,
+    "maxOccupancy": 5,
+    "bedroomCount": 0,
+    "bathroomCount": 3,
+    "picturesUrls": [
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300"
+    ],
+    "address": {
+      "stateProvCode": "WA",
+      "stateProv": "Louisiana",
+      "postalCode": 7527,
+      "id": "dc7ddc1b-23ee-48cd-9c4f-aab7a8bf0a14",
+      "countryCode": "US",
+      "country": "Samoa",
+      "city": "Taycheedah",
+      "addressLine2": null,
+      "addressLine1": "3170 15th Lott Avenue"
+    },
+    "headline": "Lorem sint nisi occaecat",
+    "name": "in fugiat #410",
+    "externalPropertyId": "34df53ce-ce25-411a-83ba-98552a9cf4ea"
+  },
+  {
+    "nonSmoking": true,
+    "pmsId": null,
+    "rate": {
+      "feesAmount": 0,
+      "rentAmount": 0,
+      "taxAmount": "422.5",
+      "amountBeforeTax": 3554
+    },
+    "petsAllowed": true,
+    "maxOccupancy": 2,
+    "bedroomCount": 0,
+    "bathroomCount": 1,
+    "picturesUrls": [
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300",
+      "http://placehold.it/400x300"
+    ],
+    "address": {
+      "stateProvCode": "WA",
+      "stateProv": "Alabama",
+      "postalCode": 8667,
+      "id": "0643ba8d-eb3d-4872-abf7-9437c3a6974b",
+      "countryCode": "US",
+      "country": "Uruguay",
+      "city": "Delco",
+      "addressLine2": null,
+      "addressLine1": "2399 8th Lefferts Place"
+    },
+    "headline": "deserunt consectetur minim esse",
+    "name": "Lorem velit #57",
+    "externalPropertyId": "95b99e05-c97e-45aa-9eaa-c436852cd914"
+  }
+]

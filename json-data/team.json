@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Елена Морозова",
+        "position": "Арт менеджер",
+        "img": "img/team-item5.jpg"
+    },
+    {
+        "name": "Мария Бокатюк",
+        "position": "Диджитал маркетолог",
+        "img": "img/team-item4.jpg"
+    },
+    {
+        "name": "Сергей понаморёв",
+        "position": "Арт-директор",
+        "img": "img/team-item3.jpg"
+    },
+    {
+        "name": "Евгений низельский",
+        "position": "Руководитель",
+        "img": "img/team-item2.jpg"
+    },
+    {
+        "name": "Елена Морозова",
+        "position": "Арт менеджер",
+        "img": "img/team-item5.jpg"
+    },
+    {
+        "name": "Мария Бокатюк",
+        "position": "Диджитал маркетолог",
+        "img": "img/team-item4.jpg"
+    },
+    {
+        "name": "Сергей понаморёв",
+        "position": "Арт-директор",
+        "img": "img/team-item3.jpg"
+    },
+    {
+        "name": "Евгений низельский",
+        "position": "Руководитель",
+        "img": "img/team-item2.jpg"
+    }
+]

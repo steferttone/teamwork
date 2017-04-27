@@ -1,0 +1,164 @@
+{
+    "rules": {
+        "/facade-service": {
+            "dev": "http://dev1.xpl-book.projects.epam.com:9102/facade/shopping",
+            "localdev": "http://localhost:9102/facade/shopping",
+            "prod": "http://dev1.xpl-book.projects.epam.com:9102/facade/shopping",
+            "qa": "http://dev1.xpl-book.projects.epam.com:9102/facade/shopping",
+            "qa2": "http://dev1.xpl-book.projects.epam.com:9102/facade/shopping",
+            "stage": "http://epbyvitw0106t1.minsk.epam.com:9102/facade/shopping"
+        },
+        "/service/autosuggest": {
+            "dev": "http://dev1.xpl-book.projects.epam.com:9102/facade/shopping/suggestion/",
+            "localdev": "http://localhost:9102/facade/shopping/suggestion/",
+            "prod": "http://dev1.xpl-book.projects.epam.com:9102/facade/shopping/suggestion/",
+            "qa": "http://dev1.xpl-book.projects.epam.com:9102/facade/shopping/suggestion/",
+            "qa2": "http://dev1.xpl-book.projects.epam.com:9102/facade/shopping/suggestion/",
+            "stage": "http://epbyvitw0106t1.minsk.epam.com:9102/facade/shopping/suggestion/"
+        },
+        "/service/search": {
+            "dev": "http://dev1.xpl-book.projects.epam.com:9102/facade/shopping/search",
+            "localdev": "http://localhost:9102/facade/shopping/search",
+            "prod": "http://dev1.xpl-book.projects.epam.com:9102/facade/shopping/search",
+            "qa": "http://dev1.xpl-book.projects.epam.com:9102/facade/shopping/search",
+            "qa2": "http://dev1.xpl-book.projects.epam.com:9102/facade/shopping/search",
+            "stage": "http://epbyvitw0106t1.minsk.epam.com:9102/facade/shopping/search"
+        },
+        "/service/unit": {
+            "dev": "http://dev1.xpl-book.projects.epam.com:9102/facade/shopping/unit",
+            "localdev": "http://localhost:9102/facade/shopping/unit",
+            "prod": "http://dev1.xpl-book.projects.epam.com:9102/facade/shopping/unit",
+            "qa": "http://dev1.xpl-book.projects.epam.com:9102/facade/shopping/unit",
+            "qa2": "http://dev1.xpl-book.projects.epam.com:9102/facade/shopping/unit",
+            "stage": "http://epbyvitw0106t1.minsk.epam.com:9102/facade/shopping/unit"
+        },
+        "/service/unit-availability": {
+            "dev": "http://dev1.xpl-book.projects.epam.com:9102/facade/shopping/unit-availability",
+            "localdev": "http://localhost:9102/facade/shopping/unit-availability",
+            "prod": "http://dev1.xpl-book.projects.epam.com:9102/facade/shopping/unit-availability",
+            "qa": "http://dev1.xpl-book.projects.epam.com:9102/facade/shopping/unit-availability",
+            "qa2": "http://dev1.xpl-book.projects.epam.com:9102/facade/shopping/unit-availability",
+            "stage": "http://epbyvitw0106t1.minsk.epam.com:9102/facade/shopping/unit-availability"
+        },
+        "/service/unit-availability-dates": {
+            "dev": "http://dev1.xpl-book.projects.epam.com:9102/facade/shopping/unit-availability-dates",
+            "localdev": "http://localhost:9102/facade/shopping/unit-availability-dates",
+            "prod": "http://dev1.xpl-book.projects.epam.com:9102/facade/shopping/unit-availability-dates",
+            "qa": "http://dev1.xpl-book.projects.epam.com:9102/facade/shopping/unit-availability-dates",
+            "qa2": "http://dev1.xpl-book.projects.epam.com:9102/facade/shopping/unit-availability-dates",
+            "stage": "http://epbyvitw0106t1.minsk.epam.com:9102/facade/shopping/unit-availability-dates"
+        },
+        "/service/similar-unit": {
+            "dev": "http://dev1.xpl-book.projects.epam.com:9102/facade/shopping/similar-unit",
+            "localdev": "http://localhost:9102/facade/shopping/similar-unit",
+            "prod": "http://dev1.xpl-book.projects.epam.com:9102/facade/shopping/similar-unit",
+            "qa": "http://dev1.xpl-book.projects.epam.com:9102/facade/shopping/similar-unit",
+            "qa2": "http://dev1.xpl-book.projects.epam.com:9102/facade/shopping/similar-unit",
+            "stage": "http://epbyvitw0106t1.minsk.epam.com:9102/facade/shopping/similar-unit"
+        },
+        "/service/booking": {
+            "dev": "http://dev1.xpl-book.projects.epam.com:9102/facade/shopping/payment",
+            "localdev": "http://localhost:9102/facade/shopping/payment",
+            "prod": "http://dev1.xpl-book.projects.epam.com:9102/facade/shopping/payment",
+            "qa": "http://dev1.xpl-book.projects.epam.com:9102/facade/shopping/payment",
+            "qa2": "http://dev1.xpl-book.projects.epam.com:9102/facade/shopping/payment",
+            "stage": "http://epbyvitw0106t1.minsk.epam.com:9102/facade/shopping/payment"
+        },
+        "/service/profile": {
+            "dev": "http://dev1.xpl-book.projects.epam.com:9102/facade/shopping/profile",
+            "localdev": "http://localhost:9102/facade/shopping/profile",
+            "prod": "http://dev1.xpl-book.projects.epam.com:9102/facade/shopping/profile",
+            "qa": "http://dev1.xpl-book.projects.epam.com:9102/facade/shopping/profile",
+            "qa2": "http://dev1.xpl-book.projects.epam.com:9102/facade/shopping/profile",
+            "stage": "http://epbyvitw0106t1.minsk.epam.com:9102/facade/shopping/profile"
+        },
+        "/service/signin": {
+            "dev": "http://foo:foosecret@dev1.xpl-book.projects.epam.com:9108/authentication/oauth/token",
+            "localdev": "http://foo:foosecret@localhost:9108/authentication/oauth/token",
+            "prod": "http://foo:foosecret@dev1.xpl-book.projects.epam.com:9108/authentication/oauth/token",
+            "qa": "http://foo:foosecret@dev1.xpl-book.projects.epam.com:9108/authentication/oauth/token",
+            "qa2": "http://foo:foosecret@dev1.xpl-book.projects.epam.com:9108/authentication/oauth/token",
+            "stage": "http://foo:foosecret@epbyvitw0106t1.minsk.epam.com:9108/authentication/oauth/token"
+        },
+        "/service/signup": {
+            "dev": "http://dev1.xpl-book.projects.epam.com:9108/authentication/create",
+            "localdev": "http://localhost:9108/authentication/create",
+            "prod": "http://dev1.xpl-book.projects.epam.com:9108/authentication/create",
+            "qa": "http://dev1.xpl-book.projects.epam.com:9108/authentication/create",
+            "qa2": "http://dev1.xpl-book.projects.epam.com:9108/authentication/create",
+            "stage": "http://epbyvitw0106t1.minsk.epam.com:9108/authentication/create"
+        },
+        "/service/change-password": {
+            "dev": "http://dev1.xpl-book.projects.epam.com:9108/authentication/change-password",
+            "localdev": "http://localhost:9108/authentication/change-password",
+            "prod": "http://dev1.xpl-book.projects.epam.com:9108/authentication/change-password",
+            "qa": "http://dev1.xpl-book.projects.epam.com:9108/authentication/change-password",
+            "qa2": "http://dev1.xpl-book.projects.epam.com:9108/authentication/change-password",
+            "stage": "http://epbyvitw0106t1.minsk.epam.com:9108/authentication/change-password"
+        },
+        "/service/reset-password": {
+            "dev": "http://dev1.xpl-book.projects.epam.com:9108/authentication/reset-password",
+            "localdev": "http://localhost:9108/authentication/reset-password",
+            "prod": "http://dev1.xpl-book.projects.epam.com:9108/authentication/reset-password",
+            "qa": "http://dev1.xpl-book.projects.epam.com:9108/authentication/reset-password",
+            "qa2": "http://dev1.xpl-book.projects.epam.com:9108/authentication/reset-password",
+            "stage": "http://epbyvitw0106t1.minsk.epam.com:9108/authentication/reset-password"
+        },
+        "/service/logout": {
+            "dev": "http://foo:foosecret@dev1.xpl-book.projects.epam.com:9108/authentication/oauth/revoke-token",
+            "localdev": "http://foo:foosecret@localhost:9108/authentication/oauth/revoke-token",
+            "prod": "http://foo:foosecret@dev1.xpl-book.projects.epam.com:9108/authentication/oauth/revoke-token",
+            "qa": "http://foo:foosecret@dev1.xpl-book.projects.epam.com:9108/authentication/oauth/revoke-token",
+            "qa2": "http://foo:foosecret@dev1.xpl-book.projects.epam.com:9108/authentication/oauth/revoke-token",
+            "stage": "http://foo:foosecret@epbyvitw0106t1.minsk.epam.com:9108/authentication/oauth/revoke-token"
+        },
+        "/service/facebook-auth": {
+            "dev": "http://foo:foosecret@dev1.xpl-book.projects.epam.com:9108/authentication/auth/facebook",
+            "localdev": "http://foo:foosecret@localhost:9108/authentication/auth/facebook",
+            "prod": "http://foo:foosecret@dev1.xpl-book.projects.epam.com:9108/authentication/auth/facebook",
+            "qa": "http://foo:foosecret@dev1.xpl-book.projects.epam.com:9108/authentication/auth/facebook",
+            "qa2": "http://foo:foosecret@dev1.xpl-book.projects.epam.com:9108/authentication/auth/facebook",
+            "stage": "http://foo:foosecret@epbyvitw0106t1.minsk.epam.com:9108/authentication/auth/facebook"
+        },
+        "/service/past-trips": {
+            "dev": "http://foo:foosecret@dev1.xpl-book.projects.epam.com:9102/facade/shopping/trips/past",
+            "localdev": "http://foo:foosecret@localhost:9102/facade/shopping/trips/past",
+            "prod": "http://foo:foosecret@dev1.xpl-book.projects.epam.com:9102/facade/shopping/trips/past",
+            "qa": "http://foo:foosecret@dev1.xpl-book.projects.epam.com:9102/facade/shopping/trips/past",
+            "qa2": "http://foo:foosecret@dev1.xpl-book.projects.epam.com:9102/facade/shopping/trips/past",
+            "stage": "http://foo:foosecret@epbyvitw0106t1.minsk.epam.com:9102/facade/shopping/trips/past"
+        },
+        "/service/upcoming-trips": {
+            "dev": "http://foo:foosecret@dev1.xpl-book.projects.epam.com:9102/facade/shopping/trips/upcoming",
+            "localdev": "http://foo:foosecret@localhost:9102/facade/shopping/trips/upcoming",
+            "prod": "http://foo:foosecret@dev1.xpl-book.projects.epam.com:9102/facade/shopping/trips/upcoming",
+            "qa": "http://foo:foosecret@dev1.xpl-book.projects.epam.com:9102/facade/shopping/trips/upcoming",
+            "qa2": "http://foo:foosecret@dev1.xpl-book.projects.epam.com:9102/facade/shopping/trips/upcoming",
+            "stage": "http://foo:foosecret@epbyvitw0106t1.minsk.epam.com:9102/facade/shopping/trips/upcoming"
+        },
+        "/service/trip-activities": {
+            "dev": "http://foo:foosecret@dev1.xpl-book.projects.epam.com:9102/facade/shopping/unit/programs",
+            "localdev": "http://foo:foosecret@localhost:9102/facade/shopping/unit/programs",
+            "prod": "http://foo:foosecret@dev1.xpl-book.projects.epam.com:9102/facade/shopping/unit/programs",
+            "qa": "http://foo:foosecret@dev1.xpl-book.projects.epam.com:9102/facade/shopping/unit/programs",
+            "qa2": "http://foo:foosecret@dev1.xpl-book.projects.epam.com:9102/facade/shopping/unit/programs",
+            "stage": "http://foo:foosecret@epbyvitw0106t1.minsk.epam.com:9102/facade/shopping/unit/programs"
+        },
+        "/service/xplorie-card": {
+            "dev": "http://dev1.xpl-book.projects.epam.com:9102/facade/shopping/card",
+            "localdev": "http://localhost:9102/facade/shopping/card",
+            "prod": "http://dev1.xpl-book.projects.epam.com:9102/facade/shopping/card",
+            "qa": "http://dev1.xpl-book.projects.epam.com:9102/facade/shopping/card",
+            "qa2": "http://dev1.xpl-book.projects.epam.com:9102/facade/shopping/card",
+            "stage": "http://epbyvitw0106t1.minsk.epam.com:9102/facade/shopping/card"
+        },
+        "/instagram-feed": {
+            "dev": "https://api.instagram.com",
+            "localdev": "https://api.instagram.com",
+            "prod": "https://api.instagram.com",
+            "qa": "https://api.instagram.com",
+            "qa2": "https://api.instagram.com",
+            "stage": "https://api.instagram.com"
+        }
+    }
+}

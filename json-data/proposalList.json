@@ -1,0 +1,74 @@
+[
+    {
+        "title": "Онлайн маркетинг",
+        "className": "market",
+        "dataList": [
+            "Контекстная реклама Yandex, Google",
+            "SMM",
+            "Таргетинговая реклама FaceBook, Instagram",
+            "SEO - оптимизация"
+        ],
+        "elements": [
+            {
+                "className": "ars",
+                "innerCount": 3
+            },
+            {
+                "className": "round pSide"
+            },
+            {
+                "className": "dotsRound"
+            }
+        ]
+    },
+    {
+        "title": "Web-разработка",
+        "className": "web",
+        "dataList": [
+            "Проектирование",
+            "Дизайн сайта",
+            "Техническая реализация"
+        ],
+        "elements": [
+            {
+                "className": "ars",
+                "innerCount": 3
+            },
+            {
+                "className": "round"
+            },
+            {
+                "className": "dotsRound"
+            },
+            {
+                "className": "bordRound"
+            },
+            {
+                "className": "triangle"
+            }
+        ]
+    },
+    {
+        "title": "Графический дизайн",
+        "className": "design",
+        "dataList": [
+            "Брендбук",
+            "Логотип",
+            "Разработка упаковки",
+            "каталог товаров",
+            "многостраничные издания"
+        ],
+        "elements": [
+            {
+                "className": "ars",
+                "innerCount": 3
+            },
+            {
+                "className": "round"
+            },
+            {
+                "className": "dotsRound"
+            }
+        ]
+    }
+]

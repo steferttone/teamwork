@@ -1,0 +1,40 @@
+[
+    {
+        "country": "Россия",
+        "destination": "ru",
+        "city": "Санкт-Петербург",
+        "phone": "8 (812) <b>000 00 00</b>",
+        "mail": "inf@teamwork-studio.com",
+        "contactName": "Виктория Камаева",
+        "position": "(региональный менеджер)"
+    },
+    {
+        "country": "Канада",
+        "destination": "can",
+        "city": "Ванкувер",
+        "phone": "+1 (778) <b>847 5057</b>",
+        "mail": "inf@teamwork-studio.com",
+        "contactName": "Виктория Камаева",
+        "position": "(региональный менеджер)"
+    },
+    {
+        "country": "США",
+        "destination": "usa",
+        "city": "Майами",
+        "phone": "+1 (305) <b>709-7560</b>",
+        "address": "17000 N Bay Rd, Sunny Isles Beach, FL 33160",
+        "mail": "inf@teamwork-studio.com",
+        "contactName": "Дмитрий Машковец",
+        "position": "(региональный менеджер)"
+    },
+    {
+        "country": "Беларусь",
+        "destination": "bel",
+        "city": "Брест",
+        "phone": "8 (812) <b>000 00 00</b>",
+        "address": "ул. Горького дом 31 офис 503",
+        "mail": "inf@teamwork-studio.com",
+        "contactName": "Дмитрий Машковец",
+        "position": "(региональный менеджер)"
+    }
+]
