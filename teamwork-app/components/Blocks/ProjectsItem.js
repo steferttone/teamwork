@@ -22,7 +22,9 @@ class ProjectsItem extends Component {
             <VisibilitySensor
                 onChange={ this.onVisibilityChange.bind(this) }
                 intervalDelay={ 500 }
-                partialVisibility={ 'bottom' }
+                partialVisibility={ 'top' }
+                minTopValue={ 100 }
+                resizeCheck={ true }
                 delayedCall={ true }
 
             >
