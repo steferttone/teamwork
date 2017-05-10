@@ -26,6 +26,7 @@ class ProjectsItem extends Component {
                 minTopValue={ 100 }
                 resizeCheck={ true }
                 delayedCall={ true }
+
             >
                 <div className={ `item scrollItem ${animateState}` }>
                     <div className="project arrAnim invisLink">

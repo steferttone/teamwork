@@ -11,6 +11,7 @@ body {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ebebeb', endColorstr='#ffffff', GradientType=0);
     height: 100%;
     position: relative;
+    padding-right: 0px;
 }
 
 body.fixPage {
@@ -513,7 +514,30 @@ textarea:-ms-placeholder {
     min-height: 100vh;
     width: 100%;
 }
-
+body.showingModal{
+  /*position: fixed;*/
+  overflow: hidden;
+  padding-right: 17px;
+  width: 100%;
+  height: 100%;
+  background-color: #4c4f65;
+}
+body header{
+  opacity: 1;
+  -webkit-transition: opacity 0.3s;
+  -moz-transition: opacity 0.3s;
+  -o-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+}
+body.showingModal header{
+  opacity: 0;
+}
+body .blockMod{
+  left: 8.5px;
+}
+body.showingModal .blockMod{
+  left:0px;
+}
 .modals .tCell {
     padding: 50px 15px;
     overflow: auto;
@@ -522,28 +546,47 @@ textarea:-ms-placeholder {
 .modalsScroll {
     overflow: auto;
     position: fixed;
-    z-index: -1;
+    z-index: 3;
+    visibility: hidden;
     top: 0px;
     left: 0px;
     height: 100%;
     width: 100%;
+    opacity: 0;
+    -webkit-transition: opacity 0.5s, visibility 0s ease-out 0.5s;
+    -moz-transition: opacity 0.5s, visibility 0s ease-out 0.5s;
+    -o-transition: opacity 0.5s, visibility 0s ease-out 0.5s;
+    transition: opacity 0.5s, visibility 0s ease-out 0.5s;
 }
 
 .modalsScroll.open {
     z-index: 3;
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: opacity 0.5s, visibility 0s;
+    -moz-transition: opacity 0.5s, visibility 0s;
+    -o-transition: opacity 0.5s, visibility 0s;
+    transition: opacity 0.5s, visibility 0s;
 }
 
 .modals #overlay {
     z-index: 1;
     position: fixed;
     background-color: #232323;
-    opacity: 0.85;
+    opacity: 0;
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
     cursor: pointer;
-    display: none;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+
+}
+.open .modals #overlay {
+  opacity: 0.85;
 }
 
 .modals .close {
@@ -1354,6 +1397,9 @@ button.hGradBtn { /*!  */
         width: 980px;
     }
 
+    body.showingModal{
+      padding-right: 0px;
+    }
     .owl-controls .owl-nav > div {
         top: 104px;
     }
