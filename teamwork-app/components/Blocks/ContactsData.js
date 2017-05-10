@@ -69,17 +69,14 @@ class ContactsData extends Component {
                     <span className="country"></span>
                     <span className="city"></span>
                 </div>
-                {
-                    showModal
-                    ? <ContactsModal
-                        onShowModal={
-                            this.setState.bind(this, {
-                                showModal: !showModal,
-                            })
-                        }
-                    />
-                    : null
-                }
+                <ContactsModal
+                    showingState={ showModal }
+                    onShowModal={
+                        this.setState.bind(this, {
+                            showModal: !showModal,
+                        })
+                    }
+                />
             </section>
         )
     }
