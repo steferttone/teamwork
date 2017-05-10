@@ -24,6 +24,8 @@ class ContactsData extends Component {
     render() {
         const { destination, showModal } = this.state
 
+        document.body.className = showModal ? 'showingModal' : ''
+
         return (
             <section className="contacts">
                 <div className="backWrapp">

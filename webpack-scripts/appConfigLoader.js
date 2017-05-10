@@ -23,7 +23,7 @@ const getEntryPoints = (props) => {
             }
         })
     }
-    console.log(entryPoints)
+
     return entryPoints
 }
 
