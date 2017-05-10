@@ -7,10 +7,12 @@ import ContactUsForm from 'components/Blocks/ContactUsForm'
 
 class ContactsModal extends Component {
     render() {
-        const { onShowModal } = this.props
+        const { onShowModal, showingState } = this.props
+
+        const showingStateClass = showingState ? 'open' : 'hidden'
 
         return (
-            <div className="modalsScroll open">
+            <div className={ `modalsScroll ${showingStateClass}` }>
                 <div className="modals table">
                     <div className="tCell middle">
                         <div id="makeOrder" className="blockMod Call">
