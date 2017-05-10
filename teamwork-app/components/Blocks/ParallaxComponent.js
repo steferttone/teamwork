@@ -62,7 +62,7 @@ class ParallaxComponent extends Component {
             backgroundPosition: bgPositionFirst,
         }
         const bgStyleSecond = {
-            backgroundImage: 'url(img/backLayer1.png)',
+            backgroundImage: 'url(img/backLayer2.png)',
             backgroundPosition: bgPositionSecond,
         }
 

@@ -24,6 +24,7 @@ class ProjectsItem extends Component {
                 intervalDelay={ 500 }
                 partialVisibility={ 'bottom' }
                 delayedCall={ true }
+
             >
                 <div className={ `item scrollItem ${animateState}` }>
                     <div className="project arrAnim invisLink">

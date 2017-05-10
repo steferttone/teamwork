@@ -1,5 +1,7 @@
 header {
     padding-top: 2px;
+    position:relative;
+    z-index: 2;
 }
 
 header .menuBlock {
@@ -1501,7 +1503,7 @@ footer .copyRight {
 .contacts {
     margin-top: -64px;
     position: relative;
-    z-index: -1;
+    z-index: 1;
     background-color: #4c4f65;
     width: 100%;
 }
