@@ -5,8 +5,6 @@ import { submitFormData } from 'actions/contactsActions'
 
 import ContactUsForm from 'components/Blocks/ContactUsForm'
 
-import debug from 'helpers/debugLogger'
-
 class ContactsModal extends Component {
     render() {
         const { onShowModal } = this.props
@@ -47,7 +45,7 @@ class ContactsModal extends Component {
     }
     onFormSubmit(values) {
         const { onSubmitFormData } = this.props
-        debug.log('>>>>', values, this)
+
         onSubmitFormData(values)
     }
 }

@@ -10,9 +10,6 @@ const QA2_ENV = 'qa2'
 const STAGE_ENV = 'stage'
 
 const getEnvironmentArgument = () => {
-    console.log(process.env.NODE_ENV)
-    console.log(process.env.npm_config_env)
-    console.log(Object.keys(process.env))
     if (
         process.env.hasOwnProperty('NODE_ENV')
         && process.env.NODE_ENV !== 'undefined'
