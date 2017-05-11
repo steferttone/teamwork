@@ -3,7 +3,8 @@ import VisibilitySensor from 'react-visibility-sensor'
 
 import { Link } from 'react-router'
 
-const SHOW_ANIMATION_CLASS = 'animated bounceInUp'
+
+const SHOW_ANIMATION_CLASS = 'animated bounceUp'
 const INITIAL_CLASS = 'hidden'
 
 class ProjectsItem extends Component {
@@ -23,7 +24,7 @@ class ProjectsItem extends Component {
                 onChange={ this.onVisibilityChange.bind(this) }
                 intervalDelay={ 500 }
                 partialVisibility={ 'top' }
-                minTopValue={ 100 }
+                minTopValue={ 250 }
                 resizeCheck={ true }
                 delayedCall={ true }
 
@@ -33,7 +34,7 @@ class ProjectsItem extends Component {
                         <div className="img" style={ { backgroundImage: `url(${project.image})` } }>
                             <img src={ project.image } alt=""/>
                         </div>
-                        <div className="in projColor1">
+                        <div className="in projColor1" >
                             <div className="hideCapBl">
                                 <h2
                                     className="cap"

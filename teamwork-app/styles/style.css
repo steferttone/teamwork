@@ -1,6 +1,6 @@
 header {
     padding-top: 2px;
-    position:relative;
+    position: relative;
     z-index: 2;
 }
 
@@ -409,10 +409,10 @@ header .langs a:hover {
     -o-transform-origin: center bottom;
     -ms-transform-origin: center bottom;
     transform-origin: center bottom;
-    -webkit-transition: top 0.5s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.5s cubic-bezier(0.4, 0, 0.2, 1);
-    -moz-transition: top 0.5s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.5s cubic-bezier(0.4, 0, 0.2, 1);
-    -o-transition: top 0.5s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.5s cubic-bezier(0.4, 0, 0.2, 1);
-    transition: top 0.5s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    -webkit-transition: top 0.5s cubic-bezier(0.4, 0, 0.2, 1), opacity 1s cubic-bezier(0.4, 0, 0.2, 1);
+    -moz-transition: top 0.5s cubic-bezier(0.4, 0, 0.2, 1), opacity 1s cubic-bezier(0.4, 0, 0.2, 1);
+    -o-transition: top 0.5s cubic-bezier(0.4, 0, 0.2, 1), opacity 1s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: top 0.5s cubic-bezier(0.4, 0, 0.2, 1), opacity 1s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .projectsList .item {
@@ -1095,7 +1095,11 @@ footer .copyRight {
     margin: 0px;
 }
 
-.devProfils .profCont{position: relative;z-index: 1;}
+.devProfils .profCont {
+    position: relative;
+    z-index: 1;
+}
+
 .devProfils .hoverSide .item:nth-child(2) .profSide,
 .devProfils .prof.web {
     margin-top: 40px;
@@ -1698,7 +1702,7 @@ footer .copyRight {
 }
 
 .contBlock .tBody .item {
-    padding: 0px 15px;
+  padding: 0px 15px;
 }
 
 .contBlock .tBody .item h2 {
@@ -1976,10 +1980,11 @@ footer .copyRight {
 @media (max-width: 1199px) {
     .devProfils .prof ul {
 
-    display: block !important;
-    height: auto !important;
-    margin-top: 10px !important;
+        display: block !important;
+        height: auto !important;
+        margin-top: 10px !important;
     }
+
     .contacts .table {
         height: 750px;
     }
@@ -3052,5 +3057,54 @@ footer .copyRight {
     .projectsList .left,
     .projectsList .right {
         width: 100%;
+    }
+}
+
+.bounceUp {
+	-webkit-animation-name:bounceUp;
+	animation-name:bounceUp
+}
+@-webkit-keyframes bounceUp {
+  0%,100%{
+    -webkit-animation-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+    animation-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+  }
+    0% {
+        opacity: 0;
+        -moz-transform: translateY(300px);
+        -ms-transform: translateY(300px);
+        -webkit-transform: translateY(300px);
+        -o-transform: translateY(300px);
+        transform: translateY(300px);
+    }
+    100% {
+        opacity: 1;
+        -moz-transform: translateY(0px);
+        -ms-transform: translateY(0px);
+        -webkit-transform: translateY(0px);
+        -o-transform: translateY(0px);
+        transform: translateY(0px);
+    }
+}
+@keyframes bounceUp {
+  0%,100%{
+    -webkit-animation-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+    animation-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+  }
+    0% {
+        opacity: 0;
+        -moz-transform: translateY(300px);
+        -ms-transform: translateY(300px);
+        -webkit-transform: translateY(300px);
+        -o-transform: translateY(300px);
+        transform: translateY(300px);
+    }
+    100% {
+        opacity: 1;
+        -moz-transform: translateY(0px);
+        -ms-transform: translateY(0px);
+        -webkit-transform: translateY(0px);
+        -o-transform: translateY(0px);
+        transform: translateY(0px);
     }
 }
