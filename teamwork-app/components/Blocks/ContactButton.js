@@ -12,7 +12,7 @@ class ContactButton extends Component {
     }
     render() {
         const { showModal } = this.state
-        const { buttonTitle } = this.props
+        const { buttonTitle, showArrow } = this.props
 
         document.body.className = showModal ? 'showingModal' : ''
 
@@ -20,9 +20,13 @@ class ContactButton extends Component {
             ? CONTACT_US_BUTTON
             : buttonTitle
 
+        const additionalClass = showArrow
+            ? 'icon-arr-right'
+            : ''
+
         return (
             <button
-                className="hGradBtn"
+                className={ hGradBtn `${additionalClass}`}
                 onClick={
                     () => {
                         this.setState({
