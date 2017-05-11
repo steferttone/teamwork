@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import VisibilitySensor from 'react-visibility-sensor'
 
 import { Link } from 'react-router'
-import debug from 'helpers/debugLogger'
 
 
 const SHOW_ANIMATION_CLASS = 'animated bounceUp'
@@ -19,7 +18,6 @@ class ProjectsItem extends Component {
     render() {
         const { project } = this.props
         const { animateState } = this.state
-        debug.log(project)
 
         return (
             <VisibilitySensor
@@ -36,7 +34,7 @@ class ProjectsItem extends Component {
                         <div className="img" style={ { backgroundImage: `url(${project.image})` } }>
                             <img src={ project.image } alt=""/>
                         </div>
-                        <div className="in projColor1" data-n={ project.id } >
+                        <div className="in projColor1" >
                             <div className="hideCapBl">
                                 <h2
                                     className="cap"

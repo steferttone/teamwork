@@ -9,7 +9,6 @@ import PlacesBlock from 'containers/PlacesConnect'
 import CommonFooter from 'components/Footers/CommonFooter'
 import TeamGallery from 'containers/TeamGalleryConnect'
 import ProposalComponent from 'containers/ProposalConnect'
-import debug from 'helpers/debugLogger'
 
 const GRAND_TITLE = 'От идеи к воплощению'
 const GRAND_DESCRIPTION = 'Дизайн-студия TEAMWORK предлагает эффективные решения для вашего бизнеса. Наша команда реализует проекты любой сложности, от разработки фирменного стиля и дизайна полиграфических материалов, до создания и продвижения сайта.'
@@ -32,7 +31,6 @@ class TeamPage extends Component {
     }
     render() {
         const { showModal } = this.state
-        debug.log(showModal)
 
         document.body.className = showModal ? 'showingModal' : ''
 

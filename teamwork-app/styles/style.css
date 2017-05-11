@@ -3060,12 +3060,6 @@ footer .copyRight {
     }
 }
 
-/*.bounceInUp {
-    -webkit-transition: all 1s cubic-bezier(0.4, 0, 0.2, 1);
-    -moz-transition: all 1s cubic-bezier(0.4, 0, 0.2, 1);
-    -o-transition: all 1s cubic-bezier(0.4, 0, 0.2, 1);
-    transition: all 1s cubic-bezier(0.4, 0, 0.2, 1);
-}*/
 .bounceUp {
 	-webkit-animation-name:bounceUp;
 	animation-name:bounceUp
