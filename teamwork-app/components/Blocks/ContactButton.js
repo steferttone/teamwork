@@ -26,7 +26,7 @@ class ContactButton extends Component {
 
         return (
             <button
-                className={ hGradBtn `${additionalClass}`}
+                className={ `hGradBtn ${additionalClass}`}
                 onClick={
                     () => {
                         this.setState({
