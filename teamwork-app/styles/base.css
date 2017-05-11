@@ -1362,14 +1362,6 @@ button.hGradBtn { /*!  */
     overflow: hidden;
 }
 
-.tabs .tBody > .tItem {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    display: none;
-}
-
 @media (max-width: 1660px) {
     .container {
 

@@ -6,7 +6,7 @@ import MessagesWrapper from 'components/Headers/MessageWrapper'
 
 const menuList = [
     {
-        link: '/',
+        link: '/team',
         title: 'TeamWork',
     },
     {

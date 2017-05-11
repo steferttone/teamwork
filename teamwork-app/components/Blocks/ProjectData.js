@@ -1,17 +1,20 @@
 import React, { Component } from 'react'
 
 import ProjectLinkBlock from 'components/Blocks/ProjectLinkBlock'
+import ContactsModal from 'components/Blocks/ContactsModal'
 
 import { connect } from 'react-redux'
 import { getProjectsData } from 'actions/projectsActions'
 
 const PROJECTS_TITLE = 'Проекты'
+const ORDER_TITLE = 'Сдеалать заказ'
 
 class ProjectData extends Component {
     constructor() {
         super()
         this.state = {
             projectData: null,
+            showModal: false,
         }
     }
     componentWillMount() {
@@ -58,7 +61,9 @@ class ProjectData extends Component {
         return null
     }
     render() {
-        const { projectData } = this.state
+        const { projectData, showModal } = this.state
+
+        document.body.className = showModal ? 'showingModal' : ''
 
         if (!projectData) {
             return null
@@ -105,10 +110,25 @@ class ProjectData extends Component {
                             </div>
                         </div>
                         <button
-                            className="openMod hGradBtn icon-arr-right"
+                            className="hGradBtn icon-arr-right"
+                            onClick={
+                                () => {
+                                    this.setState({
+                                        showModal: !showModal,
+                                    })
+                                }
+                            }
                         >
-                            Сдеалать заказ
+                            { ORDER_TITLE }
                         </button>
+                        <ContactsModal
+                            showingState={ showModal }
+                            onShowModal={
+                                this.setState.bind(this, {
+                                    showModal: !showModal,
+                                })
+                            }
+                        />
                     </div>
                 </section>
             </section>

@@ -2,13 +2,14 @@
 import React, { Component } from 'react'
 
 import ParallaxComponent from 'components/Blocks/ParallaxComponent'
+import ContactsModal from 'components/Blocks/ContactsModal'
 
 import CommonHeader from 'components/Headers/CommonHeader'
 import PlacesBlock from 'containers/PlacesConnect'
 import CommonFooter from 'components/Footers/CommonFooter'
 import TeamGallery from 'containers/TeamGalleryConnect'
 import ProposalComponent from 'containers/ProposalConnect'
-import { Link } from 'react-router'
+import debug from 'helpers/debugLogger'
 
 const GRAND_TITLE = 'От идеи к воплощению'
 const GRAND_DESCRIPTION = 'Дизайн-студия TEAMWORK предлагает эффективные решения для вашего бизнеса. Наша команда реализует проекты любой сложности, от разработки фирменного стиля и дизайна полиграфических материалов, до создания и продвижения сайта.'
@@ -23,7 +24,18 @@ const ORDER_TITLE = 'Сдеалать заказ'
 
 // Component
 class TeamPage extends Component {
+    constructor() {
+        super()
+        this.state = {
+            showModal: false,
+        }
+    }
     render() {
+        const { showModal } = this.state
+        debug.log(showModal)
+
+        document.body.className = showModal ? 'showingModal' : ''
+
         return (
             <ParallaxComponent>
                 <section className="wrapper">
@@ -48,12 +60,26 @@ class TeamPage extends Component {
                                     <p>{ teamData.postDescription }</p>
                                 </div>
                             </div>
-                            <Link
-                                to="contacts"
-                                className="openMod hGradBtn icon-arr-right"
+                            <button
+                                className="hGradBtn icon-arr-right"
+                                onClick={
+                                    () => {
+                                        this.setState({
+                                            showModal: !showModal,
+                                        })
+                                    }
+                                }
                             >
                                 { ORDER_TITLE }
-                            </Link>
+                            </button>
+                            <ContactsModal
+                                showingState={ showModal }
+                                onShowModal={
+                                    this.setState.bind(this, {
+                                        showModal: !showModal,
+                                    })
+                                }
+                            />
                         </div>
                     </section>
                     <PlacesBlock/>
