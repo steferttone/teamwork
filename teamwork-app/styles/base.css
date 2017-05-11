@@ -811,6 +811,7 @@ button.hGradBtn { /*!  */
     top: 0px;
     left: 0px;
     overflow: hidden;
+    z-index: 2;
 }
 
 .fadeLogo span {

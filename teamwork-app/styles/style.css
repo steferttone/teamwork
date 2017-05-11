@@ -1084,7 +1084,7 @@ footer .copyRight {
 
 .devProfils .hoverSideContainer {
     position: relative;
-    z-index: 2;
+    z-index: 3;
 }
 
 .devProfils .hoverSide {
@@ -1150,9 +1150,12 @@ footer .copyRight {
 }
 
 .devProfils .prof ul {
-    display: none;
     width: 100%;
-    margin-top: 10px;
+    margin-top: 0px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
 }
 
 .devProfils .prof ul li {
@@ -1160,9 +1163,23 @@ footer .copyRight {
     text-align: center;
     color: #fff;
     font-size: 18px;
-    line-height: 32px;
+    line-height: 0px;
+    padding: 0px 0px;
+    overflow: hidden;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
 }
 
+.devProfils .prof.hover ul{
+    margin-top: 10px;
+}
+.devProfils .prof.hover li{
+    line-height: 20px;
+    padding: 6px 0px;
+
+}
 .devProfils .els {
     position: absolute;
     z-index: 1;
@@ -1275,7 +1292,6 @@ footer .copyRight {
     right: 22px;
     z-index: 1;
 }
-
 .devProfils .prof.market.hover .els .round {
     right: 28px;
     bottom: -65px;
@@ -1979,7 +1995,6 @@ footer .copyRight {
 
 @media (max-width: 1199px) {
     .devProfils .prof ul {
-
         display: block !important;
         height: auto !important;
         margin-top: 10px !important;

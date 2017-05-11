@@ -2,7 +2,7 @@
 import React, { Component } from 'react'
 
 import ParallaxComponent from 'components/Blocks/ParallaxComponent'
-import ContactsModal from 'components/Blocks/ContactsModal'
+import ContactButton from 'components/Blocks/ContactButton'
 
 import CommonHeader from 'components/Headers/CommonHeader'
 import PlacesBlock from 'containers/PlacesConnect'
@@ -23,17 +23,7 @@ const ORDER_TITLE = 'Сдеалать заказ'
 
 // Component
 class TeamPage extends Component {
-    constructor() {
-        super()
-        this.state = {
-            showModal: false,
-        }
-    }
     render() {
-        const { showModal } = this.state
-
-        document.body.className = showModal ? 'showingModal' : ''
-
         return (
             <ParallaxComponent>
                 <section className="wrapper">
@@ -58,26 +48,8 @@ class TeamPage extends Component {
                                     <p>{ teamData.postDescription }</p>
                                 </div>
                             </div>
-                            <button
-                                className="hGradBtn icon-arr-right"
-                                onClick={
-                                    () => {
-                                        this.setState({
-                                            showModal: !showModal,
-                                        })
-                                    }
-                                }
-                            >
-                                { ORDER_TITLE }
-                            </button>
-                            <ContactsModal
-                                showingState={ showModal }
-                                onShowModal={
-                                    this.setState.bind(this, {
-                                        showModal: !showModal,
-                                    })
-                                }
-                            />
+
+                            <ContactButton buttonTitle={ ORDER_TITLE }/>
                         </div>
                     </section>
                     <PlacesBlock/>
