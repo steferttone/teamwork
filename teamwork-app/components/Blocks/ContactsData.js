@@ -1,17 +1,15 @@
 import React, { Component } from 'react'
 
 import ContactsBodyComponent from 'components/Blocks/ContactsBodyComponent'
-import ContactsModal from 'components/Blocks/ContactsModal'
+import ContactButton from 'components/Blocks/ContactButton'
 
 const CONTACTS_TITLE = 'Контакты'
-const CONTACT_US_BUTTON = 'Связаться с нами'
 
 class ContactsData extends Component {
     constructor() {
         super()
         this.state = {
             destination: 'back ru',
-            showModal: false,
         }
     }
     componentDidMount() {
@@ -22,9 +20,7 @@ class ContactsData extends Component {
         }
     }
     render() {
-        const { destination, showModal } = this.state
-
-        document.body.className = showModal ? 'showingModal' : ''
+        const { destination } = this.state
 
         return (
             <section className="contacts">
@@ -48,18 +44,7 @@ class ContactsData extends Component {
                                         this.renderContactsBody()
                                     }
                                 </div>
-                                <button
-                                    className="hGradBtn"
-                                    onClick={
-                                        () => {
-                                            this.setState({
-                                                showModal: !showModal,
-                                            })
-                                        }
-                                    }
-                                >
-                                    { CONTACT_US_BUTTON }
-                                </button>
+                                <ContactButton />
                             </div>
                         </div>
                     </div>
@@ -69,14 +54,6 @@ class ContactsData extends Component {
                     <span className="country"></span>
                     <span className="city"></span>
                 </div>
-                <ContactsModal
-                    showingState={ showModal }
-                    onShowModal={
-                        this.setState.bind(this, {
-                            showModal: !showModal,
-                        })
-                    }
-                />
             </section>
         )
     }
