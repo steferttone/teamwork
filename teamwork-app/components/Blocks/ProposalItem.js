@@ -13,7 +13,7 @@ class ProposalItem extends Component {
         }
     }
     render() {
-        const { item } = this.props
+        const { item, additionalClass } = this.props
         const { animateState } = this.state
 
         if (!item) {
@@ -24,6 +24,7 @@ class ProposalItem extends Component {
             'prof',
             'scrollItem',
             item.className,
+            additionalClass,
         ].join(' ')
 
         return (

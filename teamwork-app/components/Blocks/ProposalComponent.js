@@ -6,6 +6,12 @@ import ProposalItem from 'components/Blocks/ProposalItem'
 const PROPOSE_TITLE = 'Предлагаем'
 
 class ProposalComponent extends Component {
+    constructor() {
+        super()
+        this.state = {
+            hoveredItem: false,
+        }
+    }
     componentDidMount() {
         const { proposalList, onGetProposals } = this.props
 
@@ -14,6 +20,7 @@ class ProposalComponent extends Component {
         }
     }
     render() {
+        const { hoveredItem } = this.state
         const { proposalList } = this.props
 
         if (proposalList.dataState !== 'STATE_READY') {
@@ -36,7 +43,23 @@ class ProposalComponent extends Component {
                                             className="item col4 col6-sm col12-xs"
                                             key={ `${proposal.title}${key}` }
                                         >
-                                            <div className="profSide"></div>
+                                            <div
+                                                className="profSide"
+                                                onMouseEnter={
+                                                    () => {
+                                                        this.setState({
+                                                            hoveredItem: key,
+                                                        })
+                                                    }
+                                                }
+                                                onMouseLeave={
+                                                    () => {
+                                                        this.setState({
+                                                            hoveredItem: false,
+                                                        })
+                                                    }
+                                                }
+                                            ></div>
                                         </div>
                                     )
                                 }
@@ -52,7 +75,12 @@ class ProposalComponent extends Component {
                         {
                             proposalList.data.map(
                                 (item, key) => {
-                                    return ProposalComponent.renderProposalItem(item, key)
+                                    const additionalClass = hoveredItem === key
+                                        ? 'hover'
+                                        : ''
+
+                                    return ProposalComponent
+                                        .renderProposalItem(item, key, additionalClass)
                                 }
                             )
                         }
@@ -61,11 +89,12 @@ class ProposalComponent extends Component {
             </section>
         )
     }
-    static renderProposalItem(item, key) {
+    static renderProposalItem(item, key, additionalClass) {
         return (
             <ProposalItem
                 item={ item }
                 key={ key }
+                additionalClass={ additionalClass }
             />
         )
     }
