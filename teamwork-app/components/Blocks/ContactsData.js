@@ -66,7 +66,7 @@ class ContactsData extends Component {
         }
 
         return (
-            <div className="tBody" style={ { height: '168px' } }>
+            <div className="tBody">
                 {
                     contacts.data.map(
                         (place, key) => {

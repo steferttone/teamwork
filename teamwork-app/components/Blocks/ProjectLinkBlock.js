@@ -23,7 +23,9 @@ class ProjectLinkBlock extends Component {
             <VisibilitySensor
                 onChange={ this.onVisibilityChange.bind(this) }
                 intervalDelay={ 500 }
-                partialVisibility={ 'bottom' }
+                partialVisibility={ 'top' }
+                minTopValue={ 250 }
+                resizeCheck={ true }
                 delayedCall={ true }
             >
                 <div className={ `item scrollItem col12-xss ${animateState}` }>
