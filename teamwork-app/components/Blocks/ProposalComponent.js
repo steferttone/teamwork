@@ -2,6 +2,7 @@
 import React, { Component } from 'react'
 
 import ProposalItem from 'components/Blocks/ProposalItem'
+import debug from 'helpers/debugLogger'
 
 const PROPOSE_TITLE = 'Предлагаем'
 
@@ -38,9 +39,13 @@ class ProposalComponent extends Component {
                         {
                             proposalList.data.map(
                                 (proposal, key) => {
+                                    debug.log((key+1)%3, key)
+                                    const smSize = (key+1)%3 === 0
+                                        ? 12
+                                        : 6
                                     return (
                                         <div
-                                            className="item col4 col6-sm col12-xs"
+                                            className={ `item col4 col${smSize}-sm col12-xs`}
                                             key={ `${proposal.title}${key}` }
                                         >
                                             <div
@@ -90,11 +95,15 @@ class ProposalComponent extends Component {
         )
     }
     static renderProposalItem(item, key, additionalClass) {
+        const smSize = (key+1)%3 === 0
+            ? 12
+            : 6
         return (
             <ProposalItem
                 item={ item }
                 key={ key }
                 additionalClass={ additionalClass }
+                smSize={ smSize }
             />
         )
     }

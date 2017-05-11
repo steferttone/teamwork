@@ -13,7 +13,7 @@ class ProposalItem extends Component {
         }
     }
     render() {
-        const { item, additionalClass } = this.props
+        const { item, additionalClass, smSize } = this.props
         const { animateState } = this.state
 
         if (!item) {
@@ -34,7 +34,7 @@ class ProposalItem extends Component {
                 partialVisibility={ 'bottom' }
                 delayedCall={ true }
             >
-                <div className={ `item col4 col6-sm col12-xs ${animateState}` }>
+                <div className={ `item col4 col${smSize}-sm col12-xs ${animateState}` }>
                     <div className={ className}>
                         {
                             ProposalComponent
