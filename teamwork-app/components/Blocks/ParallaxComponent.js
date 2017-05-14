@@ -69,9 +69,7 @@ class ParallaxComponent extends Component {
         return (
             <div className="parallaxComponent">
                 {
-                    React.Children.map(this.props.children, (child) => {
-                        return React.cloneElement(child, this.props)
-                    })
+                    React.Children.only(this.props.children)
                 }
                 <div className="backParalax">
                     <div

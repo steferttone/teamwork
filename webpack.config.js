@@ -9,6 +9,7 @@ const buildEnv = require('./webpack-scripts/environment.js')
 const provideVariables = {
     'env': JSON.stringify(buildEnv.getEnvironment()),
     'envList': JSON.stringify(buildEnv.constants),
+    'dl': JSON.stringify(1496275200000)
 }
 
 const config = {
