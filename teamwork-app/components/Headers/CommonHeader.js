@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import { Link } from 'react-router'
+import { hashHistory } from 'react-router'
 
 import MessagesWrapper from 'components/Headers/MessageWrapper'
 
@@ -14,7 +14,7 @@ const menuList = [
         title: 'Портфолио',
     },
     {
-        link: '/contacts',
+        link: '/contacts/ru',
         title: 'Контакты',
     },
 ]
@@ -78,18 +78,24 @@ class CommonHeader extends Component {
                                         (item, key) => {
                                             return (
                                                 <li key={ key }>
-                                                    <Link
-                                                        to={ item.link }
+                                                    <a
+                                                        href={ item.link }
+                                                        onClick={ (e)=> {
+                                                            e.preventDefault()
+                                                            hashHistory.push({
+                                                                pathname: `${item.link}`,
+                                                            })
+                                                        }}
                                                     >
                                                         { item.title }
-                                                    </Link>
+                                                    </a>
                                                 </li>
                                             )
                                         }
                                     )
                                 }
                             </ul>
-                            <ul className="langs">
+                            <ul className="langs hidden">
                                 {
                                     langsList.map(
                                         (lang, key) => {

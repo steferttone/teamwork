@@ -8,15 +8,33 @@ const CONTACTS_TITLE = 'Контакты'
 class ContactsData extends Component {
     constructor() {
         super()
+
         this.state = {
             destination: 'back ru',
         }
     }
     componentDidMount() {
-        const { contacts, onGetContacts } = this.props
+        const {
+            contacts,
+            destination,
+            onGetContacts,
+        } = this.props
 
         if (contacts.dataState === 'STATE_NOT_REQUESTED') {
             onGetContacts()
+        }
+        if (destination) {
+            this.setState(
+                {
+                    destination: `${this.state.destination} base`,
+                }
+            )
+            setTimeout(
+                this.setState.bind(this, {
+                    destination: `back ${destination}`,
+                }),
+                500
+            )
         }
     }
     render() {
@@ -90,7 +108,7 @@ class ContactsData extends Component {
         )
     }
     renderContactsData() {
-        const { contacts } = this.props
+        const { contacts, onRedirectContacts } = this.props
         const { destination } = this.state
 
         if (contacts.dataState !== 'STATE_READY') {
@@ -117,7 +135,10 @@ class ContactsData extends Component {
                                 setTimeout(
                                     this.setState.bind(this, {
                                         destination: `back ${office.destination}`,
-                                    }), 500)
+                                    }),
+                                    500
+                                )
+                                onRedirectContacts(office.destination)
                             }
                         }
                     >

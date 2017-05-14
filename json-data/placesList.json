@@ -4,7 +4,7 @@
         "city": "Санкт-Петербург",
         "className": "russ",
         "image": "img/russ-s.png",
-        "link": "#",
+        "link": "ru",
         "title": "Россия"
     },
     {
@@ -12,7 +12,7 @@
         "city": "Ванкувер",
         "className": "can",
         "image": "img/can-s.png",
-        "link": "#",
+        "link": "can",
         "title": "канада"
     },
     {
@@ -20,7 +20,7 @@
         "city": "Майами",
         "className": "usa",
         "image": "img/usa-s.png",
-        "link": "#",
+        "link": "usa",
         "title": "Сша"
     },
     {
@@ -28,7 +28,7 @@
         "city": "Брест",
         "className": "bel",
         "image": "img/bel-s.png",
-        "link": "#",
+        "link": "bel",
         "title": "Беларусь"
     }
 ]

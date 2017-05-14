@@ -11,7 +11,7 @@ class PlacesBlock extends Component {
         }
     }
     render() {
-        const { places } = this.props
+        const { places, onRedirectContacts } = this.props
 
         if (places.dataState !== 'STATE_READY') {
             return null
@@ -24,7 +24,7 @@ class PlacesBlock extends Component {
                         {
                             places.data.map(
                                 (place, key) => {
-                                    return PlacesBlock.renderPlace(place, key)
+                                    return PlacesBlock.renderPlace(place, key, onRedirectContacts)
                                 }
                             )
                         }
@@ -34,7 +34,7 @@ class PlacesBlock extends Component {
             </section>
         )
     }
-    static renderPlace(place, key) {
+    static renderPlace(place, key, onRedirectContacts) {
         return (
             <div className="item col3" key={ key }>
                 <div
@@ -51,7 +51,9 @@ class PlacesBlock extends Component {
                     <div className="tCell middle">
                         <a
                             className="invisTextA"
-                            href={ place.link }
+                            onClick={ () => {
+                                onRedirectContacts(place.link)
+                            }}
                         >
                             { place.title }
                         </a>

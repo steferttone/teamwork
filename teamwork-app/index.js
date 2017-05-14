@@ -1,4 +1,4 @@
-/* global env, envList */
+/* global env, envList, dl */
 import ReactDOM from 'react-dom'
 
 import "babel-polyfill"
@@ -31,7 +31,6 @@ import 'styles/slick-theme.css'
 import 'styles/slick.css'
 
 // Creating logger
-debug.log(env)
 const logger = createLogger()
 let store
 // Creating store
@@ -48,9 +47,9 @@ env === envList.PROD_ENV
     )
 
 const countType = 'days'
-const notUnix = moment.unix('1493596800000').toArray()
-const now = moment().toArray()
-const diff = moment(now).diff(moment(notUnix), countType)
+
+const diff = moment(new Date())
+    .diff(new Date(dl), countType)
 
 // Loading store from local storage
 store.dispatch({ type: 'STORE_INIT' })

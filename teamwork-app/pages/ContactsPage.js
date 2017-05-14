@@ -10,11 +10,15 @@ import RequisitesComponent from 'containers/RequisitesConnect'
 // Component
 class ContactsPage extends Component {
     render() {
+        const { destination } = this.props.params
+
         return (
             <ParallaxComponent>
                 <section className="wrapper">
                     <CommonHeader className="white"/>
-                    <ContactsData/>
+                    <ContactsData
+                        destination={ destination }
+                    />
                     <RequisitesComponent/>
                     <CommonFooter/>
                 </section>

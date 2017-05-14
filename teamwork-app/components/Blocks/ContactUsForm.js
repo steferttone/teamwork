@@ -2,8 +2,6 @@ import React, { Component } from 'react'
 
 import { Field, reduxForm } from 'redux-form'
 
-import debug from 'helpers/debugLogger'
-
 const FORM_ID = 'contact-us-form'
 
 const IS_REQUIRED = 'Поле обязательно для заполнения'
@@ -58,7 +56,7 @@ const renderTopic = ({ meta: { touched, error, warning } }) => {
 class ContactUsForm extends Component {
     render() {
         const { handleSubmit, pristine, reset, submitting } = this.props
-        debug.log(handleSubmit)
+
         return (
             <form onSubmit={handleSubmit} className={ FORM_ID }>
                 <Field name="topic" component={renderTopic}/>

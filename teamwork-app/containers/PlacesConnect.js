@@ -1,6 +1,7 @@
 import { connect } from 'react-redux'
 
 import { getPlacesData } from 'actions/placesActions'
+import { redirectAction } from 'actions/locationActions'
 
 // Component for connecting
 import PlacesBlock from 'components/Blocks/PlacesBlock'
@@ -18,6 +19,11 @@ const mapDispatchToProps = (dispatch) => {
                 getPlacesData()
             )
         },
+        onRedirectContacts: (destination) => {
+            dispatch(
+                redirectAction('contacts', destination)
+            )
+        }
     }
 }
 
