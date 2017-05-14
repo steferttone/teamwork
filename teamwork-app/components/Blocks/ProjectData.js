@@ -1,14 +1,13 @@
 import React, { Component } from 'react'
 
-import smoothscroll from 'smoothscroll'
-
 import ProjectLinkBlock from 'components/Blocks/ProjectLinkBlock'
 import ContactsModal from 'components/Blocks/ContactsModal'
+import NextButton from 'components/Blocks/NextButton'
 
 import { connect } from 'react-redux'
 import { getProjectsData } from 'actions/projectsActions'
 
-const PROJECTS_TITLE = 'Проекты'
+const BTN_NEXT_TITLE = 'Проекты'
 const ORDER_TITLE = 'Сдеалать заказ'
 
 class ProjectData extends Component {
@@ -85,24 +84,7 @@ class ProjectData extends Component {
                 </section>
                 <section className="projectSection">
                     <div className="container">
-                        <div className="showNext arrAnim">
-                            <span
-                                className="cap"
-                                onClick={
-                                    () => {
-                                        const pos = document
-                                            .getElementsByClassName('project-data-block')[0]
-                                            .getBoundingClientRect()
-                                            .top
-
-                                        smoothscroll(pos)
-                                    }
-                                }
-                            >
-                                { PROJECTS_TITLE }
-                            </span>
-                            <button className="icon-arr-down"></button>
-                        </div>
+                        <NextButton buttonTitle={ BTN_NEXT_TITLE } />
                         <div className="inner project-data-block">
                             {
                                 projectData.content.map(

@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 import smoothscroll from 'smoothscroll'
 
 import ProjectsItem from 'components/Blocks/ProjectsItem'
+import NextButton from 'components/Blocks/NextButton'
 
 const PROJECTS_LIST_TITLE = 'Проекты'
 const ALL_PROJECTS_BUTTON_TITLE = 'вСЕ ПРОЕКТЫ'
@@ -18,7 +19,10 @@ class MainProjectsList extends Component {
         }
     }
     render() {
-        const { preview, projectsList } = this.props
+        const { preview, projectsList, buttonTitle } = this.props
+        const btnTitle = !buttonTitle
+            ? ALL_PROJECTS_BUTTON_TITLE
+            : buttonTitle
 
         if (projectsList.dataState !== 'STATE_READY') {
             return null
@@ -29,24 +33,7 @@ class MainProjectsList extends Component {
                 <div className="container">
                     {
                         preview
-                            ? <div className="showNext arrAnim">
-                                <span
-                                    className="cap"
-                                    onClick={
-                                        () => {
-                                            const pos = document
-                                                .getElementsByClassName('grid')[0]
-                                                .getBoundingClientRect()
-                                                .top
-
-                                            smoothscroll(pos)
-                                        }
-                                    }
-                                >
-                                    { PROJECTS_LIST_TITLE }
-                                </span>
-                                <button className="icon-arr-down"></button>
-                            </div>
+                            ? <NextButton buttonTitle={ btnTitle } />
                             : null
                     }
                     <div className="grid">
