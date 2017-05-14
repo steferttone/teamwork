@@ -2,6 +2,7 @@
 import React, { Component } from 'react'
 
 import ParallaxComponent from 'components/Blocks/ParallaxComponent'
+
 import CommonHeader from 'components/Headers/CommonHeader'
 import MainPageDescription from 'components/Blocks/MainPageDescription'
 import MainProjectsList from 'containers/MainProjectsConnect'

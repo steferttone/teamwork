@@ -89,7 +89,7 @@ class CommonHeader extends Component {
                                     )
                                 }
                             </ul>
-                            <ul className="langs">
+                            <ul className="langs hidden">
                                 {
                                     langsList.map(
                                         (lang, key) => {

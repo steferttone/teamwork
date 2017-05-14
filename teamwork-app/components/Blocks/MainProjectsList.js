@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 
+import smoothscroll from 'smoothscroll'
+
 import ProjectsItem from 'components/Blocks/ProjectsItem'
 
 const PROJECTS_LIST_TITLE = 'Проекты'
@@ -28,7 +30,21 @@ class MainProjectsList extends Component {
                     {
                         preview
                             ? <div className="showNext arrAnim">
-                                <span className="cap">{ PROJECTS_LIST_TITLE }</span>
+                                <span
+                                    className="cap"
+                                    onClick={
+                                        () => {
+                                            const pos = document
+                                                .getElementsByClassName('grid')[0]
+                                                .getBoundingClientRect()
+                                                .top
+
+                                            smoothscroll(pos)
+                                        }
+                                    }
+                                >
+                                    { PROJECTS_LIST_TITLE }
+                                </span>
                                 <button className="icon-arr-down"></button>
                             </div>
                             : null

@@ -1,8 +1,9 @@
 /* eslint no-plusplus: ["error", { "allowForLoopAfterthoughts": true }] */
 import React, { Component } from 'react'
 
+import smoothscroll from 'smoothscroll'
+
 import ProposalItem from 'components/Blocks/ProposalItem'
-import debug from 'helpers/debugLogger'
 
 const PROPOSE_TITLE = 'Предлагаем'
 
@@ -31,7 +32,21 @@ class ProposalComponent extends Component {
         return (
             <section className="devProfils">
                 <div className="showNext arrAnim">
-                    <span className="cap">{ PROPOSE_TITLE }</span>
+                    <span
+                        className="cap"
+                        onClick={
+                            () => {
+                                const pos = document
+                                    .getElementsByClassName('hoverSideContainer')[0]
+                                    .getBoundingClientRect()
+                                    .top
+
+                                smoothscroll(pos)
+                            }
+                        }
+                    >
+                        { PROPOSE_TITLE }
+                    </span>
                     <button className="icon-arr-down"></button>
                 </div>
                 <div className="container hoverSideContainer">
@@ -39,10 +54,10 @@ class ProposalComponent extends Component {
                         {
                             proposalList.data.map(
                                 (proposal, key) => {
-                                    debug.log((key+1)%3, key)
                                     const smSize = (key+1)%3 === 0
                                         ? 12
                                         : 6
+
                                     return (
                                         <div
                                             className={ `item col4 col${smSize}-sm col12-xs`}
