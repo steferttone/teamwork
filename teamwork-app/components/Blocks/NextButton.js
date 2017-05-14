@@ -7,7 +7,6 @@ const NEXT_BUTTON_TITLE = 'Дальше'
 class NextButton extends Component {
     render() {
         const { buttonTitle } = this.props
-
         const btnTitle = !buttonTitle
             ? NEXT_BUTTON_TITLE
             : buttonTitle

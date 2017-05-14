@@ -1428,6 +1428,7 @@ footer .copyRight {
 .team .slider .slick-list {
     padding-top: 103px !important;
     min-height: 663px;
+    padding-bottom: 30px !important;
 }
 
 .team .slider .item {
