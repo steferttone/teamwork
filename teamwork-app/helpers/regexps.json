@@ -17,5 +17,6 @@
     "SECURITY_CODE_REGEX": "^\\d{3}$",
     "COMPANY_NAME_REGEX": "^.{3,}$",
     "FIVE_HUNDRED": "^5\\d{2}$",
-    "CITY_STATE_REGEX": "^[A-Za-z\\s]{2,}\\s*,\\s*[A-Za-z\\s]{2,}$"
+    "CITY_STATE_REGEX": "^[A-Za-z\\s]{2,}\\s*,\\s*[A-Za-z\\s]{2,}$",
+    "SUBJECT_REGEX": "^[a-zA-Z0-9\\s\\.,\\-]{10,100}$"
 }

@@ -18,6 +18,9 @@ const MONTH_MM_REGEX = new RegExp(regexps.MONTH_MM_REGEX)
 const YEAR_YYYY_REGEX = new RegExp(regexps.YEAR_YYYY_REGEX)
 const SECURITY_CODE_REGEX = new RegExp(regexps.SECURITY_CODE_REGEX)
 const COMPANY_NAME_REGEX = new RegExp(regexps.COMPANY_NAME_REGEX)
+const SUBJECT_REGEX = new RegExp(regexps.SUBJECT_REGEX)
+const EXTERNAL_LINK = new RegExp(regexps.EXTERNAL_LINK)
+const VALID_URL = new RegExp(regexps.VALID_URL, 'gi')
 
 const MINIMUM_PASSWORD_LENGTH = 1
 
@@ -110,7 +113,7 @@ const validatePhone = (value) => {
 
 const validateEmail = (value) => {
     const isValid = isStringValid(value, EMAIL_REGEX)
-    const errorMessage = 'This field is requried'
+    const errorMessage = 'Entered email is not valid'
 
     return buildValidationObject(isValid, errorMessage)
 }
@@ -185,6 +188,54 @@ const validateCityState = (value) => {
     return buildValidationObject(isValid, errorMessage)
 }
 
+const validateSubject = (value) => {
+    const isValid = isStringValid(value, SUBJECT_REGEX)
+    const errorMessage = 'This field is required'
+
+    return buildValidationObject(isValid, errorMessage)
+}
+
+const validateConfirmPassword = ({ newPassword, confirmPassword }) => {
+    const isValid = newPassword === confirmPassword
+    const errorMessage = 'New password and confirm password must be the same'
+
+    return buildValidationObject(isValid, errorMessage)
+}
+
+const isExternalLink = (url) => {
+    const host = window.location.hostname
+
+    const linkHost = (linkUrl) => {
+        if (EXTERNAL_LINK.test(linkUrl)) {
+            const parser = document.createElement('a')
+            parser.href = linkUrl
+            return parser.hostname
+        }
+        return window.location.hostname
+    }
+
+    return host !== linkHost(url)
+}
+
+const isValidUrl = (url) => {
+    return VALID_URL.test(url)
+}
+
+const decodeHTMLEntities = (str) => {
+    const element = document.createElement('div')
+
+    if (str && typeof str === 'string') {
+        element.innerHTML = str
+            .replace(/<script[^>]*>([\S\s]*?)<\/script>/gmi, '')
+            .replace(/<\/?\w(?:[^"'>]|"[^"]*"|'[^']*')*>/gmi, '')
+        const result = element.textContent
+        element.textContent = ''
+        return result
+    }
+
+    return str
+}
+
 export {
     validateField,
     validateTitle,
@@ -206,4 +257,9 @@ export {
     validatePassword,
     validateCompanyName,
     validateCityState,
+    validateSubject,
+    validateConfirmPassword,
+    isExternalLink,
+    isValidUrl,
+    decodeHTMLEntities,
 }

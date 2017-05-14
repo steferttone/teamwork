@@ -35,7 +35,7 @@ class MainProjectsList extends Component {
                                     onClick={
                                         () => {
                                             const pos = document
-                                                .getElementsByClassName('grid')[0]
+                                                .getElementsByClassName('grid projects-list')[0]
                                                 .getBoundingClientRect()
                                                 .top
 
@@ -49,7 +49,7 @@ class MainProjectsList extends Component {
                             </div>
                             : null
                     }
-                    <div className="grid">
+                    <div className="grid projects-list">
                         {
                             this.renderLeftCol()
                         }
