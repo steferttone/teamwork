@@ -5,21 +5,25 @@ import Slider from 'react-slick'
 const settings = {
     className: 'slider',
     centerMode: true,
-    slidesToShow: 4,
+    slidesToShow: 5,
     swipeToSlide: true,
+    // infinite: false,
     arrows: false,
+    centerPadding: '0px',
+    focusOnSelect: true,
+    slidesPerRow: 3,
+    speed: 500,
     responsive: [
         {
             breakpoint: 1439,
             settings: {
-                slidesToShow: 4,
+                slidesToShow: 5,
             },
         },
         {
             breakpoint: 1199,
             settings: {
                 slidesToShow: 3,
-                centerMode: true,
                 centerPadding: '60px',
             },
         },
