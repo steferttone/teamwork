@@ -5,14 +5,14 @@ import Slider from 'react-slick'
 const settings = {
     className: 'slider',
     centerMode: true,
-    slidesToShow: 5,
+    slidesToShow: 4,
     swipeToSlide: true,
     arrows: false,
     responsive: [
         {
             breakpoint: 1439,
             settings: {
-                slidesToShow: 5,
+                slidesToShow: 4,
             },
         },
         {

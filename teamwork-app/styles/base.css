@@ -638,7 +638,7 @@ body.showingModal .blockMod{
 }
 
 .modals .close:hover span {
-    opacity: 0.7;
+    background-color: #6f6f6f;
 }
 
 .modals .close:hover {
