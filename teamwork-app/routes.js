@@ -48,7 +48,7 @@ const getRoutes = ({ store, history }) => {
                     component={ TeamPage }
                 />
                 <Route
-                    path="contacts"
+                    path="contacts/:destination"
                     component={ ContactsPage }
                 />
                 <Route path="*" component={ HomePage } />

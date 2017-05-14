@@ -1,13 +1,12 @@
+/* eslint class-methods-use-this: ["error", { "exceptMethods": ["render"] }] */
 import React, { Component } from 'react'
-import { menuList } from 'components/Headers/CommonHeader'
 
-import debug from 'helpers/debugLogger'
+import { menuList } from 'components/Headers/CommonHeader'
 
 const COPYRIGHT = '© Copyright TeamWork'
 
 class CommonFooter extends Component {
     render() {
-        debug.log(this.props)
         return (
             <footer>
                     <a href="#" className="logo logoFoot invisTextA">
@@ -20,7 +19,7 @@ class CommonFooter extends Component {
                                 (item, key) => {
                                     return (
                                         <li key={ key }>
-                                            <a href={ item.link }>
+                                            <a href={ `#${item.link}` }>
                                                 { item.title }
                                             </a>
                                         </li>

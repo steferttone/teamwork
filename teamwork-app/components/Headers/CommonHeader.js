@@ -14,7 +14,7 @@ const menuList = [
         title: 'Портфолио',
     },
     {
-        link: '/contacts',
+        link: '/contacts/ru',
         title: 'Контакты',
     },
 ]
