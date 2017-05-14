@@ -25,17 +25,20 @@ class ContactButton extends Component {
             : ''
 
         return (
-            <button
-                className={ `hGradBtn ${additionalClass}`}
-                onClick={
-                    () => {
-                        this.setState({
-                            showModal: !showModal,
-                        })
-                    }
-                }
-            >
-                { btnTitle }
+            <div className={ `modalWrapper` }>
+
+                <button
+                  className={ `hGradBtn ${additionalClass}`}
+                  onClick={
+                      () => {
+                          this.setState({
+                              showModal: !showModal,
+                          })
+                      }
+                  }
+                >
+                    { btnTitle }
+                </button>
                 <ContactsModal
                     showingState={ showModal }
                     onShowModal={
@@ -44,7 +47,7 @@ class ContactButton extends Component {
                         })
                     }
                 />
-            </button>
+            </div>
         )
     }
 }

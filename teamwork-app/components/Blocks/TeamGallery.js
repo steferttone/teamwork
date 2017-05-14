@@ -7,7 +7,12 @@ const settings = {
     centerMode: true,
     slidesToShow: 5,
     swipeToSlide: true,
+    // infinite: false,
     arrows: false,
+    centerPadding: '0px',
+    focusOnSelect: true,
+    slidesPerRow: 3,
+    speed: 500,
     responsive: [
         {
             breakpoint: 1439,
@@ -19,7 +24,6 @@ const settings = {
             breakpoint: 1199,
             settings: {
                 slidesToShow: 3,
-                centerMode: true,
                 centerPadding: '60px',
             },
         },
