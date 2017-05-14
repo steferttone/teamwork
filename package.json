@@ -45,6 +45,7 @@
     "react-router-redux": "^4.0.8",
     "react-router-scroll": "^0.4.1",
     "react-scroll-effects": "^1.0.10",
+    "react-select": "^1.0.0-rc.4",
     "react-simple-parallax": "git+https://github.com/kwemi/react-simple-parallax.git",
     "react-slick": "^0.14.6",
     "react-visibility-sensor": "^3.7.0",

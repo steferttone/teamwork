@@ -29,7 +29,7 @@ class ContactsModal extends Component {
                             </span>
                             <div className="in">
                                 <span className="cap gradText">Сделать заказ</span>
-                                <ContactUsForm onSubmit={ this.onFormSubmit.bind(this) }/>
+                                <ContactUsForm />
                             </div>
                         </div>
                         <div
