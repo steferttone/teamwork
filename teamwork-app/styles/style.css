@@ -1,7 +1,7 @@
 header {
     padding-top: 2px;
     position: relative;
-    z-index: 2;
+    z-index: 3;
 }
 
 header .menuBlock {
@@ -592,6 +592,8 @@ header .langs a:hover {
 
 .places {
     padding: 70px 0px 100px;
+    position: relative;
+    z-index: 1;
 }
 
 .places .country {
@@ -1835,6 +1837,11 @@ footer .copyRight {
 .values li b {
 }
 
+form .item.error span{
+    font-size: 14px;
+    color:#fe5151;
+}
+
 @media (max-width: 1660px) {
     .gallary .image .img {
         height: 600px;
@@ -2005,7 +2012,9 @@ footer .copyRight {
         height: auto !important;
         margin-top: 10px !important;
     }
-
+    body .blockMod{
+        left: 0px;
+    }
     .devProfils .prof.hover ul li{
         line-height: 12px;
     }
@@ -2046,7 +2055,7 @@ footer .copyRight {
 
     .team .slider .slick-center .image .img,
     .team .slider .slick-center .image img {
-        height: 317px;
+        height: 310px;
     }
 
     .team .slider .slick-center .in { /*! top: -63px; *//*! left: -45px; *//*! width: calc(100% + 90px); *//*! margin-bottom: -63px; */
@@ -2447,6 +2456,12 @@ footer .copyRight {
 }
 
 @media (max-width: 767px) {
+  .blockMod{
+    width: 420px;
+  }
+  .modals .tCell{
+    padding: 10px;
+  }
     .projectsList {
         padding-bottom: 0px;
     }
@@ -2692,6 +2707,9 @@ footer .copyRight {
 
     .devProfils .grid .item {
         padding: 8px 8px 0px;
+        opacity: 1 !important;
+      	-webkit-animation-name: inherit !important;
+      	animation-name: inherit !important;
     }
 
     .devProfils .prof ul li + li {
@@ -2736,13 +2754,15 @@ footer .copyRight {
         font-size: 14px;
         line-height: 21px;
     }
-
+    form button{
+        height: 55px;
+    }
     .projectSection [class*="Btn"],
     .dopDataCallBack [class*="Btn"] {
         width: 100%;
         max-width: 290px;
         line-height: 55px;
-        margin-top: 20px;
+        margin-top: 10px;
     }
 
     .projectSection [class*='col'].item {
@@ -2786,12 +2806,34 @@ footer .copyRight {
         line-height: 21px;
     }
 
-    .innerFirst h1 {
+    .innerFirst h1,
+    .blockMod .in .cap {
         font-size: 20px;
         line-height: 30px;
         letter-spacing: 2px;
+        margin-bottom: 20px;
     }
-
+    .modals .close{
+      right: 0px;
+      top:0px;
+    }
+    input[type="text"], input[type="password"], input[type="email"], input[type="url"], input[type="date"], textarea, select{
+      height: 35px;
+      padding: 0px 10px;
+      font-size: 14px;
+    }
+    textarea{
+      padding: 10px;
+    }
+    form .item + .item{
+      margin-top: 10px;
+    }
+    .blockMod{
+      padding: 20px 10px 10px;
+    }
+    .hGradBtn{
+      font-size: 14px;
+    }
     .firstMain .logoIcon {
         display: none;
     }
@@ -2996,6 +3038,7 @@ footer .copyRight {
     .projectsList .left,
     .projectsList .right {
         width: 50%;
+        top:0px !important;
     }
 
     .projectsList .project .cap {
@@ -3082,6 +3125,9 @@ footer .copyRight {
     .projectsList .left,
     .projectsList .right {
         width: 100%;
+    }
+    .blockMod{
+        width: 300px;
     }
 }
 

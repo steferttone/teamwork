@@ -30,6 +30,7 @@ class ProposalComponent extends Component {
 
         return (
             <section className="devProfils">
+                <NextButton buttonTitle={ BTN_NEXT_TITLE } />
                 <div className="container hoverSideContainer">
                     <div className="grid hoverSide">
                         {
@@ -71,7 +72,6 @@ class ProposalComponent extends Component {
                 <div className="fadeLogo">
                     <span className="icon-logo-text"></span>
                 </div>
-                <NextButton buttonTitle={ BTN_NEXT_TITLE } />
                 <div className="container">
                     <div className="grid profCont scrollParent">
                         {

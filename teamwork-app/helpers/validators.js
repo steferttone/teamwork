@@ -57,21 +57,21 @@ const buildValidationObject = (isValid, errorMessage) => {
 
 const validatePassword = (password) => {
     const isValid = isPasswordValid(password, MINIMUM_PASSWORD_LENGTH)
-    const errorMessage = `Password should be longer then ${MINIMUM_PASSWORD_LENGTH}`
+    const errorMessage = `Пароль должен быть длиннее ${MINIMUM_PASSWORD_LENGTH} символов`
 
     return buildValidationObject(isValid, errorMessage)
 }
 
 const validateMonthMM = (value) => {
     const isValid = isStringValid(value, MONTH_MM_REGEX)
-    const errorMessage = 'Enter month in MM format'
+    const errorMessage = 'Введите месяц в формате MM'
 
     return buildValidationObject(isValid, errorMessage)
 }
 
 const validateYearYYYY = (value) => {
     const isValid = isStringValid(value, YEAR_YYYY_REGEX)
-    const errorMessage = 'Enter month in YYYY format'
+    const errorMessage = 'Введите год в формате YYYY'
 
     return buildValidationObject(isValid, errorMessage)
 }
@@ -85,77 +85,77 @@ const validateSecurityCode = (value) => {
 
 const validateTitle = (value) => {
     const isValid = isStringValid(value, TITLE_REGEX)
-    const errorMessage = 'This field is requried'
+    const errorMessage = 'Это поле обязательное'
 
     return buildValidationObject(isValid, errorMessage)
 }
 
 const validateFirstName = (value) => {
     const isValid = isStringValid(value, FIRST_NAME_REGEX)
-    const errorMessage = 'Input valid first name'
+    const errorMessage = 'Введите корректное имя'
 
     return buildValidationObject(isValid, errorMessage)
 }
 
 const validateLastName = (value) => {
     const isValid = isStringValid(value, LAST_NAME_REGEX)
-    const errorMessage = 'Input valid last name'
+    const errorMessage = 'Введите корректную фамилию'
 
     return buildValidationObject(isValid, errorMessage)
 }
 
 const validatePhone = (value) => {
     const isValid = isStringValid(value, PHONE_REGEX)
-    const errorMessage = 'This field is requried'
+    const errorMessage = 'Введите корректный телефон'
 
     return buildValidationObject(isValid, errorMessage)
 }
 
 const validateEmail = (value) => {
     const isValid = isStringValid(value, EMAIL_REGEX)
-    const errorMessage = 'Entered email is not valid'
+    const errorMessage = 'Введите корректный E-mail адресс'
 
     return buildValidationObject(isValid, errorMessage)
 }
 
 const validateCountry = (value) => {
     const isValid = isStringValid(value, COUNTRY_REGEX)
-    const errorMessage = 'Please select country'
+    const errorMessage = 'Выберете страну'
 
     return buildValidationObject(isValid, errorMessage)
 }
 
 const validateStateProv = (value) => {
     const isValid = isStringValid(value, STATE_PROV_REGEX)
-    const errorMessage = 'This field is requried'
+    const errorMessage = 'Введённая область не корректна'
 
     return buildValidationObject(isValid, errorMessage)
 }
 
 const validateCity = (value) => {
     const isValid = isStringValid(value, CITY_REGEX)
-    const errorMessage = 'This field is requried'
+    const errorMessage = 'Введите корректный город'
 
     return buildValidationObject(isValid, errorMessage)
 }
 
 const validateStreetAndBuilding = (value) => {
     const isValid = isStringValid(value, STREET_REGEX)
-    const errorMessage = 'This field is requried'
+    const errorMessage = 'Улица введена не корректно'
 
     return buildValidationObject(isValid, errorMessage)
 }
 
 const validatePostalCode = (value) => {
     const isValid = isStringValid(value, POSTAL_CODE_REGEX)
-    const errorMessage = 'Please input valid 5-6 digits code'
+    const errorMessage = 'Введите правильный почтовый индекс'
 
     return buildValidationObject(isValid, errorMessage)
 }
 
 const validateMaskedCardNumber = (value) => {
     const isValid = isStringValid(value, MASKED_CARD_NUMBER_REGEX)
-    const errorMessage = 'Input PAN of your credit card'
+    const errorMessage = 'Номер карты введён не корректно'
 
     return buildValidationObject(isValid, errorMessage)
 }
@@ -190,14 +190,14 @@ const validateCityState = (value) => {
 
 const validateSubject = (value) => {
     const isValid = isStringValid(value, SUBJECT_REGEX)
-    const errorMessage = 'This field is required'
+    const errorMessage = 'Выберете тему'
 
     return buildValidationObject(isValid, errorMessage)
 }
 
 const validateConfirmPassword = ({ newPassword, confirmPassword }) => {
     const isValid = newPassword === confirmPassword
-    const errorMessage = 'New password and confirm password must be the same'
+    const errorMessage = 'Пароли не совпадают'
 
     return buildValidationObject(isValid, errorMessage)
 }

@@ -18,6 +18,7 @@ class ProjectsItem extends Component {
     render() {
         const { project } = this.props
         const { animateState } = this.state
+        const colorBackSide = `projColor${project.id % 4 + 1}`
 
         return (
             <VisibilitySensor
@@ -29,12 +30,12 @@ class ProjectsItem extends Component {
                 delayedCall={ true }
 
             >
-                <div className={ `item scrollItem ${animateState}` }>
+                <div className={ `item scrollItem` }>
                     <div className="project arrAnim invisLink">
                         <div className="img" style={ { backgroundImage: `url(${project.image})` } }>
                             <img src={ project.image } alt=""/>
                         </div>
-                        <div className="in projColor1" >
+                        <div className={ `in ${colorBackSide}` } >
                             <div className="hideCapBl">
                                 <h2
                                     className="cap"

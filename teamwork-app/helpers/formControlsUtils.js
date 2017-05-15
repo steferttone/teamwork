@@ -54,8 +54,8 @@ const RenderInputField = (props) => {
             />
             {
                 touched && (
-                    (error && <span>{ error }</span>) ||
-                    (warning && <span>{ warning }</span>)
+                    (error && <span className="animated bounceUp">{ error }</span>) ||
+                    (warning && <span className="animated bounceUp">{ warning }</span>)
                 )
             }
         </div>
@@ -79,8 +79,8 @@ const RenderTextareaField = (props) => {
             <textarea { ...input } placeholder={ placeholder }></textarea>
             {
                 touched && (
-                    (error && <span>{ error }</span>) ||
-                    (warning && <span>{ warning }</span>)
+                    (error && <span className="animated bounceUp">{ error }</span>) ||
+                    (warning && <span className="animated bounceUp">{ warning }</span>)
                 )
             }
         </div>
@@ -126,8 +126,8 @@ class RenderSelectField extends Component {
                 <input type="hidden" { ...input } />
                 {
                     touched && (
-                        (error && <span>{ error }</span>) ||
-                        (warning && <span>{ warning }</span>)
+                        (error && <span className="animated bounceUp">{ error }</span>) ||
+                        (warning && <span className="animated bounceUp">{ warning }</span>)
                     )
                 }
             </div>
