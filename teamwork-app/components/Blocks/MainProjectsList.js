@@ -4,7 +4,6 @@ import smoothscroll from 'smoothscroll'
 
 import ProjectsItem from 'components/Blocks/ProjectsItem'
 import NextButton from 'components/Blocks/NextButton'
-import debug from 'helpers/debugLogger'
 
 const PROJECTS_LIST_TITLE = 'Проекты'
 const ALL_PROJECTS_BUTTON_TITLE = 'вСЕ ПРОЕКТЫ'
@@ -17,6 +16,7 @@ class MainProjectsList extends Component {
 
         this.state = {
             leftCellTop: '0px',
+            listnerId: false,
         }
         this.leftParalaxEffect = this.leftParalaxEffect.bind(this)
     }
@@ -26,14 +26,24 @@ class MainProjectsList extends Component {
     componentDidMount() {
         const { projectsList, onGetProjects } = this.props
 
-        window.addEventListener('scroll', this.leftParalaxEffect)
-
         if (projectsList.dataState === 'STATE_NOT_REQUESTED') {
             onGetProjects()
         }
     }
+    componentWillReceiveProps(nextProps) {
+      const { projectsList } = this.props
+        if (
+          nextProps.projectsList.dataState !== projectsList.dataState
+          && nextProps.projectsList.dataState === 'STATE_READY'
+        ) {
+          const listnerId = window.addEventListener('scroll', this.leftParalaxEffect)
+          this.setState({
+              listnerId,
+          })
+        }
+    }
     leftParalaxEffect() {
-        this.calculateLeftParams
+        this.calculateLeftParams()
     }
     calculateLeftParams() {
         const projList = document.querySelector(".projectsList")
@@ -44,18 +54,22 @@ class MainProjectsList extends Component {
 
         const windowScrTop = document.documentElement.scrollTop
             || document.body.scrollTop
-        const ratioScrListDone = windowScrTop - getOffsetRect(projList).top
+        const ratioScrListDone = windowScrTop - this.getOffsetRect(projList).top
         const projLastLeftElH = parseFloat(projLastRElStyles.marginTop) + projLastREl.clientHeight
+
         const ratioScrList = ratioScrListDone * projLastLeftElH / (projList.clientHeight - window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight)
+
         const leftCellTop = ratioScrListDone < 0
             ? 0
-            : `${projLastLeftElH}px`
+            : ratioScrList > projLastLeftElH
+                ? `${projLastLeftElH}px`
+                : `${ratioScrList}px`
 
-        parseFloat(projListLeftCell.style.top) != ratioScrList
+        parseFloat(projListLeftCell.style.top) != leftCellTop
             ? this.setState({
-                  leftCellTop
+                  leftCellTop,
               })
-            : debug.log(leftCellTop)
+            : null
     }
     getOffsetRect(elem) {
         const box = elem.getBoundingClientRect()
@@ -80,14 +94,14 @@ class MainProjectsList extends Component {
         const top = box.top + scrollTop - clientTop
         const left = box.left + scrollLeft - clientLeft
 
-        return {top: Math.round(top), left: Math.round(left)}
+        return { top, left }
     }
     render() {
         const { preview, projectsList, buttonTitle } = this.props
         const btnTitle = !buttonTitle
             ? ALL_PROJECTS_BUTTON_TITLE
             : buttonTitle
-        const leftCellTop = this.state
+        const { leftCellTop } = this.state
         const leftCellStyles = { top: leftCellTop }
 
         if (projectsList.dataState !== 'STATE_READY') {
