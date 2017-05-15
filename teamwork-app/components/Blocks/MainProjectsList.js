@@ -148,7 +148,7 @@ class MainProjectsList extends Component {
                                         ? <a href="#/portfolio" className="hGradBtn lookAll icon-arr-right">
                                             { ALL_PROJECTS_BUTTON_TITLE }
                                         </a>
-                                        : <a href="#/contacts" className="hGradBtn lookAll icon-arr-right">
+                                        : <a href="#/contacts/ru" className="hGradBtn lookAll icon-arr-right">
                                             { MAKE_ORDER_TITLE }
                                         </a>
                                 }
