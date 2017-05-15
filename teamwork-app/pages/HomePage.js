@@ -20,6 +20,7 @@ class HomePage extends Component {
                     <MainPageDescription/>
                     <MainProjectsList
                         preview={ true }
+                        buttonTitle='проекты'
                     />
                     <AboutBlock/>
                     <PlacesBlock/>

@@ -1,11 +1,10 @@
 /* eslint no-plusplus: ["error", { "allowForLoopAfterthoughts": true }] */
 import React, { Component } from 'react'
 
-import smoothscroll from 'smoothscroll'
-
 import ProposalItem from 'components/Blocks/ProposalItem'
+import NextButton from 'components/Blocks/NextButton'
 
-const PROPOSE_TITLE = 'Предлагаем'
+const BTN_NEXT_TITLE = 'Предлагаем'
 
 class ProposalComponent extends Component {
     constructor() {
@@ -31,24 +30,6 @@ class ProposalComponent extends Component {
 
         return (
             <section className="devProfils">
-                <div className="showNext arrAnim">
-                    <span
-                        className="cap"
-                        onClick={
-                            () => {
-                                const pos = document
-                                    .getElementsByClassName('hoverSideContainer')[0]
-                                    .getBoundingClientRect()
-                                    .top
-
-                                smoothscroll(pos)
-                            }
-                        }
-                    >
-                        { PROPOSE_TITLE }
-                    </span>
-                    <button className="icon-arr-down"></button>
-                </div>
                 <div className="container hoverSideContainer">
                     <div className="grid hoverSide">
                         {
@@ -90,6 +71,7 @@ class ProposalComponent extends Component {
                 <div className="fadeLogo">
                     <span className="icon-logo-text"></span>
                 </div>
+                <NextButton buttonTitle={ BTN_NEXT_TITLE } />
                 <div className="container">
                     <div className="grid profCont scrollParent">
                         {

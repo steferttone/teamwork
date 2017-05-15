@@ -48,7 +48,7 @@ class TeamPage extends Component {
                                     <p>{ teamData.postDescription }</p>
                                 </div>
                             </div>
-                            <ContactButton buttonTitle={ ORDER_TITLE } />
+                            <ContactButton buttonTitle={ ORDER_TITLE } showArrow={ true } />
                         </div>
                     </section>
                     <PlacesBlock/>
