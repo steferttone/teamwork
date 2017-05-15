@@ -60,11 +60,11 @@ body.fixPage {
     z-index: 3;
 }
 .backParalax .layer1 {
-    background-image: url(../../img/backLayer1.png)
+    background-image: url(/img/backLayer1.png)
 }
 
 .backParalax .layer2 {
-    background-image: url(../../img/backLayer2.png)
+    background-image: url(/img/backLayer2.png)
 }
 
 
@@ -1400,7 +1400,7 @@ button.hGradBtn { /*!  */
     }
 
     .backParalax .layer1 {
-        background-image: url(../../img/backLayerTablet.png)
+        background-image: url(/img/backLayerTablet.png)
     }
     .backParalax .layer2 {
         display: none;
@@ -1470,7 +1470,7 @@ button.hGradBtn { /*!  */
     }
 
     .backParalax .layer1 {
-        background-image: url(../../img/backLayerMobile.png)
+        background-image: url(/img/backLayerMobile.png)
     }
 }
 

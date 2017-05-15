@@ -40,7 +40,7 @@ class ProjectsItem extends Component {
                                 <h2
                                     className="cap"
                                 >
-                                    { project.name }{ colorBackSide }
+                                    { project.name }
                                 </h2>
                                 <span>{ project.type }</span>
                             </div>
