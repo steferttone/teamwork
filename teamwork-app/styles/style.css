@@ -2012,6 +2012,9 @@ form .item.error span{
         height: auto !important;
         margin-top: 10px !important;
     }
+    .projectsList .left, .projectsList .right{
+      top:0px !important;
+    }
     body .blockMod{
         left: 0px;
     }
