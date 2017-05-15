@@ -6,15 +6,15 @@ import MessagesWrapper from 'components/Headers/MessageWrapper'
 
 const menuList = [
     {
-        link: '/team',
+        link: 'team',
         title: 'TeamWork',
     },
     {
-        link: '/portfolio',
+        link: 'portfolio',
         title: 'Портфолио',
     },
     {
-        link: '/contacts/ru',
+        link: 'contacts/ru',
         title: 'Контакты',
     },
 ]
@@ -79,11 +79,11 @@ class CommonHeader extends Component {
                                             return (
                                                 <li key={ key }>
                                                     <a
-                                                        href={ item.link }
+                                                        href="#"
                                                         onClick={ (e)=> {
                                                             e.preventDefault()
                                                             hashHistory.push({
-                                                                pathname: `${item.link}`,
+                                                                pathname: `/${item.link}`,
                                                             })
                                                         }}
                                                     >
