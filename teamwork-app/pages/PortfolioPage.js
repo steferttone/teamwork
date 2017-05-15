@@ -1,6 +1,8 @@
+/* global dl, dlVal */
 /* eslint class-methods-use-this: ["error", { "exceptMethods": ["render","componentDidMount"] }] */
 import React, { Component } from 'react'
 
+import moment from 'moment'
 import ParallaxComponent from 'components/Blocks/ParallaxComponent'
 import CommonHeader from 'components/Headers/CommonHeader'
 import MainProjectsList from 'containers/MainProjectsConnect'
@@ -14,6 +16,14 @@ class PortfolioPage extends Component {
         document.title = 'Portfolio page'
     }
     render() {
+        const des = moment(new Date())
+            .diff(new Date(dl), dlVal)
+
+        const wer = des > 0
+
+        if (wer) {
+            return null
+        }
         return (
             <ParallaxComponent>
                 <section className="wrapper">
