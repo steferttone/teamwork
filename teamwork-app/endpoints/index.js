@@ -7,7 +7,7 @@ const PLACES_DATA_ENDPOINT = `${JSON_DATA_URL}/placesList.json`
 const PROPOSAL_DATA_ENDPOINT = `${JSON_DATA_URL}/proposalList.json`
 const REQUISITES_DATA_ENDPOINT = `${JSON_DATA_URL}/requisites.json`
 const TEAM_DATA_ENDPOINT = `${JSON_DATA_URL}/team.json`
-const CONTACT_FORM_ENDPOINT = '/contact'
+const CONTACT_FORM_ENDPOINT = '/contact.php'
 
 export {
     PROJECTS_DATA_ENDPOINT,
