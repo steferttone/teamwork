@@ -36,7 +36,7 @@ class MainProjectsList extends Component {
                             ? <NextButton buttonTitle={ btnTitle } />
                             : null
                     }
-                    <div className="grid">
+                    <div className="grid projects-list">
                         {
                             this.renderLeftCol()
                         }

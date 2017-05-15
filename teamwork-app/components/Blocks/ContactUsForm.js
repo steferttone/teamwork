@@ -91,7 +91,7 @@ const fields = [
         componentType: COMPONENT_INPUT,
         type: 'text',
         isRequired: true,
-        className: 'col-xs-12 col-sm-4 form-element',
+        className: 'item',
     },
     {
         name: 'email',
@@ -99,7 +99,7 @@ const fields = [
         componentType: COMPONENT_INPUT,
         type: 'email',
         isRequired: true,
-        className: 'col-xs-12 col-sm-4 form-element',
+        className: 'item',
     },
     {
         name: 'phone',
@@ -107,21 +107,21 @@ const fields = [
         componentType: COMPONENT_INPUT,
         type: 'text',
         isRequired: true,
-        className: 'col-xs-12 col-sm-4 form-element',
+        className: 'item',
     },
     {
         name: 'subject',
         placeholder: SUBJECT,
         componentType: COMPONENT_SELECT,
         isRequired: false,
-        className: 'col-xs-12 form-element',
+        className: 'item',
     },
     {
         name: 'message',
         placeholder: MESSAGE,
         componentType: COMPONENT_TEXTAREA,
         isRequired: false,
-        className: 'col-xs-12 form-element',
+        className: 'item',
     },
 ]
 
