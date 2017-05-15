@@ -7,7 +7,7 @@ import NextButton from 'components/Blocks/NextButton'
 import { connect } from 'react-redux'
 import { getProjectsData } from 'actions/projectsActions'
 
-const BTN_NEXT_TITLE = 'Проекты'
+const BTN_NEXT_TITLE = 'Проект'
 const ORDER_TITLE = 'Сдеалать заказ'
 
 class ProjectData extends Component {

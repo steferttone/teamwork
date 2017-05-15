@@ -17,7 +17,7 @@ class NextButton extends Component {
                   onClick={
                       () => {
                           const pos = document
-                              .querySelector('.showNext + *')
+                              .querySelector('.showNext').parentElement
                               .offsetTop
 
                           smoothscroll(pos)
