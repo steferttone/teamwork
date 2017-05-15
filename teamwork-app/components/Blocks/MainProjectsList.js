@@ -5,6 +5,8 @@ import smoothscroll from 'smoothscroll'
 import ProjectsItem from 'components/Blocks/ProjectsItem'
 import NextButton from 'components/Blocks/NextButton'
 
+import debug from 'helpers/debugLogger'
+
 const PROJECTS_LIST_TITLE = 'Проекты'
 const ALL_PROJECTS_BUTTON_TITLE = 'вСЕ ПРОЕКТЫ'
 const MAKE_ORDER_TITLE = 'Сделать заказ'
@@ -28,6 +30,13 @@ class MainProjectsList extends Component {
 
         if (projectsList.dataState === 'STATE_NOT_REQUESTED') {
             onGetProjects()
+        }
+        if (projectsList.dataState === 'STATE_READY') {
+            window.addEventListener('scroll', this.leftParalaxEffect)
+
+            this.setState({
+                listnerId: true,
+            })
         }
     }
     componentWillReceiveProps(nextProps) {
@@ -139,7 +148,7 @@ class MainProjectsList extends Component {
                                         ? <a href="#/portfolio" className="hGradBtn lookAll icon-arr-right">
                                             { ALL_PROJECTS_BUTTON_TITLE }
                                         </a>
-                                        : <a href="#/contacts" className="hGradBtn lookAll icon-arr-right">
+                                        : <a href="#/contacts/ru" className="hGradBtn lookAll icon-arr-right">
                                             { MAKE_ORDER_TITLE }
                                         </a>
                                 }
