@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 import ProjectLinkBlock from 'components/Blocks/ProjectLinkBlock'
-import ContactsModal from 'components/Blocks/ContactsModal'
+import ContactButton from 'components/Blocks/ContactButton'
 import NextButton from 'components/Blocks/NextButton'
 
 import { connect } from 'react-redux'
@@ -14,8 +14,7 @@ class ProjectData extends Component {
     constructor() {
         super()
         this.state = {
-            projectData: null,
-            showModal: false,
+            projectData: null
         }
     }
     componentWillMount() {
@@ -62,9 +61,7 @@ class ProjectData extends Component {
         return null
     }
     render() {
-        const { projectData, showModal } = this.state
-
-        document.body.className = showModal ? 'showingModal' : ''
+        const { projectData } = this.state
 
         if (!projectData) {
             return null
@@ -107,26 +104,7 @@ class ProjectData extends Component {
                                 </p>
                             </div>
                         </div>
-                        <button
-                            className="hGradBtn icon-arr-right"
-                            onClick={
-                                () => {
-                                    this.setState({
-                                        showModal: !showModal,
-                                    })
-                                }
-                            }
-                        >
-                            { ORDER_TITLE }
-                        </button>
-                        <ContactsModal
-                            showingState={ showModal }
-                            onShowModal={
-                                this.setState.bind(this, {
-                                    showModal: !showModal,
-                                })
-                            }
-                        />
+                        <ContactButton buttonTitle={ ORDER_TITLE } showArrow={ true } />
                     </div>
                 </section>
             </section>

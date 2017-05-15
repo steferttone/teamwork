@@ -59,6 +59,14 @@ body.fixPage {
 .backParalax .layer3 {
     z-index: 3;
 }
+.backParalax .layer1 {
+    background-image: url(../../img/backLayer1.png)
+}
+
+.backParalax .layer2 {
+    background-image: url(../../img/backLayer2.png)
+}
+
 
 *,
 *:before,
@@ -1057,6 +1065,7 @@ button.hGradBtn { /*!  */
 
     .backParalax [class*='layer'] {
         background-size: 100% auto;
+        background-position: center top !important;
     }
 
     .modals .tCell {
@@ -1390,6 +1399,12 @@ button.hGradBtn { /*!  */
         width: 980px;
     }
 
+    .backParalax .layer1 {
+        background-image: url(../../img/backLayerTablet.png)
+    }
+    .backParalax .layer2 {
+        display: none;
+    }
     body.showingModal{
       padding-right: 0px;
     }
@@ -1452,6 +1467,10 @@ button.hGradBtn { /*!  */
     }
 
     .mobileImage img {
+    }
+
+    .backParalax .layer1 {
+        background-image: url(../../img/backLayerMobile.png)
     }
 }
 

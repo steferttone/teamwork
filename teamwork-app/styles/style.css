@@ -1,7 +1,7 @@
 header {
     padding-top: 2px;
     position: relative;
-    z-index: 2;
+    z-index: 3;
 }
 
 header .menuBlock {
@@ -2996,6 +2996,7 @@ footer .copyRight {
     .projectsList .left,
     .projectsList .right {
         width: 50%;
+        top:0px !important;
     }
 
     .projectsList .project .cap {

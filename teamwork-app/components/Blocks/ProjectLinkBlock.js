@@ -39,7 +39,7 @@ class ProjectLinkBlock extends Component {
                             />
                             <img src={ item.url } alt=""/>
                         </div>
-                        <a href="#">{ item.title }</a>
+                        {/* <a href="#">{ item.title }</a> */}
                     </div>
                 </div>
             </VisibilitySensor>
