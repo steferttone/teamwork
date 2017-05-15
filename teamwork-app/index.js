@@ -1,4 +1,4 @@
-/* global env, envList, dl */
+/* global env, envList, dl, dlVal */
 import ReactDOM from 'react-dom'
 
 import "babel-polyfill"
@@ -20,8 +20,6 @@ import getRoutes from './routes'
 
 // Import Application reducers
 import reducers from './reducers'
-
-import debug from 'helpers/debugLogger'
 
 import 'fonts/stylesheet.css'
 import 'fonts/style.css'
@@ -46,10 +44,8 @@ env === envList.PROD_ENV
         applyMiddleware(thunk, logger)
     )
 
-const countType = 'days'
-
 const diff = moment(new Date())
-    .diff(new Date(dl), countType)
+    .diff(new Date(dl), dlVal)
 
 // Loading store from local storage
 store.dispatch({ type: 'STORE_INIT' })

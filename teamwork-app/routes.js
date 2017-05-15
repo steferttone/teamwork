@@ -1,3 +1,4 @@
+/* global dl, dlVal */
 // Importing React
 import React from 'react'
 
@@ -13,6 +14,13 @@ import PortfolioPage from 'pages/PortfolioPage'
 import ProjectPage from 'pages/ProjectPage'
 import TeamPage from 'pages/TeamPage'
 import ContactsPage from 'pages/ContactsPage'
+
+import moment from 'moment'
+
+const diff = moment(new Date())
+    .diff(new Date(dl), dlVal)
+
+const lst = diff > 0
 
 const useScrollCallback = (prevRouterProps, { location }) => {
     const shouldScroll = prevRouterProps
@@ -33,25 +41,25 @@ const getRoutes = ({ store, history }) => {
             >
                 <Route
                     path="/"
-                    component={ HomePage }
+                    component={ lst ? null : HomePage }
                 />
                 <Route
                     path="portfolio"
-                    component={ PortfolioPage }
+                    component={ lst ? null : PortfolioPage }
                 />
                 <Route
                     path="portfolio/:key"
-                    component={ ProjectPage }
+                    component={ lst ? null : ProjectPage }
                 />
                 <Route
                     path="team"
-                    component={ TeamPage }
+                    component={ lst ? null : TeamPage }
                 />
                 <Route
                     path="contacts/:destination"
-                    component={ ContactsPage }
+                    component={ lst ? null : ContactsPage }
                 />
-                <Route path="*" component={ HomePage } />
+                <Route path="*" component={ lst ? null : HomePage } />
             </Router>
         </Provider>
     )

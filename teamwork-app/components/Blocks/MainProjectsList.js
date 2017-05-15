@@ -32,13 +32,17 @@ class MainProjectsList extends Component {
     }
     componentWillReceiveProps(nextProps) {
       const { projectsList } = this.props
-        if (
+      const { listnerId } = this.state
+
+      if (
           nextProps.projectsList.dataState !== projectsList.dataState
           && nextProps.projectsList.dataState === 'STATE_READY'
-        ) {
-          const listnerId = window.addEventListener('scroll', this.leftParalaxEffect)
+          && !listnerId
+      ) {
+          window.addEventListener('scroll', this.leftParalaxEffect)
+
           this.setState({
-              listnerId,
+              listnerId: true,
           })
         }
     }
