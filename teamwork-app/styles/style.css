@@ -316,7 +316,7 @@ header .langs a:hover {
 
 .devProfils .showNext {
     position: relative;
-    z-index: 3;
+    z-index: 2;
 }
 
 .projectsList .showNext .cap,
@@ -403,16 +403,16 @@ header .langs a:hover {
     left: 0;
     overflow: hidden;
     top: 100%;
-    opacity: 0;
+    /*opacity: 0;*/
     -webkit-transform-origin: center bottom;
     -moz-transform-origin: center bottom;
     -o-transform-origin: center bottom;
     -ms-transform-origin: center bottom;
     transform-origin: center bottom;
-    -webkit-transition: top 0.5s cubic-bezier(0.4, 0, 0.2, 1), opacity 1s cubic-bezier(0.4, 0, 0.2, 1);
-    -moz-transition: top 0.5s cubic-bezier(0.4, 0, 0.2, 1), opacity 1s cubic-bezier(0.4, 0, 0.2, 1);
-    -o-transition: top 0.5s cubic-bezier(0.4, 0, 0.2, 1), opacity 1s cubic-bezier(0.4, 0, 0.2, 1);
-    transition: top 0.5s cubic-bezier(0.4, 0, 0.2, 1), opacity 1s cubic-bezier(0.4, 0, 0.2, 1);
+    -webkit-transition: top 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    -moz-transition: top 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    -o-transition: top 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: top 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .projectsList .item {
@@ -430,7 +430,7 @@ header .langs a:hover {
 
 .projectsList .project:hover .in {
     top: 0%;
-    opacity: 1;
+    /*opacity: 1;*/
 }
 
 .projectsList .project .in.projColor1 {
@@ -486,10 +486,10 @@ header .langs a:hover {
     font-weight: 500;
     display: block;
     position: relative;
-    -webkit-transition: top 0.9s, opacity 0.9s;
-    -moz-transition: top 0.9s, opacity 0.9s;
-    -o-transition: top 0.9s, opacity 0.9s;
-    transition: top 0.9s, opacity 0.9s;
+    -webkit-transition: top 0.6s, opacity 0.6s;
+    -moz-transition: top 0.6s, opacity 0.6s;
+    -o-transition: top 0.6s, opacity 0.6s;
+    transition: top 0.6s, opacity 0.6s;
     opacity: 0;
     top: 100%
 }
@@ -501,10 +501,10 @@ header .langs a:hover {
     font-weight: 500;
     display: block;
     position: relative;
-    -webkit-transition: top 0.9s, opacity 0.9s;
-    -moz-transition: top 0.9s, opacity 0.9s;
-    -o-transition: top 0.9s, opacity 0.9s;
-    transition: top 0.9s, opacity 0.9s;
+    -webkit-transition: top 0.6s, opacity 0.6s;
+    -moz-transition: top 0.6s, opacity 0.6s;
+    -o-transition: top 0.6s, opacity 0.6s;
+    transition: top 0.6s, opacity 0.6s;
     opacity: 0;
     top: 100%;
     margin-top: 18px;
@@ -539,17 +539,17 @@ header .langs a:hover {
 }
 
 .projectsList .project:hover span:not([class*='icon-']) {
-    -webkit-transition-delay: 0.4s;
-    -o-transition-delay: 0.4s;
-    -moz-transition-delay: 0.4s;
-    transition-delay: 0.4s;
+    -webkit-transition-delay: 0.25s;
+    -o-transition-delay: 0.25s;
+    -moz-transition-delay: 0.25s;
+    transition-delay: 0.25s;
 }
 
 .projectsList .project:hover [class*='icon-'] {
-    -webkit-transition-delay: 0.5s;
-    -o-transition-delay: 0.5s;
-    -moz-transition-delay: 0.5s;
-    transition-delay: 0.5s;
+    -webkit-transition-delay: 0.35s;
+    -o-transition-delay: 0.35s;
+    -moz-transition-delay: 0.35s;
+    transition-delay: 0.35s;
 }
 
 .projectsList .lookAll {
@@ -767,10 +767,18 @@ header .langs a:hover {
     font-size: 50px;
     line-height: 0px;
     opacity: 0;
-    -webkit-transition: all 0.2s;
+    /*-webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
     -o-transition: all 0.2s;
     transition: all 0.2s;
+        -webkit-animation-delay: 0.5s;
+    -moz-animation-delay: 0.5s;
+    -o-animation-delay: 0.5s;
+    animation-delay: 0.5s;*/
+        -webkit-animation-name:  inherit !important;
+    -moz-animation-name:  inherit !important;
+    -o-animation-name:  inherit !important;
+    animation-name:  inherit !important;
 }
 
 .places .country.russ .marker {
@@ -1158,6 +1166,8 @@ footer .copyRight {
     -moz-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s;
+    position: relative;
+    overflow: hidden;
 }
 
 .devProfils .prof ul li {
@@ -1165,22 +1175,23 @@ footer .copyRight {
     text-align: center;
     color: #fff;
     font-size: 18px;
-    line-height: 0px;
     padding: 0px 0px;
     overflow: hidden;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s;
+    margin-top: -32px;
+    position: relative;
+    z-index: 2;
 }
 
 .devProfils .prof.hover ul{
     margin-top: 10px;
 }
 .devProfils .prof.hover li{
-    line-height: 20px;
     padding: 6px 0px;
-
+    margin-top: 0px;
 }
 .devProfils .els {
     position: absolute;
@@ -1271,7 +1282,8 @@ footer .copyRight {
     transition: all 0.5s;
 }
 
-.devProfils .prof.market:after {
+.devProfils .prof.market:after,
+.devProfils .prof.market li {
     background-color: #4c4f65;
 }
 
@@ -1310,7 +1322,8 @@ footer .copyRight {
     bottom: -140px;
 }
 
-.devProfils .prof.web:after {
+.devProfils .prof.web:after,
+.devProfils .prof.web li {
     background-color: #544794;
 }
 
@@ -1366,7 +1379,8 @@ footer .copyRight {
     left: -171px;
 }
 
-.devProfils .prof.design:after {
+.devProfils .prof.design:after,
+.devProfils .prof.design li {
     background-color: #4c4f65;
 }
 
@@ -1531,7 +1545,9 @@ footer .copyRight {
     background-color: #4c4f65;
     width: 100%;
 }
-
+.showingModal .contacts{
+    z-index: 3;
+}
 .contacts .backWrapp {
     position: absolute;
     z-index: -1;
@@ -1796,10 +1812,20 @@ footer .copyRight {
     padding: 81px 0px 55px;
 }
 
+.values .showNext{
+    margin-top: -84px;
+    z-index: 2;
+    top: -100px;
+}
+
+.values .showNext .cap,
+.values .showNext button{
+    color:#fff;
+}
 .values .centerBl {
 }
 
-.values .cap {
+.values .cap[class*='grad'] {
     font-size: 102px;
     line-height: 82px;
     color: #4c4f65;
@@ -2007,6 +2033,10 @@ form .item.error span{
 }
 
 @media (max-width: 1199px) {
+    .values .showNext{
+        margin-top: -78px;
+        top:-70px;
+    }
     .devProfils .prof ul {
         display: block !important;
         height: auto !important;
@@ -2034,7 +2064,7 @@ form .item.error span{
     }
 
     .contacts h1.firstCap,
-    .values .cap {
+    .values  .cap[class*='grad'] {
         font-size: 52px;
         line-height: 52px;
     }
@@ -2043,7 +2073,7 @@ form .item.error span{
         margin-bottom: 24px;
     }
 
-    .values .cap {
+    .values  .cap[class*='grad'] {
         margin-bottom: 0px;
     }
 
@@ -2139,6 +2169,7 @@ form .item.error span{
         font-size: 14px;
         line-height: 24px !important;
         padding: 0px !important;
+        margin: 0px;
     }
 
     .projectSection [class*='Text'] {
@@ -2220,6 +2251,7 @@ form .item.error span{
 
     .projectsList .project .img img {
         position: static;
+        display: block;
     }
 
     .teamCap {
@@ -2459,6 +2491,9 @@ form .item.error span{
 }
 
 @media (max-width: 767px) {
+    .values .showNext{
+        display: none;
+    }
   .blockMod{
     width: 420px;
   }
@@ -2560,7 +2595,7 @@ form .item.error span{
         box-shadow: -1px -1px 0px 0px #4c4f65;
     }
 
-    .contacts h1.firstCap, .values .cap {
+    .contacts h1.firstCap, .values  .cap[class*='grad'] {
         text-align: center;
         font-size: 20px;
         line-height: 20px;
@@ -2568,7 +2603,7 @@ form .item.error span{
         display: block;
     }
 
-    .values .cap {
+    .values  .cap[class*='grad'] {
         margin-bottom: 28px;
     }
 
@@ -2890,9 +2925,11 @@ form .item.error span{
     }
 
     .projectsList .project .hideCapBl {
-        margin-top: 10px;
+        margin-top: 0px;
     }
-
+    .projectsList .project .in{
+        margin-top: 10px;
+    }   
     .projectsList .project .img {
         height: auto;
         background: none !important;

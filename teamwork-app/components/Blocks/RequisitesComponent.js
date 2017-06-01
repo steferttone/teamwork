@@ -1,6 +1,9 @@
 import React, { Component } from 'react'
 
+import NextButton from 'components/Blocks/NextButton'
+
 const REQUISITES_TITLE = 'Реквизиты'
+const MORE_TITLE = 'Реквизиты'
 
 class RequisitesComponent extends Component {
     constructor() {
@@ -24,7 +27,8 @@ class RequisitesComponent extends Component {
         }
 
         return (
-            <section className="values">
+            <section className="values">                
+                <NextButton buttonTitle={ MORE_TITLE } />
                 <div className="container">
                     <div className="col8 col12-md col8-xs col12-xss centerBl">
                         <span className="cap gradText">{ REQUISITES_TITLE }</span>
