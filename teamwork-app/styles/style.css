@@ -265,9 +265,6 @@ header .langs a:hover {
 
 .firstMain .teamCap span,
 .teamCap span {
-    /*margin-left: -100%;*/
-    /*display: block;*/
-    /*overflow: visible;*/
 }
 
 .firstMain .textAb {
@@ -404,7 +401,6 @@ header .langs a:hover {
     left: 0;
     overflow: hidden;
     top: 100%;
-    /*opacity: 0;*/
     -webkit-transform-origin: center bottom;
     -moz-transform-origin: center bottom;
     -o-transform-origin: center bottom;
@@ -431,7 +427,6 @@ header .langs a:hover {
 
 .projectsList .project:hover .in {
     top: 0%;
-    /*opacity: 1;*/
 }
 
 .projectsList .project .in.projColor1 {
@@ -769,14 +764,6 @@ header .langs a:hover {
     font-size: 50px;
     line-height: 0px;
     opacity: 0;
-    /*-webkit-transition: all 0.2s;
-    -moz-transition: all 0.2s;
-    -o-transition: all 0.2s;
-    transition: all 0.2s;
-        -webkit-animation-delay: 0.5s;
-    -moz-animation-delay: 0.5s;
-    -o-animation-delay: 0.5s;
-    animation-delay: 0.5s;*/
         -webkit-animation-name:  inherit !important;
     -moz-animation-name:  inherit !important;
     -o-animation-name:  inherit !important;
@@ -835,7 +822,6 @@ header .langs a:hover {
 footer {
     background-color: #393c4d;
     padding: 80px 0px 75px;
-    /*!  */
 }
 
 footer .logoFoot {
@@ -1256,7 +1242,6 @@ footer .copyRight {
     border-radius: 50%;
     overflow: hidden;
     background-position: center top;
-    /*! background-size: 7px; */
     position: absolute;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
@@ -2127,7 +2112,7 @@ form .item.error span{
         height: 310px;
     }
 
-    .team .slider .slick-center .in { /*! top: -63px; *//*! left: -45px; *//*! width: calc(100% + 90px); *//*! margin-bottom: -63px; */
+    .team .slider .slick-center .in {
     }
 
     .team .slider {

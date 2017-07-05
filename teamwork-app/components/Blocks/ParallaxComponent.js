@@ -1,8 +1,8 @@
-/* eslint new-cap: ["error", { "capIsNew": false }] */
 
 import React, { Component } from 'react'
 
 class ParallaxComponent extends Component {
+<<<<<<< HEAD
     constructor() {
         super()
 
@@ -63,6 +63,9 @@ class ParallaxComponent extends Component {
         const bgStyleSecond = {
             backgroundPosition: bgPositionSecond,
         }
+=======
+    render() {
+>>>>>>> 7be9aa2a1a7df7554f9dc94023202c00fa8cca03
 
         return (
             <div className="parallaxComponent">
@@ -70,6 +73,7 @@ class ParallaxComponent extends Component {
                     React.Children.only(this.props.children)
                 }
                 <div className="backParalax">
+<<<<<<< HEAD
                     <div
                         className="layer1"
                         style={ bgStyleFirst }
@@ -78,6 +82,8 @@ class ParallaxComponent extends Component {
                         className="layer2"
                         style={ bgStyleSecond }
                     />
+=======
+>>>>>>> 7be9aa2a1a7df7554f9dc94023202c00fa8cca03
                 </div>
             </div>
         )

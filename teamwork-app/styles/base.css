@@ -512,7 +512,6 @@ textarea:-ms-placeholder {
     height: 100vh;
 }
 body.showingModal{
-  /*position: fixed;*/
   overflow: hidden;
   padding-right: 17px;
   width: 100%;
@@ -792,9 +791,7 @@ button.redBtn {
     animation-name: bounceRight;
 }
 
-button.hGradBtn { /*!  */
-    /*!  */
-    /*!  */
+button.hGradBtn { 
 }
 
 .hGradBtn:before {
