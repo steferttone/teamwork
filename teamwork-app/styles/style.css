@@ -224,7 +224,7 @@ header .langs a:hover {
 .firstMain .table {
     height: calc(100vh - 66px - 86px);
     width: 100%;
-    min-height: 800px;
+    min-height: 500px;
 }
 
 .firstMain .in {
@@ -243,6 +243,7 @@ header .langs a:hover {
     color: #4c4f65;
     display: block;
     width: 100%;
+    padding-top:1px;
 }
 
 .firstMain .teamCap .text,
@@ -514,7 +515,7 @@ header .langs a:hover {
 .projectsList .project span[class*='icon-'] {
     display: block;
     color: #4c4f65;
-    font-size: 98px;
+    font-size: 23px;
     top: 100%;
     -webkit-transition: top 0.4s, opacity 0.6s;
     -moz-transition: top 0.4s, opacity 0.6s;
@@ -522,6 +523,7 @@ header .langs a:hover {
     transition: top 0.4s, opacity 0.6s;
     opacity: 0;
     position: relative;
+    padding-bottom: 37px;
 }
 
 .projectsList .project:hover .cap,
@@ -1092,9 +1094,13 @@ footer .copyRight {
     top: 270px;
 }
 
-.devProfils .hoverSideContainer {
+.devProfils .hoverSideContainer.container {
     position: relative;
     z-index: 3;
+}
+.devProfils .container{
+    z-index: 1;
+    position: relative;
 }
 
 .devProfils .hoverSide {
@@ -1312,13 +1318,12 @@ footer .copyRight {
 }
 
 .devProfils .prof.market .els .dotsRound {
-    background-image: url(../../img/back-dot-market.png);
+    background-image: url(/img/back-dot-market.png);
     bottom: -70px;
     right: 165px;
 }
 
 .devProfils .prof.market.hover .els .dotsRound {
-    /*!  */
     bottom: -140px;
 }
 
@@ -1351,7 +1356,7 @@ footer .copyRight {
     height: 225px;
     left: -10px;
     bottom: -15px;
-    background-image: url(../../img/back-dot-web.png);
+    background-image: url(/img/back-dot-web.png);
 }
 
 .devProfils .prof.web.hover .els .dotsRound {
@@ -1410,7 +1415,7 @@ footer .copyRight {
 .devProfils .prof.design .els .dotsRound {
     left: -35px;
     top: -28px;
-    background-image: url(../../img/back-dot-design.png);
+    background-image: url(/img/back-dot-design.png);
 }
 
 .devProfils .prof.design.hover .els .dotsRound {
@@ -1854,6 +1859,10 @@ footer .copyRight {
     font-size: 16px;
     line-height: 24px;
     color: #4c4f65;
+
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    -o-appearance: none !important;
 }
 
 .values li + li {
@@ -1875,6 +1884,26 @@ form .item.error span{
 }
 
 @media (max-width: 1439px) {
+    
+.backParalax .layer1 {
+    background-image: url(/img/backLayer1-tablet.png);
+    /*! background: none; */
+}
+
+.backParalax .layer2 {
+    background-image: url(/img/backLayer2-tablet.png)
+}
+    
+    .backParalax [class*="layer"]{
+        background-size: cover;
+        background-repeat: repeat-y;
+    }
+
+.firstMain .logoIcon{    
+    font-size: 620px;
+    margin-top: -360px;
+    left: 580px;
+}
     .devProfils .fadeLogo span {
         font-size: 100px;
     }
@@ -2033,6 +2062,12 @@ form .item.error span{
 }
 
 @media (max-width: 1199px) {
+
+    
+    .backParalax [class*="layer"]{
+        background-size: auto;
+        background-repeat: repeat;
+    }
     .values .showNext{
         margin-top: -78px;
         top:-70px;
@@ -2052,7 +2087,8 @@ form .item.error span{
         line-height: 12px;
     }
     .contacts .table {
-        height: 750px;
+        height: 100vh;
+        min-height: 500px;
     }
 
     .contacts {
@@ -2310,9 +2346,7 @@ form .item.error span{
     }
 
     .firstMain .table {
-        height: auto;
-        padding: 130px 0px 192px;
-        min-height: auto;
+        padding: 0px 0px 0px;
     }
 
     header {
@@ -2321,6 +2355,7 @@ form .item.error span{
 
     .firstMain .in {
         margin-left: 7px;
+        top:0px;
     }
 
     .firstMain .teamCap {
@@ -2415,7 +2450,23 @@ form .item.error span{
 }
 
 @media (max-width: 991px) {
+.backParalax .layer1 {
+    background-image: url(/img/backLayer1-tablet-p.png)
+}
 
+.backParalax .layer2 {
+    background-image: url(/img/backLayer2-tablet-p.png)
+}
+    .firstMain .table{
+        height: auto;
+        padding: 130px 0px 140px;
+        min-height: auto;
+    }
+    .firstMain .logoIcon {
+        font-size: 345px;
+        margin-top: -210px;
+        left: 384px;
+    }
     .contacts .back.ru {
         -moz-transform: scale(1.5);
         -ms-transform: scale(1.5);
@@ -2491,6 +2542,11 @@ form .item.error span{
 }
 
 @media (max-width: 767px) {
+    .firstMain .table {
+        padding: 0px;
+        height: calc(100vh - 65px - 70px);
+        min-height: 230px;
+    }
     .values .showNext{
         display: none;
     }
@@ -2940,10 +2996,6 @@ form .item.error span{
         font-size: 28px;
     }
 
-    .firstMain .table {
-        padding: 75px 0px 65px;
-    }
-
     header .logo span,
     .logo span {
         left: 0px;
@@ -3162,6 +3214,13 @@ form .item.error span{
 
 @media (max-width: 479px) {
 
+.backParalax .layer1 {
+    background-image: url(/img/backLayer1-mobile.png)
+}
+
+.backParalax .layer2 {
+    background-image: url(/img/backLayer2-mobile.png)
+}
     .projectsList .left,
     .projectsList .right {
         width: 100%;
