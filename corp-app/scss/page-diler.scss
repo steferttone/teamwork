@@ -1,0 +1,55 @@
+/*@import "values.scss";*/
+/*@import "mixins.scss";*/
+
+.page-diler{    
+    .textBlock{
+        max-width: 932px;
+        padding-right: 120px;
+        color: $color3;
+        & + .textBlock{
+            border-top:solid 1px $color3-a1;
+            margin-top: 25px;
+            padding-top: 21px;
+        }
+        .capThree{
+            & + *{
+                margin-top: 9px;
+            }
+        }
+        &:last-child{
+            border-bottom:solid 1px $color3-a1;
+            padding-bottom: 21px;
+        }
+    }
+    .pagination{
+        border-top:solid 1px $color3-a1;
+        margin-top: 25px;
+        padding-top: 26px;
+        max-width: 932px;
+    }
+}
+@media (max-width:$maxMediaSD){
+    .page-diler{    
+        .textBlock{
+            padding-right: 0;
+            & + .textBlock{
+                margin-top: 18px;
+                padding-top: 18px;
+            }
+            .capThree{
+                & + *{
+                }
+            }
+            &:last-child{
+
+            }
+        }
+        .pagination{
+
+        }
+    }
+}
+@media (max-width:$maxMediaMD){}
+@media (max-width:$maxMediaSM){}
+@media (max-width:$maxMediaXS){}
+@media (max-width:$maxMediaXSS){}

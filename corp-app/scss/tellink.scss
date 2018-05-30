@@ -1,0 +1,10 @@
+/*@import "values.scss";*/
+/*@import "mixins.scss";*/
+
+.telLink{
+    font-size: 16px;
+    color: $color2;
+    &:hover{
+        color: $color4;
+    }
+}

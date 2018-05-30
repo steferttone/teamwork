@@ -1,0 +1,85 @@
+/*@import "values.scss";*/
+/*@import "mixins.scss";*/
+
+.page-title{
+    & + * {
+        margin-top: 30px;
+    }
+    .breadCrumbs{
+        & + * {
+            margin-top: 26px;
+        }
+    }
+    .capTwo{
+        text-transform: none;
+        font-size: 32px;
+        letter-spacing: 0px;
+    }
+}
+@media (max-width:$maxMediaSD){
+    .page-title{
+        & + * {
+        }
+        .breadCrumbs{
+            & + * {
+            }
+        }
+        .capTwo{
+
+        }
+    }
+}
+@media (max-width:$maxMediaMD){
+        .page-title{
+        & + * {
+            margin-top: 22px;
+        }
+        .breadCrumbs{
+            & + * {
+            }
+        }
+        .capTwo{
+
+        }
+    }
+}
+@media (max-width:$maxMediaSM){
+        .page-title{
+        & + * {
+        }
+        .breadCrumbs{
+            & + * {
+                margin-top: 15px;
+            }
+        }
+        .capTwo{
+
+        }
+    }
+}
+@media (max-width:$maxMediaXS){
+        .page-title{
+        & + * {
+        }
+        .breadCrumbs{
+            & + * {
+            }
+        }
+        .capTwo{
+            font-size: 28px;
+        }
+    }
+}
+@media (max-width:$maxMediaXSS){
+        .page-title{
+        & + * {
+        }
+        .breadCrumbs{
+            & + * {
+            }
+        }
+        .capTwo{
+
+        }
+    }
+}

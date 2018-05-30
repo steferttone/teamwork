@@ -1,0 +1,188 @@
+/*@import "values.scss";*/
+/*@import "mixins.scss";*/
+
+.main-baner{
+    .main-baner-content{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;        
+        .table{
+            width: 100%;
+            height: 552px;
+            .in{
+                position: relative;
+                top: -22px;
+                padding-left: 125px;
+            }
+        }
+        .capOne{
+            color: $color1;
+            line-height: 70px;
+        }
+        .leftDash-list{
+            .leftDash-item{
+                line-height: 30px;
+                font-size: 20px;
+                color: $color1;
+                padding-left: 66px;
+                &:before{
+                 
+                    width: 50px;
+                    height: 2px;
+                    background-color: $color1;
+                }
+            }    
+        }
+    }
+    & + *{
+        margin-top: 55px;
+    }
+}
+
+@media (max-width:$maxMediaSD){
+    .main-baner{
+        .main-baner-content{
+     
+            .table{
+ 
+                .in{
+     
+                }
+            }
+            .capOne{
+
+            }
+            .leftDash-list{
+                .leftDash-item{
+
+                    &:before{
+
+                    }
+                }    
+            }
+        }
+        & + *{
+        }
+    }
+}
+
+@media (max-width:$maxMediaMD){
+    .main-baner{
+        .main-baner-content{
+     
+            .table{
+                height: 320px;
+                .in{
+                    top: 15px;
+                    padding-left: 81px;
+                }
+            }
+            .capOne{
+                line-height: 48px;
+            }
+            .leftDash-list{
+                .leftDash-item{
+                    padding-left: 44px;
+                    &:before{
+                        width: 35px;
+                        height: 1px;
+                        top: 18px;
+                    }
+                }    
+            }
+        }
+        & + *{
+            margin-top: 42px;
+        }
+    }
+}
+@media (max-width:$maxMediaSM){
+    .main-baner{
+        .main-baner-content{
+     
+            .table{
+ 
+                .in{
+                    top: 0;
+
+                    padding-left: 50px;
+                }
+            }
+            .capOne{
+                line-height: 42px;
+                font-size: 42px;
+            }
+            .leftDash-list{
+                .leftDash-item{
+                    line-height: 25px;
+
+                    font-size: 18px;
+                    &:before{
+
+                    }
+                }    
+            }
+        }
+        & + *{
+            margin-top: 30px;
+        }
+    }
+}
+@media (max-width:$maxMediaXS){
+    .main-baner{
+        .main-baner-content{
+     
+            .table{
+                height: 240px;
+                .in{
+                    top: -9px;
+                    padding-left: 24px;
+                }
+            }
+            .capOne{
+                line-height: 40px;
+                font-size: 36px;
+            }
+            .leftDash-list{
+                .leftDash-item{
+                    line-height: 24px;
+                    font-size: 16px;
+                    padding-left: 0;
+                    font-weight: normal;
+                    &:before{
+                        display: none;
+                    }
+                }    
+            }
+        }
+        & + *{
+            margin-top: 24px;
+        }
+    }
+}
+@media (max-width:$maxMediaXSS){
+    .main-baner{
+        .main-baner-content{
+     
+            .table{
+ 
+                .in{
+     
+                }
+            }
+            .capOne{
+
+            }
+            .leftDash-list{
+                .leftDash-item{
+
+                    &:before{
+
+                    }
+                }    
+            }
+        }
+        & + *{
+        }
+    }
+}

@@ -1,0 +1,244 @@
+/*@import "values.scss";*/
+/*@import "mixins.scss";*/
+
+[class*='btn']{
+    background-color: transparent;
+    text-align: center;
+    
+    &[class*="-fill"]{
+        padding: 12px 64px 13px;
+        font-size: 18px;
+        letter-spacing: .6px;
+        font-weight: 600;
+        &[class*="-color1"]{
+            color: $btnColor1-a1;
+        }
+    }
+    &[class*="-fillRound"]{
+        @include border-radius(24px);
+    }
+    &[class*="-text"]{
+        font-size: 16px;
+        line-height: 24px;    
+        text-decoration: underline;
+        &:hover{
+            text-decoration: none;
+        }
+    }
+    &[class*="-color1"]{
+        color: $btnColor1;
+    }
+    &[class*="-color2"]{
+        color: $btnColor2;
+    }
+    &[class*="-color3"]{
+        color: $btnColor3;
+    }    
+    &[class*="-color4"]{
+        color: $btnColor4;
+    }
+    &[class*="-bg1"]{
+        background-color: $btnColor1;
+    }
+    &[class*="-bg2"]{
+        background-color: $btnColor2;
+    }
+    &[class*="-bg3"]{
+        background-color: $btnColor3;
+    }    
+    &[class*="-bg4"]{
+        background-color: $btnColor4;
+        &:hover{
+            background-color: $color4-a1;
+        }
+    }
+    &[class*="-bg6-1"]{
+        background-color: $btnColor6-a1;
+    }
+    &:hover{
+        
+    }
+}
+@media (max-width:$maxMediaSD){
+    [class*='btn']{
+
+        
+        &[class*="-fill"]{
+            padding: 12px 30px 13px;
+            font-size: 16px;
+            &[class*="-color1"]{
+            }
+        }
+        &[class*="-fillRound"]{
+        }
+        &[class*="-text"]{
+
+        }
+        &[class*="-color1"]{
+        }
+        &[class*="-color2"]{
+        }
+        &[class*="-color3"]{
+        }    
+        &[class*="-color4"]{
+        }
+        &[class*="-bg1"]{
+        }
+        &[class*="-bg2"]{
+        }
+        &[class*="-bg3"]{
+        }    
+        &[class*="-bg4"]{
+        }
+        &[class*="-bg6-1"]{
+        }
+        &:hover{
+        }
+    }
+}
+@media (max-width:$maxMediaMD){
+        [class*='btn']{
+
+        
+        &[class*="-fill"]{
+
+            &[class*="-color1"]{
+            }
+        }
+        &[class*="-fillRound"]{
+        }
+        &[class*="-text"]{
+
+        }
+        &[class*="-color1"]{
+        }
+        &[class*="-color2"]{
+        }
+        &[class*="-color3"]{
+        }    
+        &[class*="-color4"]{
+        }
+        &[class*="-bg1"]{
+        }
+        &[class*="-bg2"]{
+        }
+        &[class*="-bg3"]{
+        }    
+        &[class*="-bg4"]{
+        }
+        &[class*="-bg6-1"]{
+        }
+        &:hover{
+        }
+    }
+}
+@media (max-width:$maxMediaSM){
+        [class*='btn']{
+
+        
+        &[class*="-fill"]{
+            padding: 12px 20px 13px;
+
+            font-size: 15px;
+            &[class*="-color1"]{
+            }
+        }
+        &[class*="-fillRound"]{
+        }
+        &[class*="-text"]{
+
+        }
+        &[class*="-color1"]{
+        }
+        &[class*="-color2"]{
+        }
+        &[class*="-color3"]{
+        }    
+        &[class*="-color4"]{
+        }
+        &[class*="-bg1"]{
+        }
+        &[class*="-bg2"]{
+        }
+        &[class*="-bg3"]{
+        }    
+        &[class*="-bg4"]{
+        }
+        &[class*="-bg6-1"]{
+        }
+        &:hover{
+        }
+    }
+}
+@media (max-width:$maxMediaXS){
+        [class*='btn']{
+
+        
+        &[class*="-fill"]{
+
+            &[class*="-color1"]{
+            }
+        }
+        &[class*="-fillRound"]{
+        }
+        &[class*="-text"]{
+
+        }
+        &[class*="-color1"]{
+        }
+        &[class*="-color2"]{
+        }
+        &[class*="-color3"]{
+        }    
+        &[class*="-color4"]{
+        }
+        &[class*="-bg1"]{
+        }
+        &[class*="-bg2"]{
+        }
+        &[class*="-bg3"]{
+        }    
+        &[class*="-bg4"]{
+        }
+        &[class*="-bg6-1"]{
+        }
+        &:hover{
+        }
+    }
+}
+@media (max-width:$maxMediaXSS){
+        [class*='btn']{
+
+        
+        &[class*="-fill"]{
+
+            &[class*="-color1"]{
+            }
+        }
+        &[class*="-fillRound"]{
+        }
+        &[class*="-text"]{
+
+        }
+        &[class*="-color1"]{
+        }
+        &[class*="-color2"]{
+        }
+        &[class*="-color3"]{
+        }    
+        &[class*="-color4"]{
+        }
+        &[class*="-bg1"]{
+        }
+        &[class*="-bg2"]{
+        }
+        &[class*="-bg3"]{
+        }    
+        &[class*="-bg4"]{
+        }
+        &[class*="-bg6-1"]{
+        }
+        &:hover{
+        }
+    }
+}

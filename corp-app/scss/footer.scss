@@ -1,0 +1,317 @@
+/*@import "values.scss";*/
+/*@import "mixins.scss";*/
+
+footer{
+    .footer-data{
+        border-top:solid 8px $color4;
+        padding-top: 33px;
+      .footer-data-item{
+        &.left{
+            width: 482px;
+        }
+        &.center{
+            float: left;
+            width: 489px;
+        }
+        &.right{
+            width: 330px;
+        }
+        .footer-data-title{
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 24px;
+            text-transform: uppercase;
+            color: $color2;
+            letter-spacing: .6px;
+            & + * {
+                margin-top: 16px;
+            }
+        }
+        .menu{
+            display: block;
+            overflow: hidden;
+          .menu-item{
+              width: 50%;
+              float: left;
+            .singleLink{
+                font-size: 16px;
+                text-transform: none;
+                font-weight: normal;
+                letter-spacing: 0;
+                color: $color3;
+            }
+            & + .menu-item{
+                margin-left: 0;
+                
+            }
+          }
+        }
+        .address-data{
+          .address-left{
+              float: left;
+            .txt{
+                color: $color2;
+            }
+          }
+          .address-right{
+              float: right;
+            .telLink{
+                display: table;
+            }
+            [class*="btn"]{}
+          }
+        }
+      }
+    }
+    .footer-copy{
+        border-top:solid 2px $color2;
+        clear: both;
+        margin-top: 60px;
+        padding: 21px 0 22px;
+      .txt{
+          text-align: center;
+          font-size: 16px;
+          line-height: 24px;
+          color: $color2;
+      }
+    }
+  }
+
+  @media (max-width:$maxMediaSD){
+    footer{
+        .footer-data{
+            .footer-data-item{
+                &.left{
+                    width: 440px;
+                }
+                &.center{
+                    width: 440px;
+                }
+                &.right{
+                    width: 215px;
+                }
+            }
+        }
+    }
+  }
+  @media (max-width:$maxMediaMD){
+    footer{
+        .footer-data{
+            position: relative;
+          .footer-data-item{
+            &.left{
+                width: 409px;
+            }
+            &.center{
+                width: 285px;
+            }
+            &.right{
+            }
+            .footer-data-title{
+ 
+                & + * {
+                }
+            }
+            .menu{
+
+              .menu-item{
+
+                .singleLink{
+
+                }
+                & + .menu-item{
+                    
+                }
+                &:nth-child(2n){
+                    padding-left: 40px;
+                }
+              }
+            }
+            .address-data{
+              .address-left{
+                .txt{
+                }
+              }
+              .address-right{
+                position: absolute;
+                right: 86px;
+                bottom: -9px;
+                .telLink{
+                    font-size: 15px;
+                }
+                [class*="btn"]{}
+              }
+            }
+          }
+        }
+        .footer-copy{
+            padding: 10px 0 10px;
+          .txt{
+  
+          }
+        }
+      }
+  }
+  @media (max-width:$maxMediaSM){
+    footer{
+        .footer-data{
+                padding-bottom: 33px;
+          .footer-data-item{
+            &.left{
+                width: 439px;
+            }
+            &.center{
+                width: 270px;
+            }
+            &.right{
+                width: 299px;
+                margin-top: 25px;
+            }
+            .footer-data-title{
+
+                & + * {
+                    margin-top: 10px;
+                }
+            }
+            .menu{
+
+              .menu-item{
+  
+                .singleLink{
+
+                }
+                & + .menu-item{
+                    
+                }
+              }
+            }
+            .address-data{
+              .address-left{
+                .txt{
+                }
+              }
+              .address-right{
+                right: 169px;
+                bottom: -33px;
+                .telLink{
+                }
+                [class*="btn"]{}
+              }
+            }
+          }
+        }
+        .footer-copy{
+
+          .txt{
+
+          }
+        }
+      }
+  }
+  @media (max-width:$maxMediaXS){
+       footer{
+      
+        .footer-data{
+          border-width: 4px;
+          padding-top: 20px;
+          .footer-data-item{
+            &.left{
+              display: none;
+            }
+            &.center{
+            }
+            &.right{
+              width: 100%;
+            }
+            .footer-data-title{
+
+                & + * {
+                }
+            }
+            .menu{
+
+              .menu-item{
+  
+                .singleLink{
+
+                }
+                & + .menu-item{
+                    
+                }
+              }
+            }
+            .address-data{
+              .address-left{
+                .txt{
+                }
+              }
+              .address-right{
+                right: auto;
+                bottom: -37px;
+                left: 0;
+                .telLink{
+                }
+                [class*="btn"]{}
+              }
+            }
+          }
+        }
+        .footer-copy{
+          margin-top: 58px;
+          padding:20px 0 20px;
+          border-width: 1px;
+          .txt{
+            text-align: left;
+          }
+        }
+      }
+  }
+  @media (max-width:$maxMediaXSS){
+       footer{
+        .footer-data{
+
+          .footer-data-item{
+            &.left{
+            }
+            &.center{
+            }
+            &.right{
+            }
+            .footer-data-title{
+
+                & + * {
+                }
+            }
+            .menu{
+
+              .menu-item{
+  
+                .singleLink{
+
+                }
+                & + .menu-item{
+                    
+                }
+              }
+            }
+            .address-data{
+              .address-left{
+                .txt{
+                }
+              }
+              .address-right{
+                .telLink{
+                }
+                [class*="btn"]{}
+              }
+            }
+          }
+        }
+        .footer-copy{
+
+          .txt{
+            font-size: 14px;
+          }
+        }
+      }
+  }

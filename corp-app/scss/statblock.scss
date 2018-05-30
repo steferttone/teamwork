@@ -1,0 +1,14 @@
+/*@import "values.scss";*/
+/*@import "mixins.scss";*/
+
+.statBlock{    
+    .statBlockItem{
+            display: inline-block;
+            vertical-align: middle;
+        .iconFont{}
+        .count{}
+        & + .statBlockItem{
+            margin-left: 13px;
+        }
+    }
+  }

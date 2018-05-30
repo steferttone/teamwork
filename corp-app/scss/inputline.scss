@@ -1,0 +1,58 @@
+/*@import "values.scss";*/
+/*@import "mixins.scss";*/
+
+.inputLine{
+    position: relative;
+    
+    label{
+        @include transition(all .3s);
+        position: absolute;
+        left:0;
+        top:0;
+        color: $formaColor5;
+        font-size: 16px;
+        line-height: 16px;
+        font-weight: normal;
+        .imp{
+            color: $color9;
+        }
+    }
+    select,
+    input,
+    textarea{
+        position: relative;
+        z-index: 5;
+        @include transition(all .3s);
+        resize:none;
+        outline: none;
+        background: transparent;
+        color: $formaColor3;
+        border:0;
+        border-bottom:solid 1px $formaColor3;
+        width: 100%;
+        height: 25px;
+        &.full,
+        &.active,
+        &:active,
+        &:focus{
+            border-color: $formaColor4;
+        }
+        &.full + label,
+        &.active + label,
+        &:focus + label,
+        &:active + label{
+            font-size: 12px;
+            line-height: 12px;
+            top: -18px;
+        }
+        &.error{
+            border-color: $formaColor6;
+        }
+
+    }
+    textarea{
+        height: 100px;
+        padding: 15px 0;
+    }
+
+}

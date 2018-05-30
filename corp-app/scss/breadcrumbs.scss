@@ -1,0 +1,190 @@
+/*@import "values.scss";*/
+/*@import "mixins.scss";*/
+
+.breadCrumbs{
+    display: flex;
+    .breadCrumbs-item{
+        position: relative;
+        &:before{
+            content: "/";
+            font-size: 14px;
+            color: $color5;
+            position: absolute;
+            right: -8px;
+            top: 2px;
+        }
+        &:last-child{
+            &:before{
+                display: none;
+            }
+        }
+        & + .breadCrumbs-item{
+            margin-left: 11px;
+        }
+        .singleLink{
+            font-size: 14px;
+            font-weight: 600;
+            color: $color5;
+            letter-spacing: .3px;
+            &:hover{
+                color: $color4;
+            }
+        }
+        .txt{
+            font-size: 14px;
+            font-weight: 600;
+            color: $color3;
+            letter-spacing: .3px;
+        }
+    }   
+}
+@media (max-width:$maxMediaSD){
+    .breadCrumbs{
+        .breadCrumbs-item{
+            &:before{
+                content: "/";
+
+            }
+            &:last-child{
+                &:before{
+                }
+            }
+            & + .breadCrumbs-item{
+            }
+            .singleLink{
+
+                &:hover{
+                }
+            }
+            .txt{
+
+            }
+        }   
+    }
+}
+@media (max-width:$maxMediaMD){
+        .breadCrumbs{
+        .breadCrumbs-item{
+            &:before{
+                content: "/";
+
+            }
+            &:last-child{
+                &:before{
+                }
+            }
+            & + .breadCrumbs-item{
+            }
+            .singleLink{
+
+                &:hover{
+                }
+            }
+            .txt{
+
+            }
+        }   
+    }
+}
+@media (max-width:$maxMediaSM){
+        .breadCrumbs{
+        .breadCrumbs-item{
+            &:before{
+                content: "/";
+
+            }
+            &:last-child{
+                &:before{
+                }
+            }
+            & + .breadCrumbs-item{
+            }
+            .singleLink{
+
+                &:hover{
+                }
+            }
+            .txt{
+
+            }
+        }   
+    }
+}
+@media (max-width:$maxMediaXS){
+        .breadCrumbs{
+            .breadCrumbs-item{
+                display: none;
+                &:before{
+                    content: "/";
+    
+                }
+                &:first-child{
+                    position: relative;
+                    display: table!important;
+                    padding-left: 20px;
+                    &:before{
+                        display: none;
+                    }
+                    &:after{
+                        content: "\e904";
+                        font-family: 'icomoon'!important;
+                        position: absolute;
+                        left:0;
+                        top:4px;
+                        color: $color5;
+                        font-size: 14px;
+                    }
+                }
+                &:last-child{
+                   
+                    &:before{
+                    }
+                }
+                & + .breadCrumbs-item{
+                }
+                .singleLink{
+    
+                    &:hover{
+                    }
+                }
+                .txt{
+    
+                }
+    
+            }  
+    }
+}
+@media (max-width:$maxMediaXSS){
+        .breadCrumbs{
+            flex-wrap: wrap;
+        .breadCrumbs-item{
+            &:before{
+
+            }
+            &:first-child{
+
+                &:before{
+                }
+                &:after{
+
+                }
+            }
+            &:last-child{
+               
+                &:before{
+                }
+            }
+            & + .breadCrumbs-item{
+            }
+            .singleLink{
+
+                &:hover{
+                }
+            }
+            .txt{
+
+            }
+
+        }   
+    }
+}

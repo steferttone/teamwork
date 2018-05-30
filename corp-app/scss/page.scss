@@ -1,0 +1,113 @@
+/*@import "values.scss";*/
+/*@import "mixins.scss";*/
+
+.page{
+    & + *{
+        margin-top: 30px;
+    }
+    .page-left{
+        float: left;
+        width: 336px;
+        .catalogBlock {
+            .catalogBlock-title{
+                font-size: 16px;
+                line-height: 24px;
+                color: $color5;
+            }
+        }
+    }
+    .page-right{
+        float: right;
+        width: calc(100% - 336px);
+    }
+}
+@media (max-width:$maxMediaSD){
+    .page{
+        & + *{
+        }
+        .page-left{
+            width: 290px;
+            .catalogBlock {
+                .catalogBlock-title{
+
+                }
+            }
+        }
+        .page-right{
+            width: calc(100% - 300px);
+        }
+    }
+}
+@media (max-width:$maxMediaMD){
+        .page{
+        & + *{
+            margin-top: 24px;
+        }
+        .page-left{
+            width: 240px;
+            .catalogBlock {
+                .catalogBlock-title{
+
+                }
+            }
+        }
+        .page-right{
+            width: calc(100% - 248px);
+        }
+    }
+}
+@media (max-width:$maxMediaSM){
+        .page{
+        & + *{
+            margin-top: 30px;
+        }
+        .page-left{
+            width: 215px;
+            .catalogBlock {
+                .catalogBlock-title{
+                    font-size: 15px;
+
+                    line-height: 18px;
+                }
+            }
+        }
+        .page-right{
+            width: calc(100% - 216px);
+        }
+    }
+}
+@media (max-width:$maxMediaXS){
+        .page{
+        & + *{
+        }
+        .page-left{
+            display: none;
+            .catalogBlock {
+                .catalogBlock-title{
+
+                }
+            }
+        }
+        .page-right{
+            width: 100%;
+            
+        }
+    }
+}
+@media (max-width:$maxMediaXSS){
+        .page{
+        & + *{
+        }
+        .page-left{
+
+            .catalogBlock {
+                .catalogBlock-title{
+
+                }
+            }
+        }
+        .page-right{
+
+        }
+    }
+}

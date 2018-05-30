@@ -9,7 +9,7 @@
     "build-dev-watch": "webpack --progress --watch",
     "lint-ibe-booking-app": "eslint --config ./eslintrc.json -o ./build/reports/booking-app-lint.html -f html ibe-booking-app/",
     "lint-ibe-spikes-app": "eslint --config ./eslintrc.json -o ./build/reports/spikes-app-lint.html -f html ibe-spikes-app/",
-    "embed-server-undecorated": "node app-ui-server.js"
+    "run-server": "node app-ui-server.js"
   },
   "repository": {
     "type": "git",

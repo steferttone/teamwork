@@ -1,0 +1,13 @@
+/*@import "values.scss";*/
+/*@import "mixins.scss";*/
+
+.buyBlockList{
+    .buyBlockline{
+        & + .buyBlockline{
+
+        }
+        &:last-child{
+            border-bottom: solid 1px $color3-a1;
+        }          
+    }
+}

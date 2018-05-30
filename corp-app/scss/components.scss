@@ -1,0 +1,366 @@
+/*@import "values.scss";*/
+/*@import "mixins.scss";*/
+/* iconLink */
+  .iconLink{
+    .iconFont{
+      display: inline-block;
+      vertical-align: middle;
+    }
+    .txt{
+      display: inline-block;
+      vertical-align: middle;
+    }
+  }
+/* /iconLink */
+
+/* singleLink */
+  .singleLink{}
+/* /singleLink */
+
+/* telLink */
+  .telLink{}
+/* telLink */
+
+/* iconFont */
+  .iconFont{
+    &.borderRadius{
+      @include border-radius(50%);
+    }
+  }
+/* /iconFont */
+
+/* dateData */
+.dateData{}
+/* /dateData */
+
+/* btn */
+[class*='btn']{
+  &[class*="-fill"]{
+      &[class*="-color1"]{}
+  }
+  &[class*="-border"]{
+      &[class*="-color1"]{}
+  }
+  &[class*="-text"]{
+      &[class*="-color1"]{}
+  }
+}
+/* /btn */
+
+/* statBlock */
+  .statBlock{
+    .statBlock-item{
+      .iconFont{}
+      .cout{}
+    }
+    & + .statBlock-item{}
+  }
+
+/* /statBlock */
+
+/* artticleHead */
+  .artticleHead{
+    .dateData{}
+    .txt{}
+  }
+/* /artticleHead */
+
+/* logo */
+.logo{
+  .logo-text{}
+  .logo-description{}
+}
+/* /logo */
+
+/* phonesBlock */
+.phonesBlock{
+  .telLink{}
+  .singleLink{
+    & + .singleLink{}
+  }
+}
+/* /phonesBlock */
+
+/* langBlock */
+.langBlock{
+  .lang-selected{}
+  .lang-choice{
+    li{
+      .singleLink{}
+      & + li{}
+    }
+  }
+}
+/* /langBlock */
+
+/* loginBlock */
+.loginBlock{
+    .login-item{
+      .singleLink{
+      }
+      & + .login-item{
+
+      }
+    }
+
+}
+/* /loginBlock */
+
+/* menu */
+.menu{
+  display: flex;
+    .menu-item{
+
+      .singleLink{
+      }
+      & + .menu-item{
+        
+      }
+    }
+}
+/* /menu */
+
+/* searchBlock */
+.searchBlock{
+  .iconFont{}
+  input{}
+}
+/* /searchBlock */
+
+/* /socBlock */
+.socBlock{
+  display: flex;
+  .soc-item{
+    .invisLink{
+      .dateData{}
+      .singleLink{}
+    }
+  }
+}
+/* /socBlock */
+
+/* mediaBlock */
+  .mediaBlock{}
+/* /mediaBlock */
+
+/* textBlock */
+  .textBlock{}
+/* /textBlock */
+
+/* articleLineBlock */
+.articleLineBlock{
+  .mediaBlock{}
+  .articleContent{
+    .artticleHead{
+      .dateData{}
+      .txt{}
+    }
+    .statBlock{
+      .statBlock-item{
+        .iconFont{}
+        .cout{}
+      }
+    }
+    .textBlock{}
+  }
+}
+/* /articleLineBlock */
+
+/* breadCrumbs */
+.breadCrumbs{
+  .breadCrumbs-item{
+    .singleLink{}
+    .txt{}
+    & + .breadCrumbs-item{}
+  }
+}
+/* /breadCrumbs */
+
+/* tabBlock */
+.tabBlock{
+  .tab-item{}
+}
+/* /tabBlock */
+
+/* mapBlock */
+.mapBlock{
+  .singleLink{}
+}
+/* /mapBlock */
+
+/* mediaListBlockHorizont */
+.mediaListBlockHorizont{
+  .mediaBlock{}
+}
+/* /mediaListBlockHorizont */
+
+/* buyLineBlock */
+.buyLineBlock{
+  .textBlock{}
+  .mediaListGallery{
+    .mediaBlock{}
+  }
+}
+/* /buyLineBlock */
+
+/* inputLine */
+.inputLine{
+  label{
+    & + *{}
+  }
+  input{}
+  textarea{}
+  select{}
+}
+/* /inputLine */
+
+/* inputLine */
+.inputListLine{
+  .inputLine{
+    & + .inputLine{}
+  }
+}
+/* /inputLine */
+
+/* leftIconBlock */
+.leftIconBlock{
+  .iconFont{}
+  .txt{}
+}
+/* /leftIconBlock */
+
+/* leftListIconBlock */
+.leftListIconBlock{
+  &.horizont{
+    .title{
+      & + *{}
+    }
+    .leftIconBlock{
+      & + .leftIconBlock{}
+    }
+  }
+  &.vertical{
+    .title{
+      & + *{}
+    }
+    .leftIconBlock{
+      & + .leftIconBlock{}
+    }
+  }
+}
+/* /leftIconBlock */
+
+/* pagination */
+.pagination{
+  display: table;
+  &.pagination_left{}
+  &.pagination_center{}
+  &.pagination_right{}
+  .pag-item{
+    .iconFont,
+    .singleLink{}
+  }
+}
+/* /pagination */
+
+/* priceBlock */
+.priceBlock{
+  .iconFont{}
+  .txt{}
+}
+/* /priceBlock */
+
+/* priceListBlock */
+.priceListBlock{
+ .priceBlock{}
+}
+/* /priceListBlock */
+
+/* product-full */
+.product-full{
+  .product-left{
+    .mediaBlock{}
+    .mediaListGallery{
+      .mediaBlock{}
+    }
+  }
+  .product-right{
+    .breadCrumbs{
+      .breadCrumbs-item{
+        .singleLink{}
+        .txt{}
+      }
+    }
+  }
+}
+/* /product-full */
+
+/* product-item */
+.product-item{
+  .mediaBlock{}
+  .product-content{
+    .textBlock{}
+  }
+}
+/* /product-item */
+
+/* product-list */
+.product-list{
+  .product-item{
+
+  }
+}
+/* /product-list */
+
+/* leftDash-list */
+.leftDash-list{
+  .leftDash-item{}
+}
+/* /leftDash-list */
+
+/* header */
+header{
+  .header-left{
+    .loginBlock{}
+    .phonesBlock{}
+    .iconLink{}
+  }
+  .header-right{
+    .langBlock{}
+    .loginBlock{}
+  }
+  .header-bottom{
+    .menu{}
+    .searchBlock{}
+  }
+}
+/* /header */
+
+/* /footer */
+footer{
+  .footer-data{
+    .left{}
+    .center{}
+    .right{}
+    .footer-data-item{
+      .footer-data-title{}
+      .menu{
+        .menu-item{
+          .singleLink{}
+        }
+      }
+      .address-data{
+        .address-left{
+          .txt{}
+        }
+        .address-right{
+          a{}
+        }
+      }
+    }
+  }
+  .footer-copy{
+    .txt{}
+  }
+}
+/* /footer */

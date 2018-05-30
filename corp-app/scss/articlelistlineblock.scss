@@ -1,0 +1,181 @@
+/*@import "values.scss";*/
+/*@import "mixins.scss";*/
+
+.articleListLineBlock{
+    &.page-main-article{
+        border-top:solid 1px $color3-a1;
+    padding-top: 62px;
+        
+    }    
+    .iconLink{
+        display: table;
+        margin-top: 25px;
+        font-size: 16px;
+        font-weight: 600;
+        .iconFont{
+            font-weight: normal;
+            color: $color5;
+        }
+    }
+    .capTwo{
+        display: block;
+        & + * {
+            margin-top: 26px;
+        }
+    }
+    
+    .articleLineBLock{
+
+        & + .articleLineBLock{
+            margin-top: 42px;
+        }
+    }
+    & + .pagination{        
+            margin-top: 56px;
+       
+    }
+}
+@media (max-width:$maxMediaSD){
+    .articleListLineBlock{
+        &.page-main-article{
+
+            
+        }    
+        .iconLink{
+      
+            .iconFont{
+          
+            }
+        }
+        .capTwo{
+            display: block;
+            & + * {
+            }
+        }
+        
+        .articleLineBLock{
+    
+            & + .articleLineBLock{
+            }
+        }
+        & + .pagination{        
+           
+        }
+    }
+}
+@media (max-width:$maxMediaMD){
+    .articleListLineBlock{
+    
+        &.page-main-article{
+            padding-top: 39px;
+            
+        }    
+        .iconLink{
+            margin-top: 20px;
+            .iconFont{
+          
+            }
+        }
+        .capTwo{
+            display: block;
+            & + * {
+            }
+        }
+        
+        .articleLineBLock{
+    
+            & + .articleLineBLock{
+                margin-top: 25px;
+            }
+        }
+        & + .pagination{        
+           
+        }
+    }
+}
+@media (max-width:$maxMediaSM){
+    .articleListLineBlock{
+        
+        &.page-main-article{
+
+            padding-top: 40px;
+        }    
+        .iconLink{
+            margin-top: 15px;
+            .iconFont{
+          
+            }
+        }
+        .capTwo{
+            display: block;
+            & + * {
+            }
+        }
+        
+        .articleLineBLock{
+         
+            & + .articleLineBLock{
+                margin-top: 25px;
+            }
+        }
+        & + .pagination{        
+           
+        }
+    }
+}
+@media (max-width:$maxMediaXS){
+    .articleListLineBlock{
+        &.page-main-article{
+            padding-top: 31px;
+            
+        }    
+        .iconLink{
+            margin-top: 30px;
+            .iconFont{
+          
+            }
+        }
+        .capTwo{
+            display: block;
+            & + * {
+            }
+        }
+        
+        .articleLineBLock{
+    
+            & + .articleLineBLock{
+            }
+        }
+        & + .pagination{        
+            margin-top: 51px;
+        }
+    }
+}
+@media (max-width:$maxMediaXSS){
+    .articleListLineBlock{
+        &.page-main-article{
+
+            
+        }    
+        .iconLink{
+      
+            .iconFont{
+          
+            }
+        }
+        .capTwo{
+            display: block;
+            & + * {
+            }
+        }
+        
+        .articleLineBLock{
+    
+            & + .articleLineBLock{
+            }
+        }
+        & + .pagination{        
+            margin-top: 30px;
+        }
+    }
+}

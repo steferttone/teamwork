@@ -1,0 +1,268 @@
+/*@import "values.scss";*/
+/*@import "mixins.scss";*/
+
+.contactBlock{
+
+    & + *{
+        margin-top: 48px;
+    }
+    .mapBlock{
+        width: 810px;
+        height: 409px;
+        float: right;
+        margin-top: -43px;
+    }
+    .contactInfo-title{
+        font-size: 20px;
+        line-height: 24px;
+        color: $textColor3;
+        width: 100%;
+        font-weight: 600;
+        margin: 36px 0 18px 0;
+    }
+    .contactInfo{
+        float: left;
+        width: 489px;
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 40px;
+        .contactInfo-item{
+            width: 50%;
+            .textBlock{
+                font-size: 16px;
+                line-height: 24px;
+                font-weight: normal;
+                color: $textColor3;
+                .phonesBlock {
+                    .telLink{
+                        font-size: 16px;
+                        line-height: 20px;
+                        margin-bottom: -6px;
+                    }
+                }
+            }
+            .singlelink{
+                font-size: 16px;
+                font-weight: normal;
+                color: $textColor4;
+                position: relative;
+                &:before{
+                    content: "";
+                    position: absolute;
+                    bottom: 2px;
+                    left:0;
+                    width: 100%;
+                    height: 1px;
+                    background-color: $color4;
+                }
+                &:hover{
+                    opacity: .5;
+                }
+            }
+        }
+    }
+}
+.requsitesBlock{
+    padding-top: 30px;
+    border-top:solid 1px $color3-a1;
+    .capThree{
+        font-size: 20px;
+        display: block;
+        text-transform: none;
+        width: 100%;
+        & + *{
+            margin-top: 15px;
+        }
+    }
+}
+
+@media (max-width:$maxMediaSD){
+    .contactBlock{
+        & + *{
+        }
+        .mapBlock{
+            width: calc(100% - 515px);
+        }
+        .contactInfo-title{
+
+        }
+        .contactInfo{
+        
+            .contactInfo-item{
+                .textBlock{
+
+                }
+                .singlelink{
+ 
+                    &:before{
+
+                    }
+                    &:hover{
+                    }
+                }
+            }
+        }
+    }
+    .requsitesBlock{
+
+        .capThree{
+
+            & + *{
+            }
+        }
+    }
+}
+@media (max-width:$maxMediaMD){
+    .contactBlock{
+        & + *{
+            margin-top: 40px;
+        }
+        .mapBlock{
+            width: calc(100% - 490px);
+            margin-top: -58px;
+            height: 330px;
+        }
+        .contactInfo-title{
+            margin: 25px 0 15px 0;
+        }
+        .contactInfo{
+            padding-top: 0;
+            .contactInfo-item{
+                .textBlock{
+
+                }
+                .singlelink{
+ 
+                    &:before{
+
+                    }
+                    &:hover{
+                    }
+                }
+            }
+        }
+    }
+    .requsitesBlock{
+        padding-top: 35px;
+        .capThree{
+
+            & + *{
+            }
+        }
+    }
+}
+@media (max-width:$maxMediaSM){
+    .contactBlock{
+        & + *{
+            margin-top: 25px;
+        }
+        .mapBlock{
+            width: 100%;
+            margin: 0;
+        }
+        .contactInfo-title{
+
+        }
+        .contactInfo{
+            width: 100%;
+            max-width: 600px;
+            .contactInfo-item{
+                .textBlock{
+
+                }
+                .singlelink{
+ 
+                    &:before{
+
+                    }
+                    &:hover{
+                    }
+                }
+            }
+            & + * {
+                margin-top: 25px;
+            }
+        }
+    }
+    .requsitesBlock{
+        padding-top: 25px;
+        .capThree{
+
+            & + *{
+            }
+        }
+    }
+}
+@media (max-width:$maxMediaXS){
+    .contactBlock{
+        & + *{
+        }
+        .mapBlock{
+            height: 304px;
+        }
+        .contactInfo-title{
+            margin: 41px 0 15px 0;
+        }
+        .contactInfo{
+
+            .contactInfo-item{
+                .textBlock{
+
+                }
+                .singlelink{
+ 
+                    &:before{
+
+                    }
+                    &:hover{
+                    }
+                }
+            }
+        }
+    }
+    .requsitesBlock{
+
+        .capThree{
+
+            & + *{
+            }
+        }
+    }
+}
+@media (max-width:$maxMediaXSS){
+    .contactBlock{
+        & + *{
+        }
+        .mapBlock{
+            height: 250px;
+        }
+        .contactInfo-title{
+            margin: 21px 0 15px 0;
+        }
+        .contactInfo{
+
+            .contactInfo-item{
+                .textBlock{
+                    font-size: 14px;
+                    line-height: 20px;
+                }
+                .singlelink{
+                    font-size: 14px;
+                    &:before{
+
+                    }
+                    &:hover{
+                    }
+                }
+            }
+        }
+    }
+    .requsitesBlock{
+
+        .capThree{
+
+            & + *{
+            }
+        }
+    }
+}

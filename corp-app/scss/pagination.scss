@@ -1,0 +1,173 @@
+/*@import "values.scss";*/
+/*@import "mixins.scss";*/
+
+.pagination{
+    overflow: hidden;
+    &.pagination_left{
+        text-align: left;
+    }
+    &.pagination_center{       
+        text-align: center;
+    }
+    &.pagination_right{       
+        text-align: right;
+    }
+    .pag-list{
+        display: inline-block;
+        overflow: hidden;
+        margin: 0 -4px -4px;
+        .pag-item{
+            float: left;
+            padding: 0 4px;
+            .txt,
+            .iconFont,
+            .singleLink{
+                display: block;
+                width: 42px;
+                height: 42px;     
+                line-height: 42px;           
+                font-size: 16px;
+                letter-spacing: 1px;
+                font-weight: normal;
+                color: $textColor5;
+                background-color: $color6;
+                border:solid  1px $color3-a2;
+                text-align: center;
+                &.active{
+                    color: $color1;
+                    background-color: $color4;
+                    border-color: $color4;                    
+                }
+            }
+        }
+    }
+
+  }
+  @media (max-width:$maxMediaSD){
+    .pagination{
+        &.pagination_left{
+        }
+        &.pagination_center{       
+        }
+        &.pagination_right{       
+        }
+        .pag-list{
+
+            .pag-item{
+
+                .txt,
+                .iconFont,
+                .singleLink{
+
+                    &.active{
+                
+                    }
+                }
+            }
+        }
+    
+      }
+  }
+@media (max-width:$maxMediaMD){
+        .pagination{
+        &.pagination_left{
+        }
+        &.pagination_center{       
+        }
+        &.pagination_right{       
+        }
+        .pag-list{
+
+            .pag-item{
+
+                .txt,
+                .iconFont,
+                .singleLink{
+
+                    &.active{
+                
+                    }
+                }
+            }
+        }
+    
+      }
+}
+@media (max-width:$maxMediaSM){
+        .pagination{
+        &.pagination_left{
+        }
+        &.pagination_center{       
+        }
+        &.pagination_right{       
+        }
+        .pag-list{
+
+            .pag-item{
+
+                .txt,
+                .iconFont,
+                .singleLink{
+
+                    &.active{
+                
+                    }
+                }
+            }
+        }
+    
+      }
+}
+@media (max-width:$maxMediaXS){
+        .pagination{
+        &.pagination_left{
+        }
+        &.pagination_center{       
+        }
+        &.pagination_right{       
+        }
+        .pag-list{
+
+            .pag-item{
+
+                .txt,
+                .iconFont,
+                .singleLink{
+
+                    &.active{
+                
+                    }
+                }
+            }
+        }
+    
+      }
+}
+@media (max-width:$maxMediaXSS){
+        .pagination{
+        &.pagination_left{
+        }
+        &.pagination_center{       
+        }
+        &.pagination_right{       
+        }
+        .pag-list{
+            margin: 0px -2px -4px;
+            .pag-item{
+                padding: 0 2px;
+                .txt,
+                .iconFont,
+                .singleLink{
+                    width: 35px;
+                    height: 35px;
+                    line-height: 35px;
+                    font-size: 15px;
+                    &.active{
+                
+                    }
+                }
+            }
+        }
+    
+      }
+}

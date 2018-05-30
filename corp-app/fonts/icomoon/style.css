@@ -1,0 +1,194 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?ko4okj');
+  src:  url('fonts/icomoon.eot?ko4okj#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?ko4okj') format('truetype'),
+    url('fonts/icomoon.woff?ko4okj') format('woff'),
+    url('fonts/icomoon.svg?ko4okj#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-i_ar-down:before {
+  content: "\e900";
+}
+.icon-i_arr-left:before {
+  content: "\e901";
+}
+.icon-i_arr-right:before {
+  content: "\e902";
+}
+.icon-i_arr-up:before {
+  content: "\e903";
+}
+.icon-i_Back:before {
+  content: "\e904";
+}
+.icon-i_Brushes-for-curtains:before {
+  content: "\e905";
+}
+.icon-i_Candles:before {
+  content: "\e906";
+}
+.icon-i_Care:before {
+  content: "\e907";
+}
+.icon-i_Cart:before {
+  content: "\e908";
+}
+.icon-i_Ceiling-cornice:before {
+  content: "\e909";
+}
+.icon-i_Clips-for-curtains:before {
+  content: "\e90a";
+}
+.icon-i_Close:before {
+  content: "\e90b";
+}
+.icon-i_Complex:before {
+  content: "\e90c";
+}
+.icon-i_Curtains:before {
+  content: "\e90d";
+}
+.icon-i_Decorative-bedspreads:before {
+  content: "\e90e";
+}
+.icon-i_Fastening-blind-tape:before {
+  content: "\e90f";
+}
+.icon-i_Fastening-on-the-eyelets:before {
+  content: "\e910";
+}
+.icon-i_Figurines:before {
+  content: "\e911";
+}
+.icon-i_Filter:before {
+  content: "\e912";
+}
+.icon-i_Flowers:before {
+  content: "\e913";
+}
+.icon-i_Gamb:before {
+  content: "\e914";
+}
+.icon-i_Grid:before {
+  content: "\e915";
+}
+.icon-i_Hinged:before {
+  content: "\e916";
+}
+.icon-i_Holders-for-wall:before {
+  content: "\e917";
+}
+.icon-i_Inst:before {
+  content: "\e918";
+}
+.icon-i_Jalousie:before {
+  content: "\e919";
+}
+.icon-i_Linens:before {
+  content: "\e91a";
+}
+.icon-i_List:before {
+  content: "\e91b";
+}
+.icon-i_Magnets-for-curtains:before {
+  content: "\e91c";
+}
+.icon-i_Map:before {
+  content: "\e91d";
+}
+.icon-i_OdK:before {
+  content: "\e91e";
+}
+.icon-i_Ok:before {
+  content: "\e91f";
+}
+.icon-i_One_Click:before {
+  content: "\e920";
+}
+.icon-i_Paintings:before {
+  content: "\e921";
+}
+.icon-i_Pdf:before {
+  content: "\e922";
+}
+.icon-i_Person:before {
+  content: "\e923";
+}
+.icon-i_Phone:before {
+  content: "\e924";
+}
+.icon-i_Pillows:before {
+  content: "\e925";
+}
+.icon-i_Roller-blinds:before {
+  content: "\e926";
+}
+.icon-i_Roman-curtains:before {
+  content: "\e927";
+}
+.icon-i_Sale:before {
+  content: "\e928";
+}
+.icon-i_Search:before {
+  content: "\e929";
+}
+.icon-i_Select:before {
+  content: "\e92a";
+}
+.icon-i_Slider:before {
+  content: "\e92b";
+}
+.icon-i_Star:before {
+  content: "\e92c";
+}
+.icon-i_Tablecloth:before {
+  content: "\e92d";
+}
+.icon-i_Time:before {
+  content: "\e92e";
+}
+.icon-i_Tubular-cornice:before {
+  content: "\e92f";
+}
+.icon-i_Tulle:before {
+  content: "\e930";
+}
+.icon-i_Vases:before {
+  content: "\e931";
+}
+.icon-i_Wish:before {
+  content: "\e932";
+}
+.icon-i_Wish_empty:before {
+  content: "\e933";
+}
+.icon-i_Word:before {
+  content: "\e934";
+}
+.icon-i_YouTube:before {
+  content: "\e935";
+}
+.icon-bubble:before {
+  content: "\e96b";
+}
+.icon-eye:before {
+  content: "\e9ce";
+}

@@ -1,0 +1,13 @@
+/*@import "values.scss";*/
+/*@import "mixins.scss";*/
+
+.buyBlock{
+    .tabsBlock{
+        .tabBlockHead{
+            width: 930px;
+            & + *{
+                margin-top: 42px;
+            }
+        }
+    }
+}

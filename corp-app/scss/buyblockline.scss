@@ -1,0 +1,115 @@
+/*@import "values.scss";*/
+/*@import "mixins.scss";*/
+
+.buyBlockline{
+    border-top:solid 1px $color3-a1;
+    padding: 23px 0;
+    overflow: hidden;
+    .textBlock{
+        width: 479px;
+        float: left;
+        font-size: 14px;
+        line-height: 24px;
+        color: $textColor3;
+        .name{
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 24px;
+        }
+    }
+    .mediaListGallery{
+        float: right;
+    }
+    .sliderMobile{
+        display: none;
+        width: 50%;
+       .mediaBlock{
+        width: 200px;
+        height: 147px;
+        }
+    }
+}
+@media (max-width:$maxMediaSD){
+    .buyBlockline{
+
+        .textBlock{
+
+            .name{
+
+            }
+        }
+        .mediaListGallery{
+        }
+    }
+}
+@media (max-width:$maxMediaMD){
+        .buyBlockline{
+
+        .textBlock{
+            width: 240px;
+            .name{
+
+            }
+        }
+        .mediaListGallery{
+        }
+    }
+}
+@media (max-width:$maxMediaSM){
+        .buyBlockline{
+            padding: 15px 0;
+        .textBlock{
+            width: 100%;
+
+            float: none;
+            .name{
+
+            }
+            & + *{
+                margin-top: 5px;
+            }
+        }
+        .mediaListGallery{
+            float: none;
+            width: 100%;
+        }
+    }
+}
+@media (max-width:$maxMediaXS){
+        .buyBlockline{
+            display: flex;
+            flex-direction: row-reverse;
+        .textBlock{
+            padding-left: 15px;
+            width: 75%;
+            .name{
+
+            }
+        }
+        .mediaListGallery{
+            display: none;
+        }
+        .sliderMobile{
+            display: block;
+            margin-top: 10px;
+            & + * {
+                margin-top: 10px;
+            }
+        }
+    }
+}
+@media (max-width:$maxMediaXSS){
+        .buyBlockline{
+            flex-wrap: wrap;
+            flex-direction: inherit;
+        .textBlock{
+            width: 100%;
+            padding-left: 0;
+            .name{
+
+            }
+        }
+        .mediaListGallery{
+        }
+    }
+}

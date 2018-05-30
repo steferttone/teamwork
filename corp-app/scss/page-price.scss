@@ -1,0 +1,90 @@
+/*@import "values.scss";*/
+/*@import "mixins.scss";*/
+
+.page-price{
+    .textBlock{
+        max-width: 535px;
+        & + *{
+            margin-top: 17px;
+        }
+    }
+    .price-block{
+        & + *{
+            margin-top: 56px;
+        }
+    }
+
+}
+
+@media (max-width:$maxMediaSD){
+
+    .page-price{
+        .textBlock{
+            & + *{
+            }
+        }
+        .price-list{
+            & + *{
+      
+            }
+        }
+    
+    }
+}
+@media (max-width:$maxMediaMD){
+    .page-price{
+        .textBlock{
+            & + *{
+               
+            }
+        }
+        .price-list{
+            & + *{
+                margin-top: 30px;
+            }
+        }
+    
+    }
+}
+@media (max-width:$maxMediaSM){
+    .page-price{
+        .textBlock{
+            & + *{
+            }
+        }
+        .price-list{
+            & + *{
+      
+            }
+        }
+    
+    }
+}
+@media (max-width:$maxMediaXS){
+    .page-price{
+        .textBlock{
+            & + *{
+            }
+        }
+        .price-list{
+            & + *{
+      
+            }
+        }
+    
+    }
+}
+@media (max-width:$maxMediaXSS){
+    .page-price{
+        .textBlock{
+            & + *{
+            }
+        }
+        .price-list{
+            & + *{
+      
+            }
+        }
+    
+    }
+}

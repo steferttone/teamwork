@@ -6,9 +6,9 @@
     },
     "applications": [
         {
-            "name": "teamwork-app",
-            "rootPath": "teamwork-app",
-            "path": "teamwork-app/index.js",
+            "name": "corp-app",
+            "rootPath": "corp-app",
+            "path": "corp-app/index.js",
             "vendor": [
                 "lodash",
                 "react",
@@ -31,23 +31,23 @@
                 "dateformat"
             ],
             "alias": {
-                "actions": "teamwork-app/actions",
-                "components": "teamwork-app/components",
-                "containers": "teamwork-app/containers",
-                "pages": "teamwork-app/pages",
-                "headers": "teamwork-app/headers",
-                "middlewares": "teamwork-app/middlewares",
-                "reducers": "teamwork-app/reducers",
-                "prop-types": "teamwork-app/prop-types",
-                "constants": "teamwork-app/constants",
-                "endpoints": "teamwork-app/endpoints",
-                "services": "teamwork-app/services",
-                "helpers": "teamwork-app/helpers",
-                "styles": "teamwork-app/styles",
-                "sass": "teamwork-app/sass",
-                "handlers": "teamwork-app/handlers",
+                "actions": "corp-app/actions",
+                "components": "corp-app/components",
+                "containers": "corp-app/containers",
+                "pages": "corp-app/pages",
+                "headers": "corp-app/headers",
+                "middlewares": "corp-app/middlewares",
+                "reducers": "corp-app/reducers",
+                "prop-types": "corp-app/prop-types",
+                "constants": "corp-app/constants",
+                "endpoints": "corp-app/endpoints",
+                "services": "corp-app/services",
+                "helpers": "corp-app/helpers",
+                "styles": "corp-app/styles",
+                "sass": "corp-app/sass",
+                "handlers": "corp-app/handlers",
                 "contrib": "contrib",
-                "sass": "teamwork-app/sass"
+                "sass": "corp-app/sass"
             }
         }
     ]

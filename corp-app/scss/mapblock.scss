@@ -1,0 +1,76 @@
+/*@import "values.scss";*/
+/*@import "mixins.scss";*/
+
+.mapBlock{
+    width: 1410px;
+    height: 543px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    .linkMap{
+        position: absolute;
+        right: 0;
+        top:-80px;
+        .singleLink{
+            font-size: 16px;
+            color: $textColor3;
+            text-decoration: underline;
+        }
+    }
+}
+@media (max-width:$maxMediaSD){
+    .mapBlock{
+        width: 100%;
+        .linkMap{
+
+            .singleLink{
+
+            }
+        }
+    }
+}
+@media (max-width:$maxMediaMD){
+        .mapBlock{
+            height: 378px;
+        .linkMap{
+            display: none;
+            .singleLink{
+
+            }
+        }
+    }
+}
+@media (max-width:$maxMediaSM){
+        .mapBlock{
+
+        .linkMap{
+
+            .singleLink{
+
+            }
+        }
+    }
+}
+@media (max-width:$maxMediaXS){
+        .mapBlock{  
+            height: 304px;
+        .linkMap{
+
+            .singleLink{
+
+            }
+        }
+    }
+}
+@media (max-width:$maxMediaXSS){
+        .mapBlock{
+
+        .linkMap{
+
+            .singleLink{
+
+            }
+        }
+    }
+}

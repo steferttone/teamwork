@@ -1,0 +1,83 @@
+/*@import "values.scss";*/
+/*@import "mixins.scss";*/
+
+.statBlockItem{
+    .iconLink{
+        margin-top: 0!important;
+        .iconFont{
+            width: 24px;
+            height: 24px;
+            line-height: 24px;
+            font-size: 24px;
+            color: $color5;
+        }
+        .count{
+            font-size: 18px;
+            margin-left: 0px;
+            color:$color3;
+            font-weight: normal;
+            margin-left: 4px;
+        }
+    }
+}
+@media (max-width:$maxMediaSD){
+    .statBlockItem{
+        .iconLink{
+            .iconFont{
+
+            }
+            .count{
+
+            }
+        }
+    }
+}
+@media (max-width:$maxMediaMD){
+    .statBlockItem{
+        .iconLink{
+            .iconFont{
+                font-size: 20px;
+            }
+            .count{
+
+            }
+        }
+    }
+}
+@media (max-width:$maxMediaSM){
+    .statBlockItem{
+        .iconLink{
+            .iconFont{
+                font-size: 16px;
+            }
+            .count{
+                font-size: 16px;
+                margin-left: 0;
+            }
+        }
+    }
+}
+@media (max-width:$maxMediaXS){
+    .statBlockItem{
+        .iconLink{
+            .iconFont{
+
+            }
+            .count{
+
+            }
+        }
+    }
+}
+@media (max-width:$maxMediaXSS){
+    .statBlockItem{
+        .iconLink{
+            .iconFont{
+
+            }
+            .count{
+
+            }
+        }
+    }
+}

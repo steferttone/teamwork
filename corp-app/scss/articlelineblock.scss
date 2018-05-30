@@ -1,0 +1,227 @@
+/*@import "values.scss";*/
+/*@import "mixins.scss";*/
+
+.articleLineBLock{
+    display: flex;
+    br{}
+    .mediaBlock{
+        width: 570px;
+        height: 375px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .textBlock{
+        width: calc(100% - 570px);
+        padding-left: 30px;
+        padding-top: 20px;
+        & > span{
+            color: $color2;
+        }
+        p{
+            color: $color3;
+        }
+        .articleLineTitle{
+            .dateData{
+                display: inline;
+                vertical-align: bottom;
+                line-height: 36px;
+            }
+            .capTwo{
+                display: inline;
+                vertical-align: bottom;
+                line-height: 44px;
+                text-transform: none;
+                letter-spacing: 0px;
+                color: $color3;
+                &:hover{
+                    opacity: .5;
+                }
+            }
+            & + *{
+                margin-top: 6px;
+            }          
+        }
+        .statBlock{
+            & + *{
+                margin-top: 6px;
+            }   
+        }
+    }
+}
+@media (max-width:$maxMediaSD){
+    .articleLineBLock{
+        br{}
+        .mediaBlock{
+
+        }
+        .textBlock{
+
+            & > span{
+            }
+            p{
+            }
+            .articleLineTitle{
+                .dateData{
+
+                }
+                .capTwo{
+
+                    &:hover{
+                    }
+                }
+                & + *{
+                }          
+            }
+            .statBlock{
+                & + *{
+                }   
+            }
+        }
+    }
+}
+@media (max-width:$maxMediaMD){
+    .articleLineBLock{
+        br{}
+        .mediaBlock{
+            width: 380px;
+            height: 248.8px;
+        }
+        .textBlock{
+            width: calc(100% - 375px);
+            padding-top: 0px;
+            & > span{
+            }
+            p{
+            }
+            .articleLineTitle{
+                .dateData{
+                    display: inline;
+                    line-height: 31px;
+                }
+                .capTwo{
+                    display: inline;
+                    margin-left: 5px;
+                    line-height: 38px;
+                    color: $color3;
+                    &:hover{
+                    }
+                }
+                & + *{
+                    margin-top: 8px;
+                    display: table;
+                }          
+            }
+            .statBlock{
+                & + *{
+                    margin-top: 2px; 
+                }   
+            }
+        }
+    }
+}
+@media (max-width:$maxMediaSM){
+    .articleLineBLock{
+        br{}
+        .mediaBlock{
+            width: 300px;
+            height: 200px;
+        }
+        .textBlock{
+            width: calc(100% - 30px);            
+            padding-left: 15px;
+            & > span{
+            }
+            p{
+            }
+            .articleLineTitle{
+                .dateData{
+                    line-height: 20px;
+                }
+                .capTwo{
+                    line-height: 26px;
+                    &:hover{
+                    }
+                }
+                & + *{
+                }          
+            }
+            .statBlock{
+                & + *{
+                }   
+            }
+        }
+    }
+}
+@media (max-width:$maxMediaXS){
+    .articleLineBLock{
+        flex-wrap: wrap;
+        br{}
+        .mediaBlock{
+            width: 135px;
+            height: 90px;
+        }
+        .textBlock{
+            width: 100%;
+            padding-left: 0;
+            padding-top: 12px;
+            font-size: 16px;
+            & > span{
+            }
+            p{
+            }
+            .articleLineTitle{
+                .dateData{
+                    line-height: 20px;
+                    font-size: 14px;
+                    letter-spacing: .2px;
+                }
+                .capTwo{
+                    line-height: 24px;
+                    font-size: 18px;
+                    margin-left: 0px;
+                    &:hover{
+                        color: $color4;
+                    }
+                }
+                & + *{
+                }          
+            }
+            .statBlock{
+                & + *{
+                }   
+            }
+        }
+    }
+}
+@media (max-width:$maxMediaXSS){
+    .articleLineBLock{
+        br{}
+        .mediaBlock{
+
+        }
+        .textBlock{
+
+            & > span{
+            }
+            p{
+            }
+            .articleLineTitle{
+                .dateData{
+
+                }
+                .capTwo{
+
+                    &:hover{
+                    }
+                }
+                & + *{
+                }          
+            }
+            .statBlock{
+                & + *{
+                }   
+            }
+        }
+    }
+}

@@ -14,10 +14,10 @@ const provideVariables = {
 }
 
 const config = {
-    context: path.resolve(__dirname, "teamwork-app"),
+    context: path.resolve(__dirname, "corp-app"),
     entry: {
-        'teamwork-app': './index.js',
-        'teamwork-app-vendors': [
+        'corp-app': './index.js',
+        'corp-app-vendors': [
             "react",
             "react-dom",
             "react-router",
@@ -83,28 +83,28 @@ const config = {
         new webpack.DefinePlugin(provideVariables),
         // new webpack.optimize.UglifyJsPlugin(),
         new webpack.optimize.CommonsChunkPlugin({
-            name: 'teamwork-app-vendors',
+            name: 'corp-app-vendors',
             minChunks: ({ resource }) => /node_modules/.test(resource),
         }),
     ],
     resolve: {
         alias: {
-            actions: path.resolve(__dirname, 'teamwork-app', 'actions'),
-            components: path.resolve(__dirname, 'teamwork-app', 'components'),
-            containers: path.resolve(__dirname, 'teamwork-app', 'containers'),
-            pages: path.resolve(__dirname, 'teamwork-app', 'pages'),
-            headers: path.resolve(__dirname, 'teamwork-app', 'headers'),
-            middlewares: path.resolve(__dirname, 'teamwork-app', 'middlewares'),
-            reducers: path.resolve(__dirname, 'teamwork-app', 'reducers'),
-            constants: path.resolve(__dirname, 'teamwork-app', 'constants'),
-            endpoints: path.resolve(__dirname, 'teamwork-app', 'endpoints'),
-            services: path.resolve(__dirname, 'teamwork-app', 'services'),
-            helpers: path.resolve(__dirname, 'teamwork-app', 'helpers'),
-            styles: path.resolve(__dirname, 'teamwork-app', 'styles'),
-            sass: path.resolve(__dirname, 'teamwork-app', 'sass'),
-            handlers: path.resolve(__dirname, 'teamwork-app', 'handlers'),
-            styles: path.resolve(__dirname, 'teamwork-app', 'styles'),
-            fonts: path.resolve(__dirname, 'teamwork-app', 'fonts')
+            actions: path.resolve(__dirname, 'corp-app', 'actions'),
+            components: path.resolve(__dirname, 'corp-app', 'components'),
+            containers: path.resolve(__dirname, 'corp-app', 'containers'),
+            pages: path.resolve(__dirname, 'corp-app', 'pages'),
+            headers: path.resolve(__dirname, 'corp-app', 'headers'),
+            middlewares: path.resolve(__dirname, 'corp-app', 'middlewares'),
+            reducers: path.resolve(__dirname, 'corp-app', 'reducers'),
+            constants: path.resolve(__dirname, 'corp-app', 'constants'),
+            endpoints: path.resolve(__dirname, 'corp-app', 'endpoints'),
+            services: path.resolve(__dirname, 'corp-app', 'services'),
+            helpers: path.resolve(__dirname, 'corp-app', 'helpers'),
+            styles: path.resolve(__dirname, 'corp-app', 'styles'),
+            sass: path.resolve(__dirname, 'corp-app', 'sass'),
+            handlers: path.resolve(__dirname, 'corp-app', 'handlers'),
+            styles: path.resolve(__dirname, 'corp-app', 'styles'),
+            fonts: path.resolve(__dirname, 'corp-app', 'fonts')
         },
     }
 }
@@ -120,10 +120,10 @@ if (buildEnv.getEnvironment() === buildEnv.constants.PROD_ENV) {
     }))
 }
 
-console.log('-------------------------------------------------------------------------------')
-console.log('TEAMWORK Frontend application build')
-console.log('')
-console.log('Build environment: ', buildEnv.getEnvironment())
-console.log('-------------------------------------------------------------------------------')
+// console.log('-------------------------------------------------------------------------------')
+console.log('Frontend application build')
+// console.log('')
+// console.log('Build environment: ', buildEnv.getEnvironment())
+// console.log('-------------------------------------------------------------------------------')
 
 module.exports = config

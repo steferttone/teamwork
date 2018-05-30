@@ -1,0 +1,10 @@
+/*@import "values.scss";*/
+/*@import "mixins.scss";*/
+
+.inputListLine{
+    .inputLine{
+        & + .inputLine{
+            margin-top: 53px;
+        }
+    }
+}

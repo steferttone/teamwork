@@ -1,0 +1,191 @@
+@mixin cfix {
+  &:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+}
+
+@mixin animation-direction($play) {
+  -webkit-animation-direction: $play;
+  -moz-animation-direction: $play;
+  -o-animation-direction: $play;
+  animation-direction: $play;
+}
+
+@mixin animation-iteration-count($count) {
+  -webkit-animation-iteration-count: $count;
+  -moz-animation-iteration-count: $count;
+  -o-animation-iteration-count: $count;
+  animation-iteration-count: $count;
+}
+
+@mixin animation-duration($duration) {
+  -webkit-animation-duration: $duration;
+  -moz-animation-duration: $duration;
+  -o-animation-duration: $duration;
+  animation-duration: $duration;
+}
+
+@mixin animation-timing-function($timing) {
+  -webkit-animation-timing-function: $timing;
+  -moz-animation-timing-function: $timing;
+  -o-animation-timing-function: $timing;
+  animation-timing-function: $timing;
+}
+
+@mixin animation-name($name) {
+  -webkit-animation-name: $name;
+  -moz-animation-name: $name;
+  -o-animation-name: $name;
+  animation-name: $name;
+}
+
+@mixin animation-fill-mode($name) {
+  -webkit-animation-fill-mode: $name;
+  -moz-animation-fill-mode: $name;
+  -o-animation-fill-mode: $name;
+  animation-fill-mode: $name;
+}
+
+@mixin animation-delay($name) {
+  -webkit-animation-delay: $name;
+  -moz-animation-delay: $name;
+  -o-animation-delay: $name;
+  animation-delay: $name;
+}
+
+@mixin transition($transition) {
+  -webkit-transition: $transition;
+  -moz-transition: $transition;
+  -o-transition: $transition;
+  transition: $transition;
+}
+
+@mixin transform($transform) {
+  -moz-transform: $transform;
+  -ms-transform: $transform;
+  -webkit-transform: $transform;
+  -o-transform: $transform;
+  transform: $transform;
+}
+
+@mixin filter($filter) {
+  -webkit-filter: $filter;
+  -moz-filter: $filter;
+  -ms-filter: $filter;
+  -o-filter: $filter;
+
+}
+
+@mixin appearance($appearance) {
+  -webkit-appearance: $appearance;
+  -moz-appearance: $appearance;
+  appearance: $appearance;
+}
+
+@mixin box-shadow($shadow) {
+  -webkit-box-shadow: $shadow;
+  -moz-box-shadow: $shadow;
+  box-shadow: $shadow;
+}
+
+@mixin box-sizing($sizing) {
+  -webkit-box-sizing: $sizing;
+  -moz-box-sizing: $sizing;
+  box-sizing: $sizing;
+}
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@mixin border-radius-top-right($radius) {
+  -webkit-border-top-right-radius: $radius;
+  -moz-border-radius-topright: $radius;
+  -ms-border-top-right-radius: $radius;
+  border-top-right-radius: $radius;
+}
+
+@mixin border-radius-top-left($radius) {
+  -webkit-border-top-left-radius: $radius;
+  -moz-border-radius-topleft: $radius;
+  -ms-border-top-left-radius: $radius;
+  border-top-left-radius: $radius;
+}
+
+@mixin border-radius-bottom-right($radius) {
+  -webkit-border-bottom-right-radius: $radius;
+  -moz-border-radius-bottomright: $radius;
+  -ms-border-bottom-right-radius: $radius;
+  border-bottom-right-radius: $radius;
+}
+
+@mixin border-radius-bottom-left($radius) {
+  -webkit-border-bottom-left-radius: $radius;
+  -moz-border-radius-bottomleft: $radius;
+  -ms-border-bottom-left-radius: $radius;
+  border-bottom-left-radius: $radius;
+}
+
+@mixin font($size, $line, $color, $weight, $lSpace) {
+  @if $size !=null {
+    font-size: $size;
+  }
+  @if $line !=null {
+    line-height: $line;
+  }
+  @if $color !=null {
+    color: $color;
+  }
+  @if $weight !=null {
+    font-weight: $weight;
+  }
+  @if $lSpace !=null {
+    letter-spacing: $lSpace;
+  }
+}
+
+@mixin linear-gradientH($color1, $color2) {
+  background: $color1;
+  background: -moz-linear-gradient(left, $color1 0%, $color2 100%);
+  background: -webkit-linear-gradient(left, $color1 0%, $color2 100%);
+  background: linear-gradient(to right, $color1 0%, $color2 100%); // filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$color1, endColorstr=$color2,GradientType=1 );
+}
+
+@mixin linear-gradientV($color1, $color2) {
+  background: $color1;
+  background: -moz-linear-gradient(top, $color1 0%, $color2 100%);
+  background: -webkit-linear-gradient(top, $color1 0%, $color2 100%);
+  background: linear-gradient(to bottom, $color1 0%, $color2 100%); // filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$color1, endColorstr=$color2,GradientType=0 );
+}
+
+@mixin linear-gradientR($color1, $color2) {
+  background: $color1;
+  background: -moz-radial-gradient(center, ellipse cover, $color1 0%, $color2 100%);
+  background: -webkit-radial-gradient(center, ellipse cover, $color1 0%, $color2 100%);
+  background: radial-gradient(ellipse at center, $color1 0%, $color2 100%); // filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$color1, endColorstr=$color2,GradientType=1 );
+}
+
+@mixin linear-gradientD45($color1, $color2) {
+  background: $color1;
+  background: -moz-linear-gradient(45deg, $color1 0%, $color2 100%);
+  background: -webkit-linear-gradient(45deg, $color1 0%, $color2 100%);
+  background: linear-gradient(45deg, $color1 0%, $color2 100%); // filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$color1, endColorstr=$color2,GradientType=1 );
+}
+
+@mixin linear-gradientD-45($color1, $color2) {
+  background: $color1;
+  background: -moz-linear-gradient(-45deg, $color1 0%, $color2 100%);
+  background: -webkit-linear-gradient(-45deg, $color1 0%, $color2 100%);
+  background: linear-gradient(-45deg, $color1 0%, $color2 100%); // filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$color1, endColorstr=$color2,GradientType=1 );
+}
+
+@mixin back-img($size, $position, $repeat) {
+  background-size: $size;
+  background-position: $position;
+  background-repeat: $repeat;
+}

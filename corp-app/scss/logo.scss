@@ -1,0 +1,87 @@
+/*@import "values.scss";*/
+/*@import "mixins.scss";*/
+
+.logo{
+    display: table;
+    @include transition(all .3s);
+    .logo-text{
+        display: table;
+        color: $textColor3;
+        font-size: 22px;
+        text-transform: uppercase;
+        letter-spacing: 1.4px;
+        font-weight: bold;
+    }
+    .logo-description{
+        display: block;
+        text-align: right;
+        color: $textColor3;
+        font-size: 12px;
+        letter-spacing: .8px;
+        padding-right: 15px;
+        margin-top: -3px;
+    }
+    &:hover{
+        opacity: .5;
+    }
+}
+@media (max-width:$maxMediaSD){
+    .logo{
+        .logo-text{
+
+        }
+        .logo-description{
+
+        }
+        &:hover{
+        }
+    }
+}
+@media (max-width:$maxMediaMD){
+    .logo{
+        .logo-text{
+        }
+        .logo-description{
+        }
+        &:hover{
+        }
+    }
+}
+@media (max-width:$maxMediaSM){
+    .logo{
+        .logo-text{
+            font-size: 18px;
+        }
+        .logo-description{
+            padding-right: 7px;
+        }
+        &:hover{
+        }
+    }
+
+}
+@media (max-width:$maxMediaXS){
+    .logo{
+        .logo-text{
+
+        }
+        .logo-description{
+            font-size: 10px;
+            padding-right: 13px;
+        }
+        &:hover{
+        }
+    }
+}
+@media (max-width:$maxMediaXSS){
+    .logo{
+        .logo-text{
+            font-size: 16px;
+        }
+        .logo-description{
+
+        }
+        &:hover{
+        }
+    }
+}

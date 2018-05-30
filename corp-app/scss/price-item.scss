@@ -1,0 +1,110 @@
+/*@import "values.scss";*/
+/*@import "mixins.scss";*/
+
+.price-item{
+    display: table;
+    background-color: $color1;
+    .iconLink{
+    }
+    .iconFont{
+        color: $color4;
+        width: 64px;
+        height: 64px;
+        line-height: 64px;
+        font-size: 25px;
+        &.iconBg{
+            background: transparent;
+            @include border-radius(0);
+        }
+    }
+    .txt{
+        padding-right: 25px;
+    }
+}
+@media (max-width:$maxMediaSD){
+    .price-item{
+
+    
+        .iconLink{
+            .iconFont{
+
+                &.iconBg{
+
+                }
+            }
+            .txt{
+            }
+        }
+    }
+}
+@media (max-width:$maxMediaMD){
+        .price-item{
+        .iconLink{
+            .iconFont{
+                width: 55px;
+                height: 55px;
+                line-height: 55px;
+                font-size: 23px;
+                &.iconBg{
+
+                }
+            }
+            .txt{
+                margin-left: 0;
+                padding-right: 15px;
+            }
+        }
+    }
+}
+@media (max-width:$maxMediaSM){
+        .price-item{
+
+    
+        .iconLink{
+            .iconFont{
+                width: 45px;
+                height: 50px;
+                line-height: 50px;
+                font-size: 22px;
+                &.iconBg{
+
+                }
+            }
+            .txt{
+                font-size: 15px;
+            }
+        }
+    }
+}
+@media (max-width:$maxMediaXS){
+        .price-item{
+
+    
+        .iconLink{
+            .iconFont{
+
+                &.iconBg{
+
+                }
+            }
+            .txt{
+            }
+        }
+    }
+}
+@media (max-width:$maxMediaXSS){
+        .price-item{
+
+    
+        .iconLink{
+            .iconFont{
+
+                &.iconBg{
+
+                }
+            }
+            .txt{
+            }
+        }
+    }
+}

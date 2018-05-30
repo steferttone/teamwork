@@ -1,0 +1,295 @@
+/*@import "values.scss";*/
+/*@import "mixins.scss";*/
+.page-corparateWrap{
+
+}
+.page-corparate{
+    [class*="btn"]{        
+        width: 100%;    
+    }
+    .buyBlockList{
+        .buyBlockline{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row-reverse;
+            .tit{
+                width: 100%;
+                .dateData{
+                    display: table;
+                    font-size: 14px;
+                    line-height: 24px;
+                    font-weight: normal;
+                }
+                .capThree{
+                    display: block;
+                    width: 100%;
+                    font-size: 22px;
+                    line-height: 24px;
+                    & + *{
+                        margin-top: 3px;
+                    }
+                }
+
+            }
+            .textBlock{
+                float: none;
+                width: 371px;
+                padding-left: 15px;
+            }
+            &:first-child{
+                border-top:0;
+            }
+            &:last-child{
+                border-bottom:solid 1px $color3-a1;
+                padding-bottom: 50px;
+            }
+            & + .buyBlockline{
+                margin-top: 24px;
+            }
+        }
+        .mediaListGallery{
+ 
+            float: none;
+            width: calc(100% - 350px);
+            margin: 7px -16px -30px;
+            .mediaBlock{
+                width: 220px;
+                height: 162px;
+                margin: 0 7px 14px;
+            }
+        }
+        & + * {
+            margin-top: 30px;
+        }
+    }  
+    .textBlock{
+        font-size: 16px;
+    }
+}
+@media (max-width:$maxMediaSD){
+    .page-corparateWrap{
+
+    }
+    .page-corparate{
+        [class*="btn"]{        
+        }
+        .buyBlockList{
+            .buyBlockline{
+
+                .tit{
+                    .dateData{
+
+                    }
+                    .capThree{
+
+                        & + *{
+                        }
+                    }
+    
+                }
+                .textBlock{
+ 
+                }
+                &:first-child{
+                }
+                &:last-child{
+
+                }
+                & + .buyBlockline{
+                }
+            }
+            .mediaListGallery{
+
+                .mediaBlock{
+                    height: 130px;
+                }
+            }
+            & + * {
+            }
+        }  
+        .textBlock{
+        }
+    }
+}
+@media (max-width:$maxMediaMD){
+     .page-corparateWrap{
+
+    }
+    .page-corparate{
+        [class*="btn"]{        
+        }
+        .buyBlockList{
+            .buyBlockline{
+                flex-direction:inherit;
+                .tit{
+                    .dateData{
+
+                    }
+                    .capThree{
+
+                        & + *{
+                        }
+                    }
+    
+                }
+                .textBlock{
+                    width: 100%;
+
+                    padding-left: 0;
+                }
+                &:first-child{
+                }
+                &:last-child{
+
+                }
+                & + .buyBlockline{
+                }
+            }
+            .mediaListGallery{
+                width: 100%;
+                .mediaBlock{
+                    height: 147px;
+                }
+            }
+            & + * {
+            }
+        }  
+        .textBlock{
+        }
+    }
+}
+@media (max-width:$maxMediaSM){
+    .page-corparateWrap{
+
+    }
+    .page-corparate{
+        [class*="btn"]{        
+        }
+        .buyBlockList{
+            .buyBlockline{
+                padding: 15px 0 20px;
+                .tit{
+                    .dateData{
+
+                    }
+                    .capThree{
+
+                        & + *{
+                        }
+                    }
+    
+                }
+                .textBlock{
+ 
+                }
+                &:first-child{
+                }
+                &:last-child{
+                    padding-bottom: 35px;
+                }
+                & + .buyBlockline{
+                    margin-top: 15px;
+                }
+            }
+            .mediaListGallery{
+
+                .mediaBlock{
+                    height: 120px;
+                }
+            }
+            & + * {
+                margin-top: 20px;
+            }
+        }  
+        .textBlock{
+        }
+    }
+}
+
+@media (max-width:$maxMediaXS){
+     .page-corparateWrap{
+
+    }
+    .page-corparate{
+        [class*="btn"]{        
+        }
+        .buyBlockList{
+            .buyBlockline{
+
+                .tit{
+                    .dateData{
+
+                    }
+                    .capThree{
+
+                        & + *{
+                        }
+                    }
+    
+                }
+                .textBlock{
+ 
+                }
+                &:first-child{
+                }
+                &:last-child{
+
+                }
+                & + .buyBlockline{
+                }
+            }
+            .mediaListGallery{
+
+                .mediaBlock{
+                }
+            }
+            & + * {
+            }
+        }  
+        .textBlock{
+        }
+    }
+}
+@media (max-width:$maxMediaXSS){
+     .page-corparateWrap{
+
+    }
+    .page-corparate{
+        [class*="btn"]{        
+        }
+        .buyBlockList{
+            .buyBlockline{
+
+                .tit{
+                    .dateData{
+
+                    }
+                    .capThree{
+
+                        & + *{
+                        }
+                    }
+    
+                }
+                .textBlock{
+ 
+                }
+                &:first-child{
+                }
+                &:last-child{
+                }
+                & + .buyBlockline{
+                }
+            }
+            .mediaListGallery{
+
+                .mediaBlock{
+                }
+            }
+            & + * {
+            }
+        }  
+        .textBlock{
+        }
+    }
+}

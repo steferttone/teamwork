@@ -1,0 +1,108 @@
+/*@import "values.scss";*/
+/*@import "mixins.scss";*/
+.leftlisticonblock{
+    &.vertical{
+        .leftIconBlock{        
+            & + .leftIconBlock{
+                margin-top: 24px;
+            }
+        }
+    }
+    &.horizontal{
+        display: flex;
+        .leftIconBlock{
+
+            & + .leftIconBlock{
+                margin-left: 24px;
+            }
+        }
+    }
+}
+@media (max-width:$maxMediaSD){
+    .leftlisticonblock{
+        &.vertical{
+            .leftIconBlock{        
+                & + .leftIconBlock{
+                }
+            }
+        }
+        &.horizontal{
+            .leftIconBlock{
+    
+                & + .leftIconBlock{
+                }
+            }
+        }
+    }
+}
+@media (max-width:$maxMediaMD){
+    .leftlisticonblock{
+        &.vertical{
+            .leftIconBlock{        
+                & + .leftIconBlock{
+                    margin-top: 26px;
+                }
+            }
+        }
+        &.horizontal{
+            .leftIconBlock{
+    
+                & + .leftIconBlock{
+                }
+            }
+        }
+    }
+}
+@media (max-width:$maxMediaSM){
+    .leftlisticonblock{
+        &.vertical{
+            .leftIconBlock{        
+                & + .leftIconBlock{
+                    margin-top: 15px;
+                }
+            }
+        }
+        &.horizontal{
+            .leftIconBlock{
+    
+                & + .leftIconBlock{
+                }
+            }
+        }
+    }
+}
+@media (max-width:$maxMediaXS){
+    .leftlisticonblock{
+        &.vertical{
+            .leftIconBlock{        
+                & + .leftIconBlock{
+                }
+            }
+        }
+        &.horizontal{
+            flex-wrap: wrap;
+            .leftIconBlock{
+               
+                & + .leftIconBlock{
+                }
+            }
+        }
+    }
+}
+@media (max-width:$maxMediaXSS){
+    .leftlisticonblock{
+        &.vertical{
+            .leftIconBlock{        
+                & + .leftIconBlock{
+                }
+            }
+        }
+        &.horizontal{
+            .leftIconBlock{
+    
+                & + .leftIconBlock{
+                }
+            }
+        }
+    }
+}

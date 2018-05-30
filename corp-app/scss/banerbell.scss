@@ -1,0 +1,193 @@
+/*@import "values.scss";*/
+/*@import "mixins.scss";*/
+
+.banerBell{
+    background-color:  $color6-a1;
+    padding: 35px 35px;
+    width: 100%;
+    .banerBell-icon{
+        display: inline-block;
+        vertical-align: middle;
+        .iconFont{
+                font-size: 80px;
+
+        }
+    }
+    .banerBell-text{
+        display: inline-block;
+        vertical-align: middle;
+        min-width: 600px;
+        padding-left: 60px;
+        color: $color3;
+        .big{
+            font-size: 24px;
+            font-weight: bold;
+            display: table;
+            & + *{
+                margin-top: 8px;
+            }
+        }
+        .small{
+            font-size: 18px;
+            font-weight: normal;
+            display: table;
+        }
+    }
+    .banerBell-btn{
+        float: right;
+        display: table;
+       padding-top: 9px;
+        [class*="btn"]{
+
+        }
+    }
+}
+
+@media (max-width:$maxMediaSD){
+    .banerBell{
+
+        .banerBell-icon{
+
+            .iconFont{
+    
+            }
+        }
+        .banerBell-text{
+            min-width: 450px;
+            .big{
+
+                & + *{
+                }
+            }
+            .small{
+
+            }
+        }
+        .banerBell-btn{
+
+            [class*="btn"]{
+    
+            }
+        }
+    }
+    
+}
+@media (max-width:$maxMediaMD){
+    .banerBell{
+        padding: 33px 12px;
+        .banerBell-icon{
+
+            .iconFont{
+                font-size: 50px;
+            }
+        }
+        .banerBell-text{
+            min-width: 355px;
+            padding-left: 16px;
+            .big{
+                font-size: 18px;
+                & + *{
+                }
+            }
+            .small{
+                font-size: 16px;
+            }
+        }
+        .banerBell-btn{
+
+            [class*="btn"]{
+    
+            }
+        }
+    }
+}
+@media (max-width:$maxMediaSM){
+        .banerBell{
+
+        .banerBell-icon{
+
+            .iconFont{
+    
+            }
+        }
+        .banerBell-text{
+            min-width: inherit;
+            .big{
+
+                & + *{
+                }
+            }
+            .small{
+
+            }
+        }
+        .banerBell-btn{
+
+            [class*="btn"]{
+    
+            }
+        }
+    }
+}
+@media (max-width:$maxMediaXS){
+        .banerBell{
+            padding: 15px 0px;
+        .banerBell-icon{
+            display: none;
+            .iconFont{
+    
+            }
+        }
+        .banerBell-text{
+            width: 100%;
+            text-align: center;
+            padding: 0;
+            .big{
+                display: block;
+                text-align: center;
+                
+                & + *{
+                }
+            }
+            .small{
+                display: block;
+                text-align: center;
+            }
+        }
+        .banerBell-btn{
+            float: none;
+            display: block;
+            [class*="btn"]{
+    
+            }
+        }
+    }
+}
+@media (max-width:$maxMediaXSS){
+        .banerBell{
+
+        .banerBell-icon{
+
+            .iconFont{
+    
+            }
+        }
+        .banerBell-text{
+
+            .big{
+
+                & + *{
+                }
+            }
+            .small{
+
+            }
+        }
+        .banerBell-btn{
+
+            [class*="btn"]{
+    
+            }
+        }
+    }
+}

@@ -1,0 +1,10 @@
+/*@import "values.scss";*/
+/*@import "mixins.scss";*/
+
+.singleLink{
+    line-height: 24px;
+    color: $color2;
+    &:hover{
+       color: $color4;
+    }
+}

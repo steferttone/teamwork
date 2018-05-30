@@ -1,0 +1,332 @@
+/*@import "values.scss";*/
+/*@import "mixins.scss";*/
+
+.product-full{
+    .page-title{
+        & + *{
+            margin-top: 22px;
+        }
+    }
+    .product-left{
+        float: left;
+        
+    }
+    .product-right{
+        float: right;
+        width: calc(100% - 450px);
+        padding-left: 29px;
+    }
+    .media-full{
+        width: 450px;
+        height: 405px;
+        .mediaBlock{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .mediaListGallery{
+        width: 450px;
+        margin: 0;
+        justify-content: space-between;
+        .mediaBlock{
+            cursor: pointer;
+            width: 134px;
+            height: 121px;
+            margin: 24px 0;
+        }
+    }
+    .textBlock{
+        color: $textColor3;
+        p{
+           & + p{
+            margin-top: 16px;
+            }
+        }
+        .iconLink{
+            display: table;
+            .txt{
+                color: $color4;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 24px;
+            }
+            
+            .iconFont{
+                color: $color1;
+                &.iconBg{
+                    background-color: $color4;
+                }
+            }
+        }
+        .desr{
+            margin-top: 40px;
+            & + * {
+                margin-top: 12px;
+            }
+        }
+    }
+}
+
+@media (max-width:$maxMediaSD){
+    .product-full{
+        .page-title{
+            & + *{
+            }
+        }
+        .product-left{
+            
+        }
+        .product-right{
+
+        }
+        .media-full{
+
+            .mediaBlock{
+
+            }
+        }
+        .mediaListGallery{
+
+            .mediaBlock{
+
+            }
+        }
+        .textBlock{
+            p{
+               & + p{
+                }
+            }
+            .iconLink{
+                .txt{
+
+                }
+                
+                .iconFont{
+                    &.iconBg{
+                    }
+                }
+            }
+            .desr{
+                & + * {
+                }
+            }
+        }
+    }
+}
+@media (max-width:$maxMediaMD){
+        .product-full{
+            .page-title{
+                & + *{
+                }
+            }
+            .product-left{
+                
+            }
+            .product-right{
+                width: calc(100% - 311px);
+                position: relative;
+
+                top: -7px;
+                padding-left: 15px;
+            }
+            .media-full{
+                width: 297px;
+
+                height: 266px;
+                .mediaBlock{
+
+                }
+            }
+            .mediaListGallery{
+                width: 297px;
+                .mediaBlock{
+                    width: 88px;
+                    margin: 15px 0;                    
+                    height: 82px;
+                }
+            }
+            .textBlock{
+                p{
+                    & + p{
+                        margin-top: 10px;
+                    }
+                }
+                .iconLink{
+                    .txt{
+
+                    }
+                    
+                    .iconFont{
+                        width: 24px;
+                        height: 24px;
+                        line-height: 24px;
+                        &.iconBg{
+                        }
+                    }
+                }
+                .desr{
+                    margin-top: 20px;
+                    & + * {
+                    }
+                }
+            }
+    }
+}
+@media (max-width:$maxMediaSM){
+        .product-full{
+        .page-title{
+            & + *{
+            }
+        }
+        .product-left{
+            width: 100%;
+        }
+        .product-right{
+            width: 100%;
+            position: relative;            
+            top: 0;            
+            padding-left: 0;
+        }
+        .media-full{
+            width: 100%;
+            .mediaBlock{
+
+            }
+        }
+        .mediaListGallery{
+            width: 100%;
+            .mediaBlock{
+                width: calc(100% / 3);
+
+                margin: 15px 10px;
+                
+                height: 100px;
+            }
+        }
+        .textBlock{
+            p{
+               & + p{
+                }
+            }
+            .iconLink{
+                .txt{
+
+                }
+                
+                .iconFont{
+                    &.iconBg{
+                    }
+                }
+            }
+            .desr{
+                & + * {
+                }
+            }
+        }
+    }
+}
+@media (max-width:$maxMediaXS){
+        .product-full{
+            position: relative;
+            padding-top: 43px;
+        .page-title{
+            & + *{
+            }
+        }
+        .product-left{
+            
+        }
+        .product-right{
+            position: static;
+            padding-top: 41px;
+        }
+        .media-full{
+            width: 298px;
+            height: 268px;
+            .mediaBlock{
+
+            }
+        }
+        .mediaListGallery{
+            display: none;
+            .mediaBlock{
+
+            }
+        }
+        .textBlock{
+            p{
+               & + p{
+                margin-top: 21px;
+                }
+            }
+            .iconLink{
+                .txt{
+
+                }
+                
+                .iconFont{
+                    &.iconBg{
+                    }
+                }
+            }
+            .desr{
+                & + * {
+                }
+            }
+        }
+        .breadCrumbs{
+            position: absolute;
+
+            top: 0;
+
+            left: 0;
+        }
+    }
+}
+@media (max-width:$maxMediaXSS){
+        .product-full{
+            padding-top: 33px;
+        .page-title{
+            & + *{
+            }
+        }
+        .product-left{
+            
+        }
+        .product-right{
+
+        }
+        .media-full{
+
+            .mediaBlock{
+
+            }
+        }
+        .mediaListGallery{
+
+            .mediaBlock{
+
+            }
+        }
+        .textBlock{
+            p{
+               & + p{
+                }
+            }
+            .iconLink{
+                .txt{
+
+                }
+                
+                .iconFont{
+                    &.iconBg{
+                    }
+                }
+            }
+            .desr{
+                & + * {
+                }
+            }
+        }
+    }
+}

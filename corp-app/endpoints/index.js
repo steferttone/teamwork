@@ -1,0 +1,20 @@
+const JSON_DATA_URL = 'json-data'
+
+const CATALOG_PRODUCTS_ENDPOINT = `${JSON_DATA_URL}/CatalogProducts.json`
+const CATALOG_MENU_ENDPOINT = `${JSON_DATA_URL}/CatalogMenu.json`
+const NEWS_LIST_ENDPOINT = `${JSON_DATA_URL}/NewsList.json`
+const POSTS_LIST_ENDPOINT = `${JSON_DATA_URL}/PostsList.json`
+const PRODUCT_ENDPOINT = `${JSON_DATA_URL}/CatalogProducts.json`
+const SHOPS_PLACES_ENDPOINT = `${JSON_DATA_URL}/ShopsPlaces.json`
+const SHOPS_DILLERS_ENDPOINT = `${JSON_DATA_URL}/ShopsDillers.json`
+
+export {
+
+    CATALOG_PRODUCTS_ENDPOINT,
+    CATALOG_MENU_ENDPOINT,
+    NEWS_LIST_ENDPOINT,
+    POSTS_LIST_ENDPOINT,
+    PRODUCT_ENDPOINT,
+    SHOPS_PLACES_ENDPOINT,
+    SHOPS_DILLERS_ENDPOINT,
+}

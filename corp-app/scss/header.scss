@@ -1,0 +1,342 @@
+/*@import "values.scss";*/
+/*@import "mixins.scss";*/
+
+header{
+    .header-top{
+        border-top:solid 8px $color4;
+        padding-top: 27px;
+        .menubutton{
+            display: none;
+            width: 24px;
+            height: 24px;
+            background: transparent;
+            position: absolute;
+            right: 1px;
+            top: 5px;
+            z-index: 11;
+            span{
+                display: block;
+                width: 100%;
+                height: 2px;
+                background-color: $color3;
+                @include transition(all .3s);
+                & + span{
+                    margin-top: 3px;
+                }
+
+            }
+            span:first-child{
+
+            }
+            span:nth-child(2){}
+            span:last-child{
+
+            }
+            &:hover{
+                span{
+                    background-color: $color4;
+                }
+               
+            }
+            
+            &.selected{
+                span:first-child{
+                    -moz-transform: rotate(45deg);
+                    -ms-transform: rotate(45deg);
+                    -webkit-transform: rotate(45deg);
+                    -o-transform: rotate(45deg);
+                    transform: rotate(45deg);
+                    margin-top: -2px;
+                }
+                span:nth-child(2){
+                    opacity: 0;
+                }
+                span:last-child{
+                    margin-top: -7px;
+                    -moz-transform: rotate(-45deg);
+                    -ms-transform: rotate(-45deg);
+                    -webkit-transform: rotate(-45deg);
+                    -o-transform: rotate(-45deg);
+                    transform: rotate(-45deg);
+                    margin-left: 0px;
+                }
+            }
+        }
+        .header-left{
+            float: left;
+            min-width: 717px;
+            .logo{
+                float: left;
+                & + *{
+                    margin-left: 81px;
+                }
+            }
+            .phonesBlock{
+                float: left;
+                padding-top: 5px;
+                & + *{
+                    
+                }
+            }
+            .iconLink{
+                float: right;
+                .iconFont{
+                    position: relative;
+                    top:-3px;
+                }
+            }
+        }
+        .header-right{
+            float: right;
+            .langBlock{
+                float: left;
+                position: relative;
+                top: 6px;
+                & + *{
+                    margin-left: 26px;
+                }
+            }
+            .loginBlock{
+                padding-top: 4px;
+                float: right;
+            }
+        }
+    }
+    .header-bottom{
+        border-top:solid 1px $color3-a1;
+        clear: both;
+        width: 100%;
+        padding: 24px 0 12px;
+        margin-top: 20px;  
+        .menu{
+            float: left;
+        }
+        .searchBlock{
+            float: right;
+            position: relative;
+            top: -10px; 
+        }
+    }
+  }
+
+@media (max-width:$maxMediaSD){
+    header{
+        .header-top{
+            .header-left{
+                .logo{                    
+                    & + *{                       
+                    }
+                }
+                .phonesBlock{             
+                    & + *{                        
+                    }
+                }
+                .iconLink{                  
+                    .iconFont{              
+                    }
+                }
+            }
+            .header-right{              
+                .langBlock{
+                    & + *{
+                        
+                    }
+                }
+                .loginBlock{
+                }
+            }
+        }
+        .header-bottom{
+            .menu{               
+            }
+            .searchBlock{
+            }
+        }
+    }
+}
+@media (max-width:$maxMediaMD){
+    header{
+        .header-top{
+            padding-top: 19px;
+            .header-left{
+                min-width: 611px;
+                .logo{                    
+                    & + *{  
+                        margin-left: 91px;                     
+                    }
+                }
+                .phonesBlock{             
+                    & + *{                        
+                    }
+                }
+                .iconLink{                  
+                    .iconFont{              
+                    }
+                }
+            }
+            .header-right{              
+                .langBlock{
+                    & + *{
+                        
+                    }
+                }
+                .loginBlock{
+                }
+            }
+        }
+        .header-bottom{
+            margin-top: 19px;
+            padding: 12px 0 0;
+            .menu{               
+            }
+            .searchBlock{
+                top: -6px; 
+            }
+        }
+    }
+}
+@media (max-width:$maxMediaSM){
+    header{
+        .header-top{
+            .header-left{
+                min-width: 485px;
+                .logo{                    
+                    & + *{  
+                        margin-left: 50px;              
+                    }
+                }
+                .phonesBlock{ 
+                    padding-top: 0;            
+                    & + *{                        
+                    }
+                }
+                .iconLink{                  
+                    .iconFont{              
+                    }
+                }
+            }
+            .header-right{              
+                .langBlock{
+                    & + *{
+                        
+                    }
+                }
+                .loginBlock{
+                }
+            }
+        }
+        .header-bottom{
+
+            .menu{               
+            }
+            .searchBlock{
+            }
+        }
+    }
+}
+@media (min-width:$minMediaXS){
+    header {
+        .header-bottom{
+            .menu {
+                height: inherit!important;
+            }
+        }
+    }
+}
+
+@media (max-width:$maxMediaXS){
+    header{
+        .header-top{
+            border-width: 4px;
+            padding-top: 13px;
+            padding-bottom: 18px;
+            .menubutton{
+                display: block;
+            }
+            .header-left{
+                position: relative;
+                min-width: inherit;
+                width: 100%;
+                .logo{                    
+                    & + *{  
+                        margin-left: 45px;                     
+                    }
+                }
+                .phonesBlock{             
+                    & + *{                        
+                    }
+                }
+                .iconLink{  
+                    display: none;                
+                    .iconFont{              
+                    }
+                }
+            }
+            .header-right{ 
+                display: none;             
+                .langBlock{
+                    & + *{
+                        
+                    }
+                }
+                .loginBlock{
+                }
+            }
+        }
+        .header-bottom{    
+            padding: 0;
+            margin: 0;
+            .menu{    
+                @include transition(all .3s);
+                background-color: $color1;
+                height: 0;         
+                overflow: hidden; 
+                top: 0;
+                z-index: 10;
+                
+                &.open{
+                    padding-top: 70px;
+                }
+            }
+            .searchBlock{
+                display: none;
+            }
+        }
+    }
+}
+@media (max-width:$maxMediaXSS){
+    header{
+        .header-top{
+            .header-left{
+                .logo{                    
+                    & + *{  
+                        margin-left: 13px;                  
+                    }
+                }
+                .phonesBlock{             
+                    & + *{                        
+                    }
+                }
+                .iconLink{                  
+                    .iconFont{              
+                    }
+                }
+            }
+            .header-right{              
+                .langBlock{
+                    & + *{
+                        
+                    }
+                }
+                .loginBlock{
+                }
+            }
+        }
+        .header-bottom{
+            .menu{               
+            }
+            .searchBlock{
+            }
+        }
+    }
+}

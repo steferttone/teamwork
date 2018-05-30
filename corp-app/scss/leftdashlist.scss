@@ -1,0 +1,91 @@
+/*@import "values.scss";*/
+/*@import "mixins.scss";*/
+
+.leftDash-list{
+    .leftDash-item{
+        position: relative;
+        padding-left: 40px;
+        font-size: 16px;
+        line-height: 24px;
+        color: $color3;
+        &:before{
+            content: "";
+            position: absolute;
+            left:0;
+            top: 11px;
+            width: 24px;
+            height: 1px;
+            background-color: $color4;
+        }
+        & + .leftDash-item{
+            margin-top: 15px;
+        } 
+    }   
+
+}
+@media (max-width:$maxMediaSD){
+    .leftDash-list{
+        .leftDash-item{
+
+            &:before{
+
+            }
+            & + .leftDash-item{
+            } 
+        }   
+    
+    }
+}
+@media (max-width:$maxMediaMD){
+    .leftDash-list{
+        .leftDash-item{
+
+            &:before{
+
+            }
+            & + .leftDash-item{
+            } 
+        }   
+    
+    }
+}
+@media (max-width:$maxMediaSM){
+    .leftDash-list{
+        .leftDash-item{
+
+            &:before{
+
+            }
+            & + .leftDash-item{
+                margin-top: 10px;
+            } 
+        }   
+    }
+}
+@media (max-width:$maxMediaXS){
+        .leftDash-list{
+        .leftDash-item{
+
+            &:before{
+
+            }
+            & + .leftDash-item{
+                margin-top: 15px;
+            } 
+        }   
+    
+    }
+}
+@media (max-width:$maxMediaXSS){
+        .leftDash-list{
+        .leftDash-item{
+
+            &:before{
+
+            }
+            & + .leftDash-item{
+            } 
+        }   
+    
+    }
+}

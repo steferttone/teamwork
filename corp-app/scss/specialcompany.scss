@@ -1,0 +1,107 @@
+/*@import "values.scss";*/
+/*@import "mixins.scss";*/
+
+.specialCompany{
+    padding-top: 63px;
+    border-top:solid 1px $color3-a1;
+    overflow: hidden;
+    .capTwo{
+        & + * {
+            margin-top: 26px;
+        }
+    }
+    .leftDash-list{
+        width: 610px;
+        float: left;
+    }
+    .slider{
+        float: right;
+    }
+    & + * {
+        margin-top: 146px;
+    } 
+}
+
+@media (max-width:$maxMediaSD){
+    .specialCompany{
+
+        .capTwo{
+            & + * {
+            }
+        }
+        .leftDash-list{
+
+        }
+        .slider{
+        }
+        & + * {
+        } 
+    }
+}
+@media (max-width:$maxMediaMD){
+    .specialCompany{
+        padding-top: 38px;
+        .capTwo{
+            & + * {
+            }
+        }
+        .leftDash-list{
+            width: 550px;
+        }
+        .slider{
+        }
+        & + * {
+            margin-top: 93px;
+        } 
+    }
+}
+@media (max-width:$maxMediaSM){
+    .specialCompany{
+        padding-top: 35px;
+        .capTwo{
+            & + * {
+            }
+        }
+        .leftDash-list{
+            width: 100%;
+        }
+        .slider{
+        }
+        & + * {
+            margin-top: 40px;
+        } 
+    }
+}
+@media (max-width:$maxMediaXS){
+    .specialCompany{
+
+        .capTwo{
+            & + * {
+            }
+        }
+        .leftDash-list{
+
+        }
+        .slider{
+        }
+        & + * {
+            margin-top: 23px;
+        } 
+    }
+}
+@media (max-width:$maxMediaXSS){
+    .specialCompany{
+
+        .capTwo{
+            & + * {
+            }
+        }
+        .leftDash-list{
+
+        }
+        .slider{
+        }
+        & + * {
+        } 
+    }
+}

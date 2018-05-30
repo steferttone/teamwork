@@ -1,0 +1,121 @@
+/*@import "values.scss";*/
+/*@import "mixins.scss";*/
+
+.phonesBlock{
+    .telLink{
+        display: table;
+        font-size: 20px;
+        font-weight: normal;
+        line-height: 16px;
+        .s-b{
+            font-weight: 600;
+        }
+    }
+    .singleLink{
+        font-size: 12px;
+        line-height: inherit;
+        font-weight: bold;
+        display: inline-block;
+        vertical-align: middle;       
+        &.viber{
+            color: $color7;
+        }
+        &.whatsApp{
+            color: $color8;
+        }
+        & + .singleLink{
+            margin-left: 4px;
+        }
+    }
+  }
+@media (max-width:$maxMediaSD){
+    .phonesBlock{
+        .telLink{
+
+            .s-b{
+            }
+        }
+        .singleLink{
+       
+            &.viber{
+            }
+            &.whatsApp{
+            }
+            & + .singleLink{
+            }
+        }
+      }
+}
+@media (max-width:$maxMediaMD){
+    .phonesBlock{
+        .telLink{
+
+            .s-b{
+            }
+        }
+        .singleLink{
+       
+            &.viber{
+            }
+            &.whatsApp{
+            }
+            & + .singleLink{
+            }
+        }
+      }
+}
+@media (max-width:$maxMediaSM){
+    .phonesBlock{
+        .telLink{
+            font-size: 18px;
+            .s-b{
+            }
+        }
+        .singleLink{
+       
+            &.viber{
+            }
+            &.whatsApp{
+            }
+            & + .singleLink{
+            }
+        }
+      }
+}
+@media (max-width:$maxMediaXS){
+    .phonesBlock{
+        .telLink{
+
+            .s-b{
+            }
+        }
+        .singleLink{
+       
+            &.viber{
+            }
+            &.whatsApp{
+            }
+            & + .singleLink{
+            }
+        }
+      }
+}
+@media (max-width:$maxMediaXSS){
+    .phonesBlock{
+        .telLink{
+            font-size: 16px;
+            line-height: 13px;
+            .s-b{
+            }
+        }
+        .singleLink{
+       
+            &.viber{
+            }
+            &.whatsApp{
+            }
+            & + .singleLink{
+            }
+        }
+      }
+}

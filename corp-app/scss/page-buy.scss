@@ -1,0 +1,146 @@
+/*@import "values.scss";*/
+/*@import "mixins.scss";*/
+
+.page-buy{
+     .tabsBlock{
+        .tabBlockHead{
+            max-width: 930px;
+            &  + * {
+                margin-top: 42px;
+            }
+        }
+        .capTwo{
+            display: block;
+            width: 100%;
+            text-transform: none;
+            font-size: 24px;
+            line-height: 40px;
+        }
+    }
+    .buyBlockList{
+        margin-top: 5px;
+        & + *{
+            margin-top: 29px;
+        }
+    }
+    .textBlockList{
+        margin-bottom: -40px;
+        .capTwo{
+            margin-bottom: 25px;
+        }
+    }
+
+}
+@media (max-width:$maxMediaSD){
+    .page-buy{
+        .tabsBlock{
+           .tabBlockHead{
+               &  + * {
+               }
+           }
+           .capTwo{
+
+           }
+       }
+       .buyBlockList{
+           & + *{
+           }
+       }
+       .textBlockList{
+           .capTwo{
+           }
+       }
+   }
+}
+@media (max-width:$maxMediaMD){
+        .page-buy{
+        .tabsBlock{
+           .tabBlockHead{
+            max-width: 100%;
+               &  + * {
+                margin-top: 27px;
+               }
+           }
+           .capTwo{
+
+           }
+       }
+       .buyBlockList{
+           & + *{
+            margin-top: 39px;
+           }
+       }
+       .textBlockList{
+        margin-bottom: -20px;
+           .capTwo{
+            font-size: 23px;
+           }
+       }
+   }
+}
+@media (max-width:$maxMediaSM){
+        .page-buy{
+        .tabsBlock{
+           .tabBlockHead{
+               &  + * {
+               }
+           }
+           .capTwo{
+
+           }
+       }
+       .buyBlockList{
+           & + *{
+           }
+       }
+       .textBlockList{
+           .capTwo{
+           }
+       }
+   }
+}
+@media (max-width:$maxMediaXS){
+        .page-buy{
+        .tabsBlock{
+           .tabBlockHead{
+               &  + * {
+               }
+           }
+           .capTwo{
+
+           }
+       }
+       .buyBlockList{
+           & + *{
+           }
+       }
+       .textBlockList{
+           margin-bottom: 0;
+           .capTwo{
+           }
+       }
+
+   }
+}
+@media (max-width:$maxMediaXSS){
+        .page-buy{
+        .tabsBlock{
+           .tabBlockHead{
+               &  + * {
+               }
+           }
+           .capTwo{
+
+           }
+       }
+       .buyBlockList{
+           & + *{
+            margin-top: 5px;
+           }
+       }
+       .textBlockList{
+           .capTwo{
+           }
+       }
+   }
+}

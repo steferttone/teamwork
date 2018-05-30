@@ -1,0 +1,223 @@
+/*@import "values.scss";*/
+/*@import "mixins.scss";*/
+
+.langBlock{
+    display: table;
+    @include transition(all .3s);
+    position: relative;
+    z-index: 3;
+    .lang-selected{
+        cursor: pointer;
+        color: $textColor3;
+        font-size: 16px;
+        text-transform: uppercase;
+        letter-spacing: .6px;
+        position: relative;
+        display: table;
+        padding-right: 20px;
+        &:before{
+            font-family: 'icomoon' !important;
+            content: "\e903";
+            position: absolute;
+            right: 0;
+            top: 4px;
+            font-size: 12px;
+            color: $color4;
+        }
+
+    }
+    .lang-choice{
+        @include transition(all .3s);
+        width: 65px;
+        height: 0;
+        position: absolute;
+        top:100%;
+        overflow: hidden;
+        @include box-shadow(0px 0px 5px 0px rgba(0,0,0,0.25));
+        left: -15px;
+        background-color: $color1;
+    
+      li{
+        .singleLink{
+            padding: 5px 15px;
+            color: $textColor3;
+            font-size: 16px;
+            display: block;            
+        }
+        & + li{}
+      }
+    }
+    &:hover{
+        .lang-selected{
+            &:before{
+                @include transform(rotate(-180deg));
+            }
+        }
+        .lang-choice{
+            height: inherit;
+           
+            .singleLink{
+                
+                &:hover{
+                    background-color: $color4;
+                    color: $color1;
+                }
+            }
+        }
+    }
+}
+@media (max-width:$maxMediaSD){
+    .langBlock{
+
+        .lang-selected{
+
+            &:before{
+
+            }
+    
+        }
+        .lang-choice{
+
+        
+          li{
+            .singleLink{
+          
+            }
+            & + li{}
+          }
+        }
+        &:hover{
+            .lang-selected{
+                &:before{
+                }
+            }
+            .lang-choice{
+
+            }
+        }
+    }
+}
+@media (max-width:$maxMediaMD){
+        .langBlock{
+
+        .lang-selected{
+
+            &:before{
+
+            }
+    
+        }
+        .lang-choice{
+
+        
+          li{
+            .singleLink{
+          
+            }
+            & + li{}
+          }
+        }
+        &:hover{
+            .lang-selected{
+                &:before{
+                }
+            }
+            .lang-choice{
+
+            }
+        }
+    }
+}
+@media (max-width:$maxMediaSM){
+        .langBlock{
+
+        .lang-selected{
+
+            &:before{
+
+            }
+    
+        }
+        .lang-choice{
+
+        
+          li{
+            .singleLink{
+          
+            }
+            & + li{}
+          }
+        }
+        &:hover{
+            .lang-selected{
+                &:before{
+                }
+            }
+            .lang-choice{
+
+            }
+        }
+    }
+}
+@media (max-width:$maxMediaXS){
+        .langBlock{
+
+        .lang-selected{
+
+            &:before{
+
+            }
+    
+        }
+        .lang-choice{
+
+        
+          li{
+            .singleLink{
+          
+            }
+            & + li{}
+          }
+        }
+        &:hover{
+            .lang-selected{
+                &:before{
+                }
+            }
+            .lang-choice{
+
+            }
+        }
+    }
+}
+@media (max-width:$maxMediaXSS){
+        .langBlock{
+
+        .lang-selected{
+
+            &:before{
+
+            }
+    
+        }
+        .lang-choice{
+
+        
+          li{
+            .singleLink{
+          
+            }
+            & + li{}
+          }
+        }
+        &:hover{
+            .lang-selected{
+                &:before{
+                }
+            }
+            .lang-choice{
+
+            }
+        }
+    }
+}

@@ -1,0 +1,51 @@
+/*@import "values.scss";*/
+/*@import "mixins.scss";*/
+
+.mediaListGallery{
+    margin: 0 -15px -30px;
+    display: flex;
+    .mediaBlock{
+        width: 210px;
+        height: 152px;
+        margin: 0 15px 30px;
+    }
+}
+@media (max-width:$maxMediaSD){
+    .mediaListGallery{
+        .mediaBlock{
+
+        }
+    }
+}
+@media (max-width:$maxMediaMD){
+        .mediaListGallery{
+            margin: 0 -12px -24px;
+            .mediaBlock{
+                width: 160px;
+                height: 120px;
+                margin: 0 12px 24px;
+            }
+    }
+}
+@media (max-width:$maxMediaSM){
+        .mediaListGallery{
+
+        .mediaBlock{
+
+        }
+    }
+}
+@media (max-width:$maxMediaXS){
+        .mediaListGallery{
+        .mediaBlock{
+
+        }
+    }
+}
+@media (max-width:$maxMediaXSS){
+        .mediaListGallery{
+        .mediaBlock{
+
+        }
+    }
+}

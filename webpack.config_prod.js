@@ -22,7 +22,7 @@ const provideVariables = {
 
 const targetApps = {
     select: [
-        process.env.npm_config_build_app || 'teamwork-app',
+        process.env.npm_config_build_app || 'corp-app',
     ],
 }
 
@@ -71,7 +71,7 @@ const config = {
             {
                 test: /\.css$/,
                 loader: 'style!css',
-                include: /teamwork-app|node_modules/,
+                include: /corp-app|node_modules/,
             },
             {
                 test: /\.json$/,
