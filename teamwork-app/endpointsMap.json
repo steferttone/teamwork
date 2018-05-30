@@ -1,7 +1,0 @@
-{
-    "shopping-suggestions": {
-        "method": "POST",
-        "development": "http://dev1.xpl-book.projects.epam.com:9102/shopping/suggestion/",
-        "production": "http://dev1.xpl-book.projects.epam.com:9102/shopping/suggestion/"
-    }
-}

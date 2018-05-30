@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "title": "Салон штор 'Kamenski'",
+        "address": "г. Брест, ул. Машерова 96",
+        "phones": ["8-0162-21-14-73"],
+        "images": ["img/shop11.jpg","img/shop12.jpg","img/shop13.jpg","img/shop14.jpg"]
+    },
+    {
+        "id": 2,
+        "title": "Салон штор 'ТюльПан'",
+        "address": "г. Брест, ул. Морозова 1",
+        "phones": ["8-0162-56-44-56"],
+        "images": ["img/shop21.jpg","img/shop22.jpg","img/shop23.jpg","img/shop24.jpg"]
+    },
+    {
+        "id": 3,
+        "title": "'ТюльПан' шторы & карнизы",
+        "address": "г. Гродно, ул. 1 мая 30",
+        "phones": ["8-0152-72-07-43"],
+        "images": ["img/shop31.jpg","img/shop32.jpg","img/shop33.jpg","img/shop34.jpg"]
+    }
+]

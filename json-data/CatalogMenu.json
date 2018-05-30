@@ -1,0 +1,84 @@
+[
+    {
+        "title":"Продукция собственного производства",
+        "data":[
+            {
+                "icon": "icon-i_Curtains",
+                "title": "Готовые шторы",
+                "link": "/catalog/",
+                "id": 1
+            },
+            {
+                "icon": "icon-i_Complex",
+                "title": "Комплексы штор",
+                "link": "/catalog/",
+                "id": 2
+            },
+            {
+                "icon": "icon-i_Fastening-on-the-eyelets",
+                "title": "Люверсы шторные",
+                "link": "/catalog/",
+                "id": 3
+            },
+            {
+                "icon": "icon-i_Roman-curtains",
+                "title": "Римские карнизы",
+                "link": "/catalog/",
+                "id": 4
+            }
+
+        ]
+    },
+    {
+        "title":"Продажа от первого импортера",
+        "data":[
+            {
+                "icon": "icon-i_Curtains",
+                "title": "Портьера на отрез",
+                "link": "/catalog/",
+                "id": 5
+            },
+            {
+                "icon": "icon-i_Curtains",
+                "title": "Тюль на отрез",
+                "link": "/catalog/",
+                "id": 6
+            },
+            {
+                "icon": "icon-i_Curtains",
+                "title": "Карнизы потолочные",
+                "link": "/catalog/",
+                "id": 7
+            }
+        ]
+    },
+    {
+        "title":"Продукция корпоративным заказчикам",
+        "data":[
+            {
+                "icon": "icon-i_Curtains",
+                "title": "Текстиль для гостиниц",
+                "link": "/catalog/",
+                "id": 8
+            },
+            {
+                "icon": "icon-i_Curtains",
+                "title": "Текстиль для кафе, ресторана",
+                "link": "/catalog/",
+                "id": 9
+            },
+            {
+                "icon": "icon-i_Curtains",
+                "title": "Текстиль для  санаториев",
+                "link": "/catalog/",
+                "id": 10
+            },
+            {
+                "icon": "icon-i_Curtains",
+                "title": "Одежда сцены из огнеупорных тканей",
+                "link": "/catalog/",
+                "id": 11
+            }
+        ]
+    }
+]
