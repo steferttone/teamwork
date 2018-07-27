@@ -5,8 +5,10 @@ import { Link } from 'react-router'
 class CatalogMenuLink extends Component {
     
     render() {
-        const { keyIndex, data, radiusStyle, activeItem  } = this.props
+        // console.log("CatalogMenuLink get data")
+        const { data, radiusStyle, activeItem  } = this.props
 
+        // console.log("CatalogMenuLink get data done")
         const TITLE_CLASSES = "singleLink leftIconTxt"
         
         const isActive = activeItem !== "undefined"
@@ -21,20 +23,15 @@ class CatalogMenuLink extends Component {
             ? 'iconRadius'
             : ""
             
-        const key = keyIndex != 'undefined'
-        ? keyIndex
-        : ''
-
         return (            
-            <div key={ key } className={ `leftIconBlock ${ isActive }` }>
+            <div className={ `leftIconBlock ${ isActive }` }>
                 <span className={ `iconFont ${ data.icon } ${ style }` }></span>
                 { 
                     <Link 
                         to={`${ data.link+`cat-`+data.id }`}
                         className={ TITLE_CLASSES }
-                    >
-                        { data.title }
-                    </Link>
+                        dangerouslySetInnerHTML={ {__html: data.title } }
+                    />
                 }
             </div> 
         )

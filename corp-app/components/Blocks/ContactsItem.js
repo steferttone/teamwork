@@ -6,12 +6,9 @@ class ContactsItem extends Component {
     
     render() {
         const { data, itemKey } = this.props
-        const key = itemKey != 'undefined'
-        ? key
-        : ''
 
         return (   
-            <div key={ key } className="contactInfo-item">
+            <div className="contactInfo-item">
                 <div className="textBlock">
                     <span>{ data.name }: </span>
                     <div className="phonesBlock">

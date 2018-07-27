@@ -7,7 +7,6 @@ import CatalogMenu from 'components/Blocks/CatalogMenu'
 
 const mapStateToProps = (state) => {
     return {
-        // test: state,
         catalogMenuList: state.catalogMenuList,
     }
 }

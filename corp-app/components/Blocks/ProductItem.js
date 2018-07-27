@@ -1,8 +1,11 @@
 import React, { Component } from 'react'
 
 import { Link } from 'react-router'
+import ProductMedia from 'components/Blocks/ProductMedia'
 
-const TO_BY_TITLE = "Где купить"
+const TO_HOME_PAGE = "Главная"
+const TO_CATALOG_PAGE = "Каталог"
+const SHARE = "Поделиться"
 
 class ProductItem extends Component {
     
@@ -39,37 +42,57 @@ class ProductItem extends Component {
         const product = productArray.length > 0
         ? productArray[0]
         : null
+
+        const activeItem = this.props.activeItem      
+
         if (product === null){
             return (
                 <p>Произошла ошибка! Тавар не найден... </p>
             )            
         }else{
+            const prodImages = Array.isArray(product.image)
+            ? product.image
+            : new Array(product.image)
+
             return (       
                 <div className="page-right">          
                     <div className="product-full">
-                        <div className="product-left">
-                            <div className="media-full">
-                                <div className="mediaBlock" style={{ backgroundImage: `url( ${ product.image })` }}></div>
-                            </div>                
-                            {/* <div className="mediaListGallery">
-                                <div className="mediaBlock" style="background-image: url(img/back.jpg);"></div>
-                                <div className="mediaBlock" style="background-image: url(img/back.jpg);"></div>
-                                <div className="mediaBlock" style="background-image: url(img/back.jpg);"></div>
-                            </div>   */}
-                        </div>
+                        <ProductMedia 
+                            activeImage={ 0 }
+                            data={ prodImages }
+                        />
                         <div className="product-right">
                             <div className="page-title">
-                                {/* <ul className="breadCrumbs">
+                                <ul className="breadCrumbs">
                                     <li className="breadCrumbs-item">
-                                        <a href="#" className="singleLink">Главная</a>
+                                        <Link
+                                            to="/" 
+                                            className="singleLink"
+                                        >
+                                            { TO_HOME_PAGE }
+                                        </Link>
                                     </li>
                                     <li className="breadCrumbs-item">
-                                        <a href="#" className="singleLink">Комплекты штор</a>
+                                        <Link
+                                            to={ activeItem.link } 
+                                            className="singleLink"
+                                        >
+                                            { TO_CATALOG_PAGE }
+                                        </Link>
                                     </li>
                                     <li className="breadCrumbs-item">
-                                        <span className="txt">Калифорния 15364С</span>
+                                        <Link
+                                            to={ activeItem.link + "cat-" + activeItem.id }
+                                            className="singleLink"
+                                        >
+                                            { activeItem.title }
+                                        </Link>
+                                        {/* <a href="#" className="singleLink">Комплекты штор</a> */}
+                                    </li>
+                                    <li className="breadCrumbs-item">
+                                        <span className="txt">{ product.title }</span>
                                     </li> 
-                                </ul> */}
+                                </ul>
                                 <h2 className="capTwo">{ product.title }</h2>
                             </div>
                             <div className="textBlock">
@@ -84,8 +107,8 @@ class ProductItem extends Component {
                                         to="/to-by"
                                         className="iconLink"
                                     >
-                                        <span className="iconFont icon-i_Complex iconBg"></span>
-                                        <span className="txt">{ TO_BY_TITLE }</span>
+                                        <span className="iconFont icon-Share iconBg"></span>
+                                        <span className="txt">{ SHARE }</span>
                                     </Link>
                             </div>
                         </div>

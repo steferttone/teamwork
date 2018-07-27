@@ -3,8 +3,10 @@
 
 .breadCrumbs{
     display: flex;
+    flex-wrap: wrap;
     .breadCrumbs-item{
         position: relative;
+        margin-right: 11px;
         &:before{
             content: "/";
             font-size: 14px;
@@ -14,13 +16,14 @@
             top: 2px;
         }
         &:last-child{
+            margin-right: 0px;
             &:before{
                 display: none;
             }
         }
-        & + .breadCrumbs-item{
-            margin-left: 11px;
-        }
+        // & + .breadCrumbs-item{
+        //     margin-left: 11px;
+        // }
         .singleLink{
             font-size: 14px;
             font-weight: 600;

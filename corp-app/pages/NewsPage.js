@@ -30,34 +30,7 @@ class NewsPage extends Component {
                                     </ul>
                                     <h2 className="capTwo">{ PAGE_TITLE }</h2>
                                 </div>
-
                                 <NewsList/>
-
-                                <div className="pagination pagination_right">
-                                    <ul className="pag-list">
-                                        <li className="pag-item">
-                                            <a href="#" className="iconFont icon-i_arr-left singleLink"></a>
-                                        </li>
-                                        <li className="pag-item">
-                                            <a href="#" className="singleLink">1</a>
-                                        </li>
-                                        <li className="pag-item">
-                                            <span className="txt">...</span>
-                                        </li>
-                                        <li className="pag-item">
-                                            <a href="#" className="singleLink active">5</a>
-                                        </li>
-                                        <li className="pag-item">
-                                            <span className="txt">...</span>
-                                        </li>
-                                        <li className="pag-item">
-                                            <a href="#" className="singleLink">21</a>
-                                        </li>
-                                        <li className="pag-item">
-                                            <a href="#" className="iconFont  icon-i_arr-right singleLink"></a>
-                                        </li>
-                                    </ul>
-                                </div>
                             </div>
                         </div>
                     </div>

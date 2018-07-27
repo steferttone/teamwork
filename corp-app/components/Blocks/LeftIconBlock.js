@@ -18,10 +18,14 @@ class LeftIconBlock extends Component {
         const key = keyIndex !== 'undefined'
         ? keyIndex
         : ''
+        const isLinkClassName = isLink
+        ? ''
+        : ' noLink'
+        
 
 
         return (            
-            <div key={ key } className="leftIconBlock">
+            <div key={ key } className={ `leftIconBlock ${ isLinkClassName }` }>
                 <span className={ `iconFont ${ data.icon } ${ style } ${ styleIcon }` }></span>
                 { 
                     isLink
@@ -33,7 +37,7 @@ class LeftIconBlock extends Component {
                             { data.title }
                         </Link>
                     : 
-                        <span className={ TITLE_CLASSES }>{ data.title }</span>
+                        <span className={`${ TITLE_CLASSES + isLinkClassName }`}>{ data.title }</span>
                 }
             </div> 
         )

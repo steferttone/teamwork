@@ -12,7 +12,6 @@
                 border-color:$color4;
             }
         }
-
     }
     .leftIconTxt{
         font-size: 18px;
@@ -22,14 +21,24 @@
         display: inline-block;
         vertical-align: middle;
     }
-    .singleLink {
-        &:hover{
-           color: $color4;
+    &:not(.noLink){
+        .singleLink {
+            &:hover{
+               color: $color4;
+            }
         }
     }
     &.active{
         .singleLink{
             color: $color4;
+        }        
+        .iconRadius{
+            &:before{
+                color: $color4;
+            }
+            &:after{
+                border-color: transparent;
+            }
         }
     }
 }

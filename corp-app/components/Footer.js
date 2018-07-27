@@ -9,7 +9,7 @@ const menuList = [
         title: "Каталог товаров"
     },
     {
-        link: "to-dillers",
+        link: "for-dillers",
         title: "Дилерам"
     },
     {
@@ -91,12 +91,19 @@ class Footer extends Component {
                             <ul className="socBlock">
                                 <li>
                                     <a href="#" className="iconLink">
-                                        <span className="iconFont icon-i_Inst iconRadius"></span>
+                                        <span className="iconFont icon-instagram-logo iconRadius"></span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#" className="iconLink">
-                                        <span className="iconFont icon-i_YouTube iconRadius"></span>
+                                        <span className="iconFont icon-youtube-logo iconRadius">
+                                            <span className="path1"></span>
+                                            <span className="path2"></span>
+                                            <span className="path3"></span>
+                                            <span className="path4"></span>
+                                            <span className="path5"></span>
+                                            <span className="path6"></span>
+                                        </span>
                                     </a>
                                 </li>
                             </ul>

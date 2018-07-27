@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
 
-import { Link } from 'react-router'
-
+import Pagination from "components/Blocks/PaginationBlock";
 import ArticlesList from 'components/Blocks/ArticlesList'
+
+const PAGE_ITEMS_LIMIT = 4
 
 class PostsList extends Component {
     constructor(props) {
@@ -34,14 +35,34 @@ class PostsList extends Component {
         }
         const { lastCount } = this.props
         const postsListFull = this.state.postsList
+        
+        const totalCount = postsListFull.length
+        const activePage = this.state.activePage !== undefined 
+            ? this.state.activePage : 
+            1
+        const itemsEnd = Math.ceil(activePage * PAGE_ITEMS_LIMIT)
+        const itemsStart = itemsEnd - PAGE_ITEMS_LIMIT
+
+
         const postsList = lastCount !== undefined
-        ? postsListFull.slice(postsListFull.length - parseInt(lastCount), postsListFull.length)
-        : postsListFull        
+        ? postsListFull.slice(totalCount - parseInt(lastCount), totalCount)
+        : postsListFull.slice(itemsStart, itemsEnd)   
+
+        const pagination = lastCount === undefined && totalCount > PAGE_ITEMS_LIMIT
+            ? <Pagination 
+                itemsCountPerPage={ PAGE_ITEMS_LIMIT }
+                totalItemsCount={ totalCount }
+                context={ this }
+                />
+            : ''     
         
         return (   
-            <ArticlesList
-                data={ postsList }
-            />
+            <div className="articleListLineBlock">  
+                <ArticlesList
+                    data={ postsList }
+                />
+                { pagination }
+            </div> 
         )
     }
 }

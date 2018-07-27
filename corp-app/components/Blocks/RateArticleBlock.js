@@ -13,26 +13,27 @@ class RateArticleBlock extends Component {
         }
         
         return (   
-            <div className="statBlock">
-                <div className="statBlockItem">
-                    <span className="iconLink">
-                        <span className="iconFont icon-eye"></span>
-                        <span className="count">{ data.rates.visits }</span>
-                    </span>
-                </div>   
-                <div className="statBlockItem">
-                    <span className="iconLink">
-                        <span className="iconFont icon-i_Wish"></span>
-                        <span className="count">{ data.rates.likes }</span>
-                    </span>
-                </div>  
-                <div className="statBlockItem">
-                    <span className="iconLink">
-                        <span className="iconFont icon-bubble"></span>
-                        <span className="count">{ data.rates.comments }</span>
-                    </span>
-                </div>  
-            </div>
+            null
+            // <div className="statBlock">
+            //     <div className="statBlockItem">
+            //         <span className="iconLink">
+            //             <span className="iconFont icon-eye"></span>
+            //             <span className="count">{ data.rates.visits }</span>
+            //         </span>
+            //     </div>   
+            //     <div className="statBlockItem">
+            //         <span className="iconLink">
+            //             <span className="iconFont icon-i_Wish"></span>
+            //             <span className="count">{ data.rates.likes }</span>
+            //         </span>
+            //     </div>  
+            //     <div className="statBlockItem">
+            //         <span className="iconLink">
+            //             <span className="iconFont icon-bubble"></span>
+            //             <span className="count">{ data.rates.comments }</span>
+            //         </span>
+            //     </div>  
+            // </div>
         )
 
     }

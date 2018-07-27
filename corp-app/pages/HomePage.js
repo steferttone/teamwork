@@ -5,7 +5,7 @@ import React, { Component } from 'react'
 import { Link } from 'react-router'
 import Header from 'components/Header'
 import Footer from 'components/Footer'
-import ArticleLineBlock from 'components/Blocks/ArticleLineBlock'
+// import ArticleLineBlock from 'components/Blocks/ArticleLineBlock'
 
 import CatalogMenu from 'containers/CatalogMenuListConnect'
 import NewsList from 'containers/NewsListConnect'
@@ -59,15 +59,16 @@ class HomePage extends Component {
                                 </ul>
                             </div>
                             
-                            <div className="articleListLineWrap">
+                            <div className="articleListLineBlock">
                                 <h2 className="capTwo">{ NEWS_TITLE }</h2>
-                                    
-                                <NewsList lastCount={ 2 } />
+                                <div className="articleLineWrapBLock">
+                                    <NewsList lastCount={ 2 } />
 
-                                <Link to='news' className="iconLink">
-                                    <span className="iconFont icon-i_Back iconRight "></span>
-                                    <span className="txt">{ ALL_NEWS_LINK }</span>
-                                </Link>            
+                                    <Link to='news' className="iconLink">
+                                        <span className="iconFont icon-i_Back iconRight "></span>
+                                        <span className="txt">{ ALL_NEWS_LINK }</span>
+                                    </Link>              
+                                </div>          
                             </div>
                         </div> 
                 </section>

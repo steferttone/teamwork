@@ -5,10 +5,31 @@ import { Link } from 'react-router'
 import CatalogProducts from 'containers/CatalogProductsConnect'
 
 const TO_HOME_PAGE = "Главная"
+const PAGE_TITLE = "Каталог"
 
-class ProductItem extends Component {
+class ProductsList extends Component {
     render() {     
         const { params, activeItem } = this.props
+
+
+        const catalogBread =  activeItem.title 
+            ?   <li className="breadCrumbs-item">
+                    <Link
+                        to="/catalog" 
+                        className="singleLink"
+                    >
+                        { PAGE_TITLE }
+                    </Link>
+                </li>
+            :   <li className="breadCrumbs-item">
+                    <span className="txt">{ PAGE_TITLE }</span>
+                </li>
+
+            const lastBread =  activeItem.title 
+            ?   <li className="breadCrumbs-item">
+                    <span className="txt">{ activeItem.title }</span>
+                </li>
+            : ''
 
         return(
             <div className="page-right">          
@@ -22,42 +43,15 @@ class ProductItem extends Component {
                                 { TO_HOME_PAGE }
                             </Link>
                         </li>
-                        <li className="breadCrumbs-item">
-                            <span className="txt">Комплекты штор</span>
-                        </li>
+                        { catalogBread }
+                        { lastBread }
                     </ul> 
                     <h2 className="capTwo">{ activeItem.title }</h2>
                 </div> 
                 <CatalogProducts params={ params } />
-                
-                <div className="pagination pagination_right">
-                    <ul className="pag-list">
-                        <li className="pag-item">
-                            <a href="#" className="iconFont icon-i_arr-left singleLink"></a>
-                        </li>
-                        <li className="pag-item">
-                            <a href="#" className="singleLink">1</a>
-                        </li>
-                        <li className="pag-item">
-                            <span className="txt">...</span>
-                        </li>
-                        <li className="pag-item">
-                            <a href="#" className="singleLink active">5</a>
-                        </li>
-                        <li className="pag-item">
-                            <span className="txt">...</span>
-                        </li>
-                        <li className="pag-item">
-                            <a href="#" className="singleLink">21</a>
-                        </li>
-                        <li className="pag-item">
-                            <a href="#" className="iconFont  icon-i_arr-right singleLink"></a>
-                        </li>
-                    </ul>
-                </div>
             </div>
         )
     }
 }
 
-export default ProductItem
+export default ProductsList

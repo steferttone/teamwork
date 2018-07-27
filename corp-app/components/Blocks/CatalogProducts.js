@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
 
-import { Link } from 'react-router'
+import Pagination from "components/Blocks/PaginationBlock";
 import ProductListItem from 'components/Blocks/ProductListItem'
 
 const NULL_RESULT = "В данной катекогории товаров не найдено..."
+const PAGE_ITEMS_LIMIT = 9
 
 class CatalogProducts extends Component {
     constructor(props) {
@@ -23,10 +24,8 @@ class CatalogProducts extends Component {
         const { onGetCatalogProducts } = this.props
 
         const dataRes = catId !== undefined 
-        ? data.filter(item => `cat-`+item.idCatalog === catId)
-        : data.length > 9
-            ? data.slice(data.length - 9, data.length)
-            : data
+        ? data.filter(item => `cat-`+item.idCatalog === catId)   
+        : data  
 
         if (catId !== nextProps.params.catId){
             onGetCatalogProducts()
@@ -36,7 +35,7 @@ class CatalogProducts extends Component {
         if (dataState === 'STATE_READY') {
             this.setState(
                 {
-                    catalogProducts: dataRes
+                    catalogProducts: dataRes,
                 }
             )
         }
@@ -49,22 +48,44 @@ class CatalogProducts extends Component {
         }
         const { catalogProducts } = this.state
 
-        if (catalogProducts.length > 0){  
+        const totalCount = catalogProducts.length
+        
+        if (totalCount > 0){ 
+            const activePage = this.state.activePage !== undefined 
+                ? this.state.activePage : 
+                1
+            const itemsEnd = Math.ceil(activePage * PAGE_ITEMS_LIMIT)
+            const itemsStart = itemsEnd - PAGE_ITEMS_LIMIT
+            const viewProducts = totalCount > PAGE_ITEMS_LIMIT
+                ? catalogProducts.slice(itemsStart, itemsEnd)
+                : catalogProducts
+
+            const pagination = totalCount > PAGE_ITEMS_LIMIT
+                ? <Pagination 
+                    itemsCountPerPage={ PAGE_ITEMS_LIMIT }
+                    totalItemsCount={ totalCount }
+                    context={ this }
+                    />
+                : ''        
+ 
             return (                     
-                <div className="product-list catalog-product-list">
-                    {
-                        catalogProducts.map(
-                            (item, key) => {
-                                return (
-                                    <ProductListItem
-                                        data={ item }
-                                        key={ key }
-                                    />
-                                )
-                            }
-                        )
-                    }
-                </div>  
+                <div className="catalog-products-block">
+                    <div className="product-list catalog-product-list">
+                        {
+                            viewProducts.map(
+                                (item, key) => {
+                                    return (
+                                        <ProductListItem
+                                            data={ item }
+                                            key={ key }
+                                        />
+                                    )
+                                }
+                            )
+                        }
+                    </div>  
+                    { pagination }
+                </div>
             )
         }else{
             return(

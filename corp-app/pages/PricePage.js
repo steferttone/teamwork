@@ -5,19 +5,19 @@ import React, { Component } from 'react'
 import Header from 'components/Header'
 import Footer from 'components/Footer'
 
-const PAGE_TITLE="Прайслист"
+const PAGE_TITLE = "Прайслист"
 const priceItemsList = [
     {
         description: "Прайслист на продукцию собственного производства: готовые шторы, комплекты штор, люверсы шторные, римские карнизы",
         links: [
             {
-                fileType: "doc",
-                link: "#",
+                fileType: "pdf",
+                link: "/docs/test.pdf",
                 linkTitle: "Прайс на тюли",
             },
             {
-                fileType: "pdf",
-                link: "#",
+                fileType: "xlsx",
+                link: "/docs/test.xlsx",
                 linkTitle: "Прайс на шторы",
             },
         ],
@@ -26,13 +26,13 @@ const priceItemsList = [
         description: "Прайслист портьера на отрез, тюль на отрез, карнизы потолочные",
         links: [
             {
-                fileType: "doc",
-                link: "#",
+                fileType: "pdf",
+                link: "/docs/test2.pdf",
                 linkTitle: "Прайс на тюли",
             },
             {
-                fileType: "pdf",
-                link: "#",
+                fileType: "xlsx",
+                link: "/docs/test2.xlsx",
                 linkTitle: "Прайс на шторы",
             },
         ],
@@ -58,7 +58,7 @@ class PricePage extends Component {
                                             <a href="#" className="singleLink">Главная</a>
                                         </li>
                                         <li className="breadCrumbs-item">
-                                            <span className="txt">Прайслист:</span>
+                                            <span className="txt">{ PAGE_TITLE }</span>
                                         </li>
                                     </ul>
                                     <h2 className="capTwo">{ PAGE_TITLE }</h2>
@@ -77,19 +77,19 @@ class PricePage extends Component {
                                                             item.links.map(
                                                                 (itemIn, keyIn) => {
 
-                                                                    const icon = itemIn.fileType == "pdf" 
-                                                                    ? "i_Pdf"
-                                                                    : itemIn.fileType == "doc"
-                                                                        ? "i_Word"
+                                                                    const icon = itemIn.fileType == "xlsx" 
+                                                                    ? "exel_file"
+                                                                    : itemIn.fileType == "pdf"
+                                                                        ? "pdf_file"
                                                                         : ""
 
                                                                     return (
                                                                         
                                                                         <div key={ keyIn } className="price-item invisLink">
-                                                                            <a href={ itemIn.link } className="iconLink">
+                                                                            <a href={ itemIn.link } download className="iconLink">
                                                                                 { itemIn.linkTitle }
                                                                             </a>
-                                                                            <span className={ `iconFont icon-${ icon } iconBg ` }></span>
+                                                                            <span className={ `iconFont icon-${ icon } iconBg` }></span>
                                                                         </div>
                                                                     )
                                                                 }

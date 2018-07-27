@@ -8,11 +8,14 @@ import { reducer as notifReducer } from 'redux-notifications'
 import requisitesReducer from 'reducers/requisitesReducer'
 import catalogProductsReducer from 'reducers/catalogProductsReducer'
 import catalogMenuListReducer from 'reducers/catalogMenuListReducer'
+import corpMenuListReducer from 'reducers/corpMenuListReducer'
+import corpProductsReducer from 'reducers/corpProductsReducer'
+import productReducer from 'reducers/productReducer'
 import newsListReducer from 'reducers/newsListReducer'
 import postsListReducer from 'reducers/postsListReducer'
-import productReducer from 'reducers/productReducer'
 import shopsPlacesReducer from 'reducers/shopsPlacesReducer'
 import shopsDillersReducer from 'reducers/shopsDillersReducer'
+import forDillersListReducer from 'reducers/forDillersListReducer'
 
 const reducers = combineReducers({
     notifs: notifReducer,
@@ -21,11 +24,16 @@ const reducers = combineReducers({
 
     requisites: requisitesReducer,
     catalogProducts: catalogProductsReducer, 
+    product: productReducer, 
     catalogMenuList: catalogMenuListReducer, 
+    corpMenuList: corpMenuListReducer, 
+    corpMenuBlock: corpMenuListReducer, 
+    corpProducts: corpProductsReducer, 
     newsList: newsListReducer, 
     postsList: postsListReducer, 
     shopsPlaces: shopsPlacesReducer, 
     shopsDillers: shopsDillersReducer, 
+    forDillersList: forDillersListReducer, 
 })
 
 export default reducers

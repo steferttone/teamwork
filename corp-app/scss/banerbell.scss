@@ -8,16 +8,17 @@
     .banerBell-icon{
         display: inline-block;
         vertical-align: middle;
+        height: 85px;
+        width: 43px;
         .iconFont{
-                font-size: 80px;
-
+            // font-size: 80px;
         }
     }
     .banerBell-text{
         display: inline-block;
         vertical-align: middle;
         min-width: 600px;
-        padding-left: 60px;
+        padding-left: 25px;
         color: $color3;
         .big{
             font-size: 24px;

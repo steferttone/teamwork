@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 
 import { Link } from 'react-router'
+import MediaListGallery from 'components/Blocks/MediaListGallery'
 
 const BLOCK_TITLE = "Фирменные магазины"
 
@@ -50,25 +51,20 @@ class ShopsPlaces extends Component {
                                             { 
                                                 item.phones.map(
                                                     (inItem, inKey) => {
-                                                        return <p key={ inKey }>тел. <Link 
-                                                                                        to={ `+`+inItem.replace(/-/g,"") }
-                                                                                        className="telLink"
-                                                                                    >
-                                                                                        { inItem }
-                                                                                    </Link></p> 
+                                                        return <p key={ inKey }>тел. 
+                                                        <Link 
+                                                            to={ `+`+inItem.replace(/-/g,"") }
+                                                            className="telLink"
+                                                        >
+                                                            { inItem }
+                                                        </Link></p> 
                                                     }
                                                 )
                                             }
                                         </div>
-                                        <div className="mediaListGallery">
-                                            {
-                                                item.images.map(
-                                                    (inItem, inKey) => {
-                                                        return <div key={ inKey } className="mediaBlock" style={{ backgroundImage: `url(${ inItem })` }}></div>
-                                                    }
-                                                )
-                                            }
-                                        </div> 
+                                        <MediaListGallery
+                                            data={ item.images }
+                                        />
                                     </div> 
                                 )
                             }

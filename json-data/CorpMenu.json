@@ -1,0 +1,31 @@
+[
+    {
+        "title":"Продукция корпоративным заказчикам",
+        "data":[
+            {
+                "icon": "icon-Hotels",
+                "title": "Текстиль для гостиниц",
+                "link": "/corporative/",
+                "id": 8
+            },
+            {
+                "icon": "icon-Cafe",
+                "title": "Текстиль для кафе, ресторана",
+                "link": "/corporative/",
+                "id": 9
+            },
+            {
+                "icon": "icon-Sanatorium",
+                "title": "Текстиль для  санаториев",
+                "link": "/corporative/",
+                "id": 10
+            },
+            {
+                "icon": "icon-Scene",
+                "title": "Одежда сцены из огнеупорных тканей",
+                "link": "/corporative/",
+                "id": 11
+            }
+        ]
+    }
+]

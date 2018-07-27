@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 
-import { Link } from 'react-router'
 import CatalogMenuLinks from "components/Blocks/CatalogMenuLinks"
 
 import ProductsList from "components/Blocks/ProductsList"
@@ -35,7 +34,6 @@ class CatalogPageContent extends Component {
                 )
             }
         )
-        
         if (dataState === 'STATE_READY') {
             this.setState(
                 {
@@ -53,18 +51,12 @@ class CatalogPageContent extends Component {
         }
         const { catalogMenuList } = this.state
         const { activeItem } = this.state
-        const { itemStyle, type, params } = this.props
+        const { params } = this.props
         const { prodId } = params
         
-        const style = type == "vert"
-        ? ""
-        : type == "hor"
-            ? "horizontal"
-            : ""
-
         const rightSide = prodId === undefined
-        ? <ProductsList params={ params } activeItem={ activeItem }  />
-        : <ProductItem params={ params }/>
+        ? <ProductsList params={ params } activeItem={ activeItem }/>
+        : <ProductItem params={ params } activeItem={ activeItem } catalogMenuList={ catalogMenuList } />
 
         return (   
             <div className="page cfix">

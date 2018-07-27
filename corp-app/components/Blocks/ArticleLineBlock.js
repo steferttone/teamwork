@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 
+import MediaBlock from 'components/Blocks/MediaBlock'
+
 class ArticleLineBlock extends Component {
     
     render() {
@@ -10,7 +12,9 @@ class ArticleLineBlock extends Component {
         
         return (            
             <div className="wrapp">
-                <div className="mediaBlock" style={{ backgroundImage: `url(${ data.image })` }}></div>
+                <MediaBlock
+                    mediaLink = { data.image }
+                />
                 <div className="textBlock">
                     <div className="articleLineTitle">
                         <span className="dateData">{ data.date }</span>

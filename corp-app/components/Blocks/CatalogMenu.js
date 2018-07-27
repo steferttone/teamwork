@@ -1,8 +1,7 @@
 import React, { Component } from 'react'
 
-import { Link } from 'react-router'
 import CatalogMenuLinks from "components/Blocks/CatalogMenuLinks"
-
+import CorpMenuBlock from "containers/CorpMenuBlockConnect"
 
 class CatalogMenu extends Component {
     constructor(props) {
@@ -17,7 +16,9 @@ class CatalogMenu extends Component {
         onGetCatalogMenuList()
     }
     componentWillReceiveProps(nextProps) {
+        // console.log("catalogMenu - catalogMenuList")
         const { dataState, data } = nextProps.catalogMenuList
+        // console.log("catalogMenu - catalogMenuList data done")
 
         if (dataState === 'STATE_READY') {
             this.setState(
@@ -61,6 +62,7 @@ class CatalogMenu extends Component {
                         }
                     )
                 }
+                <CorpMenuBlock/>
             </div>
         )
     }

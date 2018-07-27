@@ -10,6 +10,18 @@ import Shops from 'components/Blocks/Shops'
 import PlaceMap from 'components/Blocks/PlaceMap'
 
 const PAGE_TITLE = "Где купить"
+const tabsMenu = [
+    {
+        title: "На карте",
+        link: "/to-by/",
+        tab: "map"
+    },
+    {
+        title: "Списком",
+        link: "/to-by/",
+        tab: "shops"
+    },
+]
 
 // Component
 class ToByPage extends Component {
@@ -19,20 +31,6 @@ class ToByPage extends Component {
         const tab = params.tab === undefined
         ? "shops"
         : params.tab
-        const tabsMenu = [
-            {
-                title: "На карте",
-                link: "/to-by/",
-                tab: "map"
-            },
-            {
-                title: "Списком",
-                link: "/to-by/",
-                tab: "shops"
-            },
-        ]
-        
-        
         
         const tabContent = tab == "shops"
         ? <Shops/>
@@ -66,7 +64,7 @@ class ToByPage extends Component {
                                                         return (
                                                             <li 
                                                                 key={ key }
-                                                                className={ `telLink 
+                                                                className={ `invisLink telLink 
                                                                     ${ 
                                                                         tab == item.tab 
                                                                         ? "active"
@@ -74,6 +72,7 @@ class ToByPage extends Component {
                                                                     }`                                                                    
                                                                 }
                                                             >
+                                                                { item.title }
                                                                 <Link to={ item.link+item.tab }>
                                                                     { item.title }
                                                                 </Link>

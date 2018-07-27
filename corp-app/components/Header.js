@@ -2,6 +2,7 @@
 import React, { Component } from 'react'
 
 import { Link } from 'react-router'
+import getRoutes from '../routes';
 
 const menuList = [
     {
@@ -9,7 +10,11 @@ const menuList = [
         title: "Каталог товаров"
     },
     {
-        link: "to-dillers",
+        link: "corporative",
+        title: "Корпоративным заказчикам"
+    },
+    {
+        link: "for-dillers",
         title: "Дилерам"
     },
     {
@@ -27,7 +32,7 @@ const menuList = [
 ]
 const WHERE_BY_LINK = "to-by"
 const WHERE_BY_TITLE = "Где купить"
-const WHERE_BY_ICON = "icon-i_Map"
+const WHERE_BY_ICON = "icon-map"
 
 class Header extends Component {
     render() {
@@ -59,23 +64,6 @@ class Header extends Component {
                             </Link>
                         </div>
                         <div className="header-right cfix">
-                            {/* <div className="langBlock">
-                                <span className="lang-selected">RU</span>
-                                    <ul className="lang-choice">
-                                    <li>
-                                        <a href="#" className="singleLink">RU</a>
-                                        <a href="#" className="singleLink">EN</a>
-                                    </li>
-                                </ul>
-                            </div> */}
-                            {/* <ul className="loginBlock">
-                                <li className="login-item">
-                                    <a href="#" className="singleLink">Вход</a>
-                                </li>
-                                <li className="login-item">
-                                    <a href="#" className="singleLink">Регистрация</a>
-                                </li>
-                            </ul> */}
                         </div>  
                     </div>
                     <div className="header-bottom cfix">
@@ -98,7 +86,7 @@ class Header extends Component {
                             }                                                                
                         </ul>
                         <div className="searchBlock">
-                            <span className="iconFont icon-i_Search iconBg"></span>
+                            <span className="iconFont icon-Search iconBg"></span>
                             <input type="text"/>
                         </div>
                     </div>                 

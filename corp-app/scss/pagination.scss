@@ -1,6 +1,9 @@
 /*@import "values.scss";*/
 /*@import "mixins.scss";*/
 
+* + .pagination{
+    margin-top: 30px;
+}
 .pagination{
     overflow: hidden;
     &.pagination_left{
@@ -19,6 +22,21 @@
         .pag-item{
             float: left;
             padding: 0 4px;
+            @include transition(opacity 0.3s);
+            &.disabled{
+                opacity: 0.3;
+                cursor: default;
+            }
+            &:hover{
+                opacity: 0.5;
+            }
+            &:first-child .iconFont:before,
+            &:last-child .iconFont:before{
+                opacity: 1;
+            }
+            .iconFont:before{
+                opacity: 0.6;
+            }
             .txt,
             .iconFont,
             .singleLink{

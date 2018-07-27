@@ -4,8 +4,7 @@
 .articleListLineBlock{
     &.page-main-article{
         border-top:solid 1px $color3-a1;
-    padding-top: 62px;
-        
+        padding-top: 62px;
     }    
     .iconLink{
         display: table;
@@ -48,7 +47,6 @@
             }
         }
         .capTwo{
-            display: block;
             & + * {
             }
         }

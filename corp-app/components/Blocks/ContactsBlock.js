@@ -5,13 +5,10 @@ import ContactsItem from 'components/Blocks/ContactsItem'
 class ContactsBlock extends Component {
     
     render() {
-        const { data, blockCap, itemKey } = this.props
-        const key = itemKey != 'undefined'
-        ? key
-        : ''
+        const { data, blockCap } = this.props
 
         return (   
-            <div key={ itemKey } className="contactsBlock contactInfo">
+            <div className="contactsBlock contactInfo">
                 <div className="contactInfo-title">
                     <span>{ blockCap }</span>
                 </div>
@@ -20,7 +17,7 @@ class ContactsBlock extends Component {
                         (item, key) => {
                             return (
                                 <ContactsItem
-                                    itemKey={ key }
+                                    key={ key }
                                     data={ item }
                                 />
                             )

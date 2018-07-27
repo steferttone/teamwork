@@ -7,7 +7,7 @@ import Header from 'components/Header'
 import Footer from 'components/Footer'
 import LeftListIconBlock from 'components/Blocks/LeftListIconBlock'
 
-const PAGE_TITLE="Доставка"
+const PAGE_TITLE = "Доставка"
 const delivTypes = [
     {
         title:"По территории Беларуси бесплатно:",
@@ -62,7 +62,7 @@ class DeliveryPage extends Component {
                                                     <a href="#" className="singleLink">Главная</a>
                                                 </li>
                                                 <li className="breadCrumbs-item">
-                                                    <span className="txt">Доставка</span>
+                                                    <span className="txt">{ PAGE_TITLE }</span>
                                                 </li>
                                             </ul>
                                             <h2 className="capTwo">{ PAGE_TITLE }</h2>

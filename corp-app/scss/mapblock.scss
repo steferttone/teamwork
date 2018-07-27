@@ -18,6 +18,24 @@
             text-decoration: underline;
         }
     }
+    & > div{
+        width: 100% !important;
+        height: 410px !important;
+        & > ymaps{
+            width: 100% !important;
+            height: 410px !important;
+        }
+    }
+}
+.toByMap{
+    .mapBlock{
+        & > div{
+            height: 540px !important;
+            & > ymaps{
+                height: 540px !important;
+            }
+        }
+    }
 }
 @media (max-width:$maxMediaSD){
     .mapBlock{

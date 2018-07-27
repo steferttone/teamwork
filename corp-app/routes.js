@@ -10,6 +10,7 @@ import { Provider } from 'react-redux'
 
 import HomePage from 'pages/HomePage'
 import CatalogTemplate from 'pages/CatalogTemplate'
+import CorpPageTemplate from 'pages/CorpPageTemplate'
 
 import NewsPage from 'pages/NewsPage'
 import PostsPage from 'pages/PostsPage'
@@ -17,7 +18,7 @@ import PostsPage from 'pages/PostsPage'
 import ToByPage from 'pages/ToByPage'
 import PricePage from 'pages/PricePage'
 import CorporativePage from 'pages/CorporativePage'
-import ToDillersPage from 'pages/ToDillersPage'
+import ForDillersPage from 'pages/ForDillersPage'
 import DeliveryPage from 'pages/DeliveryPage'
 
 import ContactsPage from 'pages/ContactsPage'
@@ -45,8 +46,16 @@ const getRoutes = ({ store, history }) => {
                     component={CatalogTemplate}
                 />
                 <Route
-                    path="/catalog/:catId/product/:prodId"
+                    path="/catalog/:catId/:prodId"
                     component={CatalogTemplate}
+                />
+                <Route
+                    path="/corporative"
+                    component={CorpPageTemplate}
+                />
+                <Route
+                    path="/corporative/:catId"
+                    component={CorpPageTemplate}
                 />
                 <Route
                     path="/news"
@@ -73,8 +82,8 @@ const getRoutes = ({ store, history }) => {
                     component={CorporativePage}
                 />
                 <Route
-                    path="/to-dillers"
-                    component={ToDillersPage}
+                    path="/for-dillers"
+                    component={ForDillersPage}
                 />
                 <Route
                     path="/delivery"
@@ -83,9 +92,7 @@ const getRoutes = ({ store, history }) => {
                 <Route
                     path="/contacts"
                     component={ContactsPage}
-                />
-
-                
+                />                
                 <Route
                     path="/catalog/:catId/*"
                     component={CatalogTemplate}
@@ -93,6 +100,10 @@ const getRoutes = ({ store, history }) => {
                 <Route
                     path="/catalog/:catId/product/*"
                     component={CatalogTemplate}
+                />
+                <Route
+                    path="/corporative/:catId/*"
+                    component={CorpPageTemplate}
                 />
                 <Route 
                     path="*" 
